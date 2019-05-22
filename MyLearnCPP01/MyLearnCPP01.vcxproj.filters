@@ -18,5 +18,19 @@
     <ClCompile Include="MyLearnCPP01.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="_01_1_HelloWorld.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="_01_4_VarInit.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="_01_1_HelloWorld.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="_01_4_VarInit.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

@@ -155,7 +155,13 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="_01_4_VarInit.cpp" />
     <ClCompile Include="MyLearnCPP01.cpp" />
+    <ClCompile Include="_01_1_HelloWorld.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="_01_1_HelloWorld.h" />
+    <ClInclude Include="_01_4_VarInit.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

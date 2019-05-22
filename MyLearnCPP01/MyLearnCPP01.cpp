@@ -1,7 +1,9 @@
-﻿#include <iostream>
+﻿
+#include "_01_1_HelloWorld.h"
+#include "_01_4_VarInit.h"
 
 int main()
 {
-    std::cout << "Hello World!\n";
+	_01_4_VarInit::PrintVar();
 	return 0;
 }
