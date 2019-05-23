@@ -3,11 +3,10 @@
 #include <iostream>
 
 
-class _01_1_HelloWorld
+class _01_01_HelloWorld
 {
 public:
-	_01_1_HelloWorld();
-	~_01_1_HelloWorld();
+	static void Test();
 	static void HelloWorld();
 };
 

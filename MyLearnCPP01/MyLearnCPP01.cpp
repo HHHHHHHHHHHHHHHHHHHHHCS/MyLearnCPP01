@@ -1,9 +1,7 @@
-﻿
-#include "_01_1_HelloWorld.h"
-#include "_01_4_VarInit.h"
+﻿#include  "MyLearnCPP01.h"
 
 int main()
 {
-	_01_4_VarInit::PrintVar();
+	_01_06_UndefinedVar::Test();
 	return 0;
 }

@@ -155,13 +155,18 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="_01_4_VarInit.cpp" />
+    <ClCompile Include="_01_04_VarInit.cpp" />
     <ClCompile Include="MyLearnCPP01.cpp" />
-    <ClCompile Include="_01_1_HelloWorld.cpp" />
+    <ClCompile Include="_01_01_HelloWorld.cpp" />
+    <ClCompile Include="_01_05_Iostream.cpp" />
+    <ClCompile Include="_01_06_UndefinedVar.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="_01_1_HelloWorld.h" />
-    <ClInclude Include="_01_4_VarInit.h" />
+    <ClInclude Include="MyLearnCPP01.h" />
+    <ClInclude Include="_01_01_HelloWorld.h" />
+    <ClInclude Include="_01_04_VarInit.h" />
+    <ClInclude Include="_01_05_Iostream.h" />
+    <ClInclude Include="_01_06_UndefinedVar.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

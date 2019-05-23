@@ -18,18 +18,33 @@
     <ClCompile Include="MyLearnCPP01.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="_01_1_HelloWorld.cpp">
+    <ClCompile Include="_01_01_HelloWorld.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="_01_4_VarInit.cpp">
+    <ClCompile Include="_01_04_VarInit.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="_01_05_Iostream.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="_01_06_UndefinedVar.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="_01_1_HelloWorld.h">
+    <ClInclude Include="_01_01_HelloWorld.h">
       <Filter>头文件</Filter>
     </ClInclude>
-    <ClInclude Include="_01_4_VarInit.h">
+    <ClInclude Include="_01_04_VarInit.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="_01_05_Iostream.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="MyLearnCPP01.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="_01_06_UndefinedVar.h">
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>

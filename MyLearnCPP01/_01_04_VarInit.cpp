@@ -1,6 +1,11 @@
-﻿#include "_01_4_VarInit.h"
+﻿#include "_01_04_VarInit.h"
 
-void _01_4_VarInit::PrintVar()
+void _01_04_VarInit::Test()
+{
+	PrintVar();
+}
+
+void _01_04_VarInit::PrintVar()
 {
 
 	int x = 1;
