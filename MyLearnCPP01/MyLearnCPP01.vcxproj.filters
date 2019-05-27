@@ -30,6 +30,9 @@
     <ClCompile Include="_01_06_UndefinedVar.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="_01_10_FirstProgram.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="_01_01_HelloWorld.h">
@@ -45,6 +48,9 @@
       <Filter>头文件</Filter>
     </ClInclude>
     <ClInclude Include="_01_06_UndefinedVar.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="_01_10_FirstProgram.h">
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>

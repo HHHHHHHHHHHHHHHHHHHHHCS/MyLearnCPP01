@@ -2,6 +2,6 @@
 
 int main()
 {
-	_01_06_UndefinedVar::Test();
+	_01_10_FirstProgram::Test();
 	return 0;
 }
