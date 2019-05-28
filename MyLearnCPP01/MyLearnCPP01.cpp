@@ -2,6 +2,6 @@
 
 int main()
 {
-	_01_10_FirstProgram::Test();
+	_02_03_FunctionWithArgs::Test();
 	return 0;
 }

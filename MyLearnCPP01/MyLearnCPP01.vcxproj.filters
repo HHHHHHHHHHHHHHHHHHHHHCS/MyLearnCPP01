@@ -33,6 +33,12 @@
     <ClCompile Include="_01_10_FirstProgram.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="_02_02_ReturnValue.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="_02_03_FunctionWithArgs.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="_01_01_HelloWorld.h">
@@ -51,6 +57,12 @@
       <Filter>头文件</Filter>
     </ClInclude>
     <ClInclude Include="_01_10_FirstProgram.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="_02_02_ReturnValue.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="_02_03_FunctionWithArgs.h">
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>
