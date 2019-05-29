@@ -5,4 +5,5 @@
 #include "_01_06_UndefinedVar.h"
 #include "_01_10_FirstProgram.h"
 #include "_02_02_ReturnValue.h"
-#include  "_02_03_FunctionWithArgs.h"
+#include "_02_03_FunctionWithArgs.h"
+#include "_02_06_WhitespaceFormatting.h"

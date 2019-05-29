@@ -2,6 +2,6 @@
 
 int main()
 {
-	_02_03_FunctionWithArgs::Test();
+	_02_06_WhitespaceFormatting::Test();
 	return 0;
 }

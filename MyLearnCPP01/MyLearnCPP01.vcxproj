@@ -163,6 +163,7 @@
     <ClCompile Include="_01_06_UndefinedVar.cpp" />
     <ClCompile Include="_01_10_FirstProgram.cpp" />
     <ClCompile Include="_02_03_FunctionWithArgs.cpp" />
+    <ClCompile Include="_02_06_WhitespaceFormatting.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="_02_02_ReturnValue.h" />
@@ -173,6 +174,7 @@
     <ClInclude Include="_01_06_UndefinedVar.h" />
     <ClInclude Include="_01_10_FirstProgram.h" />
     <ClInclude Include="_02_03_FunctionWithArgs.h" />
+    <ClInclude Include="_02_06_WhitespaceFormatting.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
