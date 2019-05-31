@@ -42,6 +42,18 @@
     <ClCompile Include="_02_06_WhitespaceFormatting.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="_02_07_ForwardDeclDefine.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="_02_08_MultipleCodeFiles.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="_02_09_UsingNamespace.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="_02_10_Preprocessor.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="_01_01_HelloWorld.h">
@@ -69,6 +81,18 @@
       <Filter>头文件</Filter>
     </ClInclude>
     <ClInclude Include="_02_06_WhitespaceFormatting.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="_02_07_ForwardDeclDefine.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="_02_08_MultipleCodeFiles.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="_02_09_UsingNamespace.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="_02_10_Preprocessor.h">
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>

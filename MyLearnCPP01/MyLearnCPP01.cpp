@@ -2,6 +2,6 @@
 
 int main()
 {
-	_02_06_WhitespaceFormatting::Test();
+	_02_10_Preprocessor::Test();
 	return 0;
 }

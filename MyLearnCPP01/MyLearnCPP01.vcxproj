@@ -164,6 +164,10 @@
     <ClCompile Include="_01_10_FirstProgram.cpp" />
     <ClCompile Include="_02_03_FunctionWithArgs.cpp" />
     <ClCompile Include="_02_06_WhitespaceFormatting.cpp" />
+    <ClCompile Include="_02_07_ForwardDeclDefine.cpp" />
+    <ClCompile Include="_02_08_MultipleCodeFiles.cpp" />
+    <ClCompile Include="_02_09_UsingNamespace.cpp" />
+    <ClCompile Include="_02_10_Preprocessor.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="_02_02_ReturnValue.h" />
@@ -175,6 +179,10 @@
     <ClInclude Include="_01_10_FirstProgram.h" />
     <ClInclude Include="_02_03_FunctionWithArgs.h" />
     <ClInclude Include="_02_06_WhitespaceFormatting.h" />
+    <ClInclude Include="_02_07_ForwardDeclDefine.h" />
+    <ClInclude Include="_02_08_MultipleCodeFiles.h" />
+    <ClInclude Include="_02_09_UsingNamespace.h" />
+    <ClInclude Include="_02_10_Preprocessor.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
