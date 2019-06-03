@@ -2,6 +2,6 @@
 
 int main()
 {
-	_02_10_Preprocessor::Test();
+	_03_04_BasicDebugging::Test();
 	return 0;
 }

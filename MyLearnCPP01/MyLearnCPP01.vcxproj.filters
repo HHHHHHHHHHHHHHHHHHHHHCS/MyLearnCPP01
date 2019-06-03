@@ -54,6 +54,9 @@
     <ClCompile Include="_02_10_Preprocessor.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="_03_04_BasicDebugging.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="_01_01_HelloWorld.h">
@@ -93,6 +96,9 @@
       <Filter>头文件</Filter>
     </ClInclude>
     <ClInclude Include="_02_10_Preprocessor.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="_03_04_BasicDebugging.h">
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>
