@@ -2,6 +2,6 @@
 
 int main()
 {
-	_03_04_BasicDebugging::Test();
+	_03_06_UsingDebugger::Test();
 	return 0;
 }

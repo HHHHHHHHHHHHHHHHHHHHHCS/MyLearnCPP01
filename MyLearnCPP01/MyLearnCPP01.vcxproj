@@ -169,6 +169,7 @@
     <ClCompile Include="_02_09_UsingNamespace.cpp" />
     <ClCompile Include="_02_10_Preprocessor.cpp" />
     <ClCompile Include="_03_04_BasicDebugging.cpp" />
+    <ClCompile Include="_03_06_UsingDebugger.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="_02_02_ReturnValue.h" />
@@ -185,6 +186,7 @@
     <ClInclude Include="_02_09_UsingNamespace.h" />
     <ClInclude Include="_02_10_Preprocessor.h" />
     <ClInclude Include="_03_04_BasicDebugging.h" />
+    <ClInclude Include="_03_06_UsingDebugger.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
