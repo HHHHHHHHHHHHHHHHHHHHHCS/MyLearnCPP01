@@ -60,6 +60,15 @@
     <ClCompile Include="_03_06_UsingDebugger.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="_04_02_Void.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="_04_03_SizeOf.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="_04_04_SignedIntegers.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="_01_01_HelloWorld.h">
@@ -105,6 +114,15 @@
       <Filter>头文件</Filter>
     </ClInclude>
     <ClInclude Include="_03_06_UsingDebugger.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="_04_02_Void.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="_04_03_SizeOf.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="_04_04_SignedIntegers.h">
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>

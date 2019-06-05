@@ -2,6 +2,6 @@
 
 int main()
 {
-	_03_06_UsingDebugger::Test();
+	_04_04_SignedIntegers::Test();
 	return 0;
 }

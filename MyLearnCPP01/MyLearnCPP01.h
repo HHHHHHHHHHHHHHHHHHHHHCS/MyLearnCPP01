@@ -13,3 +13,5 @@
 #include "_02_10_Preprocessor.h"
 #include "_03_04_BasicDebugging.h"
 #include "_03_06_UsingDebugger.h"
+#include "_04_03_SizeOf.h"
+#include  "_04_04_SignedIntegers.h"
