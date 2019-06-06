@@ -173,6 +173,8 @@
     <ClCompile Include="_03_06_UsingDebugger.cpp" />
     <ClCompile Include="_04_03_SizeOf.cpp" />
     <ClCompile Include="_04_02_Void.cpp" />
+    <ClCompile Include="_04_05_UnsignedIntegers .cpp" />
+    <ClCompile Include="_04_06_FixedWidthAndSize.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="_04_04_SignedIntegers.h" />
@@ -193,6 +195,8 @@
     <ClInclude Include="_03_06_UsingDebugger.h" />
     <ClInclude Include="_04_03_SizeOf.h" />
     <ClInclude Include="_04_02_Void.h" />
+    <ClInclude Include="_04_05_Unsigned .h" />
+    <ClInclude Include="_04_06_FixedWidthAndSize.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

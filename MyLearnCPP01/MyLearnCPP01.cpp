@@ -2,6 +2,6 @@
 
 int main()
 {
-	_04_04_SignedIntegers::Test();
+	_04_06_FixedWidthAndSize::Test();
 	return 0;
 }

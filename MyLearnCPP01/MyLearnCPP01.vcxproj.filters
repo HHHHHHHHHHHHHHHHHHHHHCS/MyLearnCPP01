@@ -69,6 +69,12 @@
     <ClCompile Include="_04_04_SignedIntegers.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="_04_05_UnsignedIntegers .cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="_04_06_FixedWidthAndSize.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="_01_01_HelloWorld.h">
@@ -123,6 +129,12 @@
       <Filter>头文件</Filter>
     </ClInclude>
     <ClInclude Include="_04_04_SignedIntegers.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="_04_05_Unsigned .h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="_04_06_FixedWidthAndSize.h">
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>

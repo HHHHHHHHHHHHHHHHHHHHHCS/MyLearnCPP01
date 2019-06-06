@@ -15,3 +15,5 @@
 #include "_03_06_UsingDebugger.h"
 #include "_04_03_SizeOf.h"
 #include  "_04_04_SignedIntegers.h"
+#include "_04_05_Unsigned .h"
+#include "_04_06_FixedWidthAndSize.h"
