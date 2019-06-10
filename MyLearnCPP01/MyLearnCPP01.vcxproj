@@ -175,6 +175,9 @@
     <ClCompile Include="_04_02_Void.cpp" />
     <ClCompile Include="_04_05_UnsignedIntegers .cpp" />
     <ClCompile Include="_04_06_FixedWidthAndSize.cpp" />
+    <ClCompile Include="_04_07_ScientificNotation.cpp" />
+    <ClCompile Include="_04_08_FloatingPointNumbers.cpp" />
+    <ClCompile Include="_04_09_Boolean.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="_04_04_SignedIntegers.h" />
@@ -197,6 +200,9 @@
     <ClInclude Include="_04_02_Void.h" />
     <ClInclude Include="_04_05_Unsigned .h" />
     <ClInclude Include="_04_06_FixedWidthAndSize.h" />
+    <ClInclude Include="_04_07_ScientificNotation.h" />
+    <ClInclude Include="_04_08_FloatingPointNumbers.h" />
+    <ClInclude Include="_04_09_Boolean.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

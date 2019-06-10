@@ -75,6 +75,15 @@
     <ClCompile Include="_04_06_FixedWidthAndSize.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="_04_07_ScientificNotation.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="_04_08_FloatingPointNumbers.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="_04_09_Boolean.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="_01_01_HelloWorld.h">
@@ -136,6 +145,15 @@
     </ClInclude>
     <ClInclude Include="_04_06_FixedWidthAndSize.h">
       <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="_04_07_ScientificNotation.h">
+      <Filter>源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="_04_08_FloatingPointNumbers.h">
+      <Filter>源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="_04_09_Boolean.h">
+      <Filter>源文件</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
