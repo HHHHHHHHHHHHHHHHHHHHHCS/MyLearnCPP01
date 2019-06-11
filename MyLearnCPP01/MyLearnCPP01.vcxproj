@@ -178,6 +178,9 @@
     <ClCompile Include="_04_07_ScientificNotation.cpp" />
     <ClCompile Include="_04_08_FloatingPointNumbers.cpp" />
     <ClCompile Include="_04_09_Boolean.cpp" />
+    <ClCompile Include="_04_11_Char.cpp" />
+    <ClCompile Include="_04_12_Literals.cpp" />
+    <ClCompile Include="_04_13_Const.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="_04_04_SignedIntegers.h" />
@@ -203,6 +206,9 @@
     <ClInclude Include="_04_07_ScientificNotation.h" />
     <ClInclude Include="_04_08_FloatingPointNumbers.h" />
     <ClInclude Include="_04_09_Boolean.h" />
+    <ClInclude Include="_04_11_Char.h" />
+    <ClInclude Include="_04_12_Literals.h" />
+    <ClInclude Include="_04_13_Const.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
