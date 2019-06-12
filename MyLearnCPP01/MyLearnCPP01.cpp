@@ -4,9 +4,10 @@
 #include "_04_09_Boolean.h"
 #include "_04_11_Char.h"
 #include "_04_12_Literals.h"
+#include "_04_Old_01_Operators.h"
 
 int main()
 {
-	_04_12_Literals::Test();
+	_04_Old_01_Operators::Test();
 	return 0;
 }

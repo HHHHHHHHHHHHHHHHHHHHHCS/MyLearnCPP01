@@ -93,6 +93,9 @@
     <ClCompile Include="_04_13_Const.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="_04_Old_01_Operators.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="_01_01_HelloWorld.h">
@@ -164,14 +167,17 @@
     <ClInclude Include="_04_08_FloatingPointNumbers.h">
       <Filter>头文件</Filter>
     </ClInclude>
-    <ClInclude Include="_04_11_Char.h">
-      <Filter>源文件</Filter>
-    </ClInclude>
     <ClInclude Include="_04_12_Literals.h">
-      <Filter>源文件</Filter>
+      <Filter>头文件</Filter>
     </ClInclude>
     <ClInclude Include="_04_13_Const.h">
-      <Filter>源文件</Filter>
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="_04_11_Char.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="_04_Old_01_Operators.h">
+      <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
