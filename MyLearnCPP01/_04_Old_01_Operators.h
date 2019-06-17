@@ -12,4 +12,5 @@ public:
 	static int Add(int x, int y);
 	static void LogicalOperators();
 	static void BitwiseOperators();
+	static void BitFlagsBitMasks();
 };

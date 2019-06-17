@@ -1,5 +1,6 @@
 ﻿#include "_04_Old_01_Operators.h"
 #include <iostream>
+#include <bitset>
 
 void _04_Old_01_Operators::Test()
 {
@@ -7,7 +8,8 @@ void _04_Old_01_Operators::Test()
 	//SizeofCommaConditional();
 	//RelationalOperators();
 	//LogicalOperators();
-	BitwiseOperators();
+	//BitwiseOperators();
+	BitFlagsBitMasks();
 }
 
 
@@ -157,10 +159,116 @@ void _04_Old_01_Operators::BitwiseOperators()
 	//12 >> 1 = 0110 = 6
 	//12 >> 2 = 0011 = 3
 	//12 >> 3 = 0001 = 1
-	std::cout << sizeof(2048)<<' '<<sizeof(true)<<std::endl;
+	std::cout << sizeof(2048) << ' ' << sizeof(true) << std::endl;
 
 	int x = 4;
-	std::cout << x<<std::endl;
+	std::cout << x << std::endl;
 	x = x << 1;
-	std::cout << x<<std::endl;
+	std::cout << x << std::endl;
+}
+
+void _04_Old_01_Operators::BitFlagsBitMasks()
+{
+	//C++ 14
+	const unsigned char option0 = 0b0000'0001; // represents bit 0
+	const unsigned char option1 = 0b0000'0010; // represents bit 1
+	const unsigned char option2 = 0b0000'0100; // represents bit 2 
+	const unsigned char option3 = 0b0000'1000; // represents bit 3
+	const unsigned char option4 = 0b0001'0000; // represents bit 4
+	const unsigned char option5 = 0b0010'0000; // represents bit 5
+	const unsigned char option6 = 0b0100'0000; // represents bit 6
+	const unsigned char option7 = 0b1000'0000; // represents bit 7
+
+	//C++ 11
+	const unsigned char _option0 = 0x1; // hex for 0000 0001 
+	const unsigned char _option1 = 0x2; // hex for 0000 0010
+	const unsigned char _option2 = 0x4; // hex for 0000 0100
+	const unsigned char _option3 = 0x8; // hex for 0000 1000
+	const unsigned char _option4 = 0x10; // hex for 0001 0000
+	const unsigned char _option5 = 0x20; // hex for 0010 0000
+	const unsigned char _option6 = 0x40; // hex for 0100 0000
+	const unsigned char _option7 = 0x80; // hex for 1000 0000
+
+	//C++ 11 Other
+	const unsigned char __option0 = 1 << 0; // 0000 0001 
+	const unsigned char __option1 = 1 << 1; // 0000 0010
+	const unsigned char __option2 = 1 << 2; // 0000 0100
+	const unsigned char __option3 = 1 << 3; // 0000 1000
+	const unsigned char __option4 = 1 << 4; // 0001 0000
+	const unsigned char __option5 = 1 << 5; // 0010 0000
+	const unsigned char __option6 = 1 << 6; // 0100 0000
+	const unsigned char __option7 = 1 << 7; // 1000 0000
+
+	unsigned char myflags = 0;
+	myflags |= option4; // turn option 4 on
+	myflags |= (option4 | option5); // turn options 4 and 5 on at the same time
+	myflags &= ~option4; // turn option 4 off
+	myflags &= ~(option4 | option5); // turn options 4 and 5 off at the same time
+	myflags ^= option4; // flip option4 from on to off, or vice versa
+	myflags ^= (option4 | option5); // flip options 4 and 5 at the same time
+
+
+	if (myflags & option4)
+		std::cout << "myflags has option 4 set";
+	if (!(myflags & option5))
+		std::cout << "myflags does not have option 5 set";
+
+	std::bitset<8> bits(option1 | option2); // start with option 1 and 2 turned on
+	std::bitset<8> morebits(0x3); // start with bit pattern 0000 0011
+	//test()允许我们查询一个位是0还是1
+	//set()允许我们开启一下（如果该位已经打开，这将无效）
+	//reset()允许我们关闭一点（如果该位已经关闭，这将无效）
+	//flip()允许我们从0翻转到1，反之亦然
+
+
+	const int p0 = 0;
+	const int p1 = 1;
+	const int p2 = 2;
+	const int p3 = 3;
+	const int p4 = 4;
+	const int p5 = 5;
+	const int p6 = 6;
+	const int p7 = 7;
+
+	std::bitset<8> _bits(0x2); // we need 8 bits, start with bit pattern 0000 0010
+	_bits.set(p4); // set bit 4 to 1 (now we have 0001 0010)
+	_bits.flip(p5); // flip bit 5 (now we have 0011 0010)
+	_bits.reset(p5); // set bit 5 back to 0 (now we have 0001 0010)
+
+	std::cout << "Bit 4 has value: " << _bits.test(p4) << '\n';
+	std::cout << "Bit 5 has value: " << _bits.test(p5) << '\n';
+	std::cout << "All the bits: " << _bits << '\n';
+
+	const unsigned int lowMask = 0xF; // bit mask to keep low 4 bits (hex for 0000 0000 0000 1111)
+
+	std::cout << "Enter an integer: ";
+	int num;
+	std::cin >> num;
+
+	num &= lowMask; // remove the high bits to leave only the low bits
+
+	std::cout << "The 4 low bits have value: " << num << '\n';
+
+
+	const unsigned int redBits = 0xFF000000;
+	const unsigned int greenBits = 0x00FF0000;
+	const unsigned int blueBits = 0x0000FF00;
+	const unsigned int alphaBits = 0x000000FF;
+
+	std::cout << "Enter a 32-bit RGBA color value in hexadecimal (e.g. FF7F3300): ";
+	unsigned int pixel;
+	std::cin >> std::hex >> pixel; // std::hex allows us to read in a hex value
+
+	// use bitwise AND to isolate red pixels, then right shift the value into the range 0-255
+	unsigned int red = (pixel & redBits) >> 24;
+	unsigned int green = (pixel & greenBits) >> 16;
+	unsigned int blue = (pixel & blueBits) >> 8;
+	unsigned int alpha = pixel & alphaBits;
+
+	std::cout << "Your color contains:\n";
+	std::cout << static_cast<int>(red) << " of 255 red\n";
+	std::cout << static_cast<int>(green) << " of 255 green\n";
+	std::cout << static_cast<int>(blue) << " of 255 blue\n";
+	std::cout << static_cast<int>(alpha) << " of 255 alpha\n";
+
 }
