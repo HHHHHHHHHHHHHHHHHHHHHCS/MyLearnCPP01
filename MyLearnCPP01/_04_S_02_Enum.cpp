@@ -1,5 +1,7 @@
 ﻿#include "_04_S_02_Enum.h"
 #include <iostream>
+typedef double db_t;
+using flt_t = float;
 
 enum Color
 {

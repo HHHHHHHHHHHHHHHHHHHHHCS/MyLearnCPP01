@@ -1,7 +1,7 @@
 ﻿#include "_04_S_01_ScopeAndType.h"
-
 void _04_S_01_ScopeAndType::Test()
 {
+	std::cout << g_enemyDefence<<std::endl;
 	//TypeID();
 	//Explicit();
 	//Cast();

@@ -184,6 +184,8 @@
     <ClCompile Include="_04_Old_01_Operators.cpp" />
     <ClCompile Include="_04_S_01_ScopeAndType.cpp" />
     <ClCompile Include="_04_S_02_Enum.cpp" />
+    <ClCompile Include="_04_S_04_Auto.cpp" />
+    <ClCompile Include="_04_S_03_Structs.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="_04_04_SignedIntegers.h" />
@@ -215,6 +217,8 @@
     <ClInclude Include="_04_Old_01_Operators.h" />
     <ClInclude Include="_04_S_01_ScopeAndType.h" />
     <ClInclude Include="_04_S_02_Enum.h" />
+    <ClInclude Include="_04_S_04_Auto.h" />
+    <ClInclude Include="_04_S_03_Structs.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

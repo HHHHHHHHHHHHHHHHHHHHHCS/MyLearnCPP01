@@ -1,6 +1,4 @@
 ﻿#pragma once
-
-
 enum ParseResult
 {
 	SUCCESS = 0,

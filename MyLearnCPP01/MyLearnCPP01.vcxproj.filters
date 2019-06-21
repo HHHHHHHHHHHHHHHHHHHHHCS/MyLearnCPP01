@@ -102,6 +102,12 @@
     <ClCompile Include="_04_S_02_Enum.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="_04_S_03_Structs.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="_04_S_04_Auto.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="_01_01_HelloWorld.h">
@@ -189,6 +195,12 @@
       <Filter>头文件</Filter>
     </ClInclude>
     <ClInclude Include="_04_S_01_ScopeAndType.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="_04_S_04_Auto.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="_04_S_03_Structs.h">
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>
