@@ -1,4 +1,7 @@
 ﻿#include "_04_S_01_ScopeAndType.h"
+
+extern const unsigned char g_enemyDefence = 0x1E;
+
 void _04_S_01_ScopeAndType::Test()
 {
 	std::cout << g_enemyDefence<<std::endl;

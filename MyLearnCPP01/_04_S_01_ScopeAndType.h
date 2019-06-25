@@ -2,7 +2,6 @@
 #include <iostream>
 #include <string>
 
-extern  const unsigned char g_enemyDefence = 0x1E;
 
 
 class _04_S_01_ScopeAndType

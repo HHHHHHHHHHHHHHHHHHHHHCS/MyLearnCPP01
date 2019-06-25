@@ -155,6 +155,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="_05_01_Random.cpp" />
     <ClCompile Include="_04_04_SignedIntegers.cpp" />
     <ClCompile Include="_02_02_ReturnValue.cpp" />
     <ClCompile Include="_01_04_VarInit.cpp" />
@@ -186,8 +187,10 @@
     <ClCompile Include="_04_S_02_Enum.cpp" />
     <ClCompile Include="_04_S_04_Auto.cpp" />
     <ClCompile Include="_04_S_03_Structs.cpp" />
+    <ClCompile Include="_05_02_CheckInput.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="_05_01_Random.h" />
     <ClInclude Include="_04_04_SignedIntegers.h" />
     <ClInclude Include="_02_02_ReturnValue.h" />
     <ClInclude Include="MyLearnCPP01.h" />
@@ -219,6 +222,7 @@
     <ClInclude Include="_04_S_02_Enum.h" />
     <ClInclude Include="_04_S_04_Auto.h" />
     <ClInclude Include="_04_S_03_Structs.h" />
+    <ClInclude Include="_05_02_CheckInput.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
