@@ -114,6 +114,9 @@
     <ClCompile Include="_05_02_CheckInput.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="_05_03_Sort.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="_01_01_HelloWorld.h">
@@ -209,11 +212,14 @@
     <ClInclude Include="_04_S_03_Structs.h">
       <Filter>头文件</Filter>
     </ClInclude>
-    <ClInclude Include="_05_01_Random.h">
-      <Filter>源文件</Filter>
-    </ClInclude>
     <ClInclude Include="_05_02_CheckInput.h">
-      <Filter>源文件</Filter>
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="_05_01_Random.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="_05_03_Sort.h">
+      <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
