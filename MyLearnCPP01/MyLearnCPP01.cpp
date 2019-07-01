@@ -4,10 +4,11 @@
 #include "_05_01_Random.h"
 #include "_05_02_CheckInput.h"
 #include "_05_03_Sort.h"
+#include "_05_04_CStyleStrings.h"
 
 
 int main()
 {
-	_05_03_Sort::Test();
+	_05_04_CStyleStrings::Test();
 	return 0;
 }
