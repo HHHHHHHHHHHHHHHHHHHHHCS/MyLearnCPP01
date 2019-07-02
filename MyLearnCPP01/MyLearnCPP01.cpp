@@ -5,10 +5,11 @@
 #include "_05_02_CheckInput.h"
 #include "_05_03_Sort.h"
 #include "_05_04_CStyleStrings.h"
+#include "_05_05_IntroductionPointers.h"
 
 
 int main()
 {
-	_05_04_CStyleStrings::Test();
+	_05_05_IntroductionPointers::Test();
 	return 0;
 }
