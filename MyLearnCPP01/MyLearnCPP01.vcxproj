@@ -191,6 +191,7 @@
     <ClCompile Include="_05_03_Sort.cpp" />
     <ClCompile Include="_05_04_CStyleStrings.cpp" />
     <ClCompile Include="_05_05_IntroductionPointers.cpp" />
+    <ClCompile Include="_05_06_NullPointers.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="_05_01_Random.h" />
@@ -229,6 +230,7 @@
     <ClInclude Include="_05_03_Sort.h" />
     <ClInclude Include="_05_04_CStyleStrings.h" />
     <ClInclude Include="_05_05_IntroductionPointers.h" />
+    <ClInclude Include="_05_06_NullPointers.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

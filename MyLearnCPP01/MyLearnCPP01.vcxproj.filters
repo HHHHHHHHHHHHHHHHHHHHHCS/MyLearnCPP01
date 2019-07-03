@@ -123,6 +123,9 @@
     <ClCompile Include="_05_05_IntroductionPointers.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="_05_06_NullPointers.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="_01_01_HelloWorld.h">
@@ -231,6 +234,9 @@
       <Filter>头文件</Filter>
     </ClInclude>
     <ClInclude Include="_05_05_IntroductionPointers.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="_05_06_NullPointers.h">
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>

@@ -6,10 +6,11 @@
 #include "_05_03_Sort.h"
 #include "_05_04_CStyleStrings.h"
 #include "_05_05_IntroductionPointers.h"
+#include "_05_06_NullPointers.h"
 
 
 int main()
 {
-	_05_05_IntroductionPointers::Test();
+	_05_06_NullPointers::Test();
 	return 0;
 }
