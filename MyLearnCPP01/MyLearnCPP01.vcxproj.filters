@@ -126,6 +126,12 @@
     <ClCompile Include="_05_06_NullPointers.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="_05_07_PointerArithmetic.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="_05_08_CStyleString.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="_01_01_HelloWorld.h">
@@ -237,6 +243,12 @@
       <Filter>头文件</Filter>
     </ClInclude>
     <ClInclude Include="_05_06_NullPointers.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="_05_07_PointerArithmetic.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="_05_08_CStyleString.h">
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>
