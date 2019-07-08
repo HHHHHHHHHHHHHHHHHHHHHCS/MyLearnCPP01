@@ -193,7 +193,8 @@
     <ClCompile Include="_05_05_IntroductionPointers.cpp" />
     <ClCompile Include="_05_06_NullPointers.cpp" />
     <ClCompile Include="_05_07_PointerArithmetic.cpp" />
-    <ClCompile Include="_05_08_CStyleString.cpp" />
+    <ClCompile Include="_05_08_CStyleStringPtr.cpp" />
+    <ClCompile Include="_05_09_DynamicMemoryAllocation.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="_05_01_Random.h" />
@@ -234,7 +235,8 @@
     <ClInclude Include="_05_05_IntroductionPointers.h" />
     <ClInclude Include="_05_06_NullPointers.h" />
     <ClInclude Include="_05_07_PointerArithmetic.h" />
-    <ClInclude Include="_05_08_CStyleString.h" />
+    <ClInclude Include="_05_08_CStyleStringPtr" />
+    <ClInclude Include="_05_09_DynamicMemoryAllocation.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

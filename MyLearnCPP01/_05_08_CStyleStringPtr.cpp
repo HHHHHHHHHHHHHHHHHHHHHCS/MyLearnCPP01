@@ -1,4 +1,4 @@
-﻿#include "_05_08_CStyleString.h"
+﻿#include "_05_08_CStyleStringPtr"
 #include <iostream>
 
 void _05_08_CStyleString::Test()

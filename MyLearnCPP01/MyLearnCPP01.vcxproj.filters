@@ -129,7 +129,10 @@
     <ClCompile Include="_05_07_PointerArithmetic.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="_05_08_CStyleString.cpp">
+    <ClCompile Include="_05_08_CStyleStringPtr.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="_05_09_DynamicMemoryAllocation.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
@@ -248,7 +251,10 @@
     <ClInclude Include="_05_07_PointerArithmetic.h">
       <Filter>头文件</Filter>
     </ClInclude>
-    <ClInclude Include="_05_08_CStyleString.h">
+    <ClInclude Include="_05_08_CStyleStringPtr">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="_05_09_DynamicMemoryAllocation.h">
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>
