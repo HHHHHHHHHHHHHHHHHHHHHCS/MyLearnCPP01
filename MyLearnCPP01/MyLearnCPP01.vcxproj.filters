@@ -138,6 +138,9 @@
     <ClCompile Include="_05_10_PointersAndConst.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="_05_11_ReferenceVariables.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="_01_01_HelloWorld.h">
@@ -261,6 +264,9 @@
       <Filter>头文件</Filter>
     </ClInclude>
     <ClInclude Include="_05_10_PointersAndConst.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="_05_11_ReferenceVariables.h">
       <Filter>源文件</Filter>
     </ClInclude>
   </ItemGroup>
