@@ -8,8 +8,10 @@ void _05_11_ReferenceVariables::Test()
 	//Test03();
 	//Test04();
 	//Test05();
-	Test06();
-	Test07();
+	//Test06();
+	//Test07();
+	//Test08();
+	Test09();
 }
 
 void _05_11_ReferenceVariables::Test01()
@@ -124,5 +126,47 @@ void _05_11_ReferenceVariables::Test07()
 
 	* ptr = 5;
 	ref = 5;
+}
 
+void _05_11_ReferenceVariables::Test08()
+{
+	int x = 5;
+	const int& ref1 = x; // okay, x is a non-const l-value
+
+	const int y = 7;
+	const int& ref2 = y; // okay, y is a const l-value
+	const int& ref3 = 6; // okay, 6 is an r-value
+	const int& ref4 = 2 + 3;
+
+
+	int value = 5;
+	const int& ref = value; // create const reference to variable value
+
+	value = 6; // okay, value is non-const
+	//ref = 7; // ERROR
+	std::cout << ref << ' ' << ref1 << ' ' << &ref2 << ' ' << ref3 << ' ' << ref4 << std::endl;
+}
+
+void _05_11_ReferenceVariables::Test09()
+{
+	struct Person
+	{
+		int age;
+		double weight;
+	};
+
+	Person person;
+	person.age = 5;
+
+	Person person2 = person;
+	person2.age = 10;
+
+	Person& ref = person;
+	ref.age = 6;
+
+	Person* ptr = &person;
+	(*ptr).age = 7; //因为运算优先级的问题 需要括号
+	ptr->age = 8; //这个跟上面的类似,但是建议使用个这个
+
+	std::cout << person.age << ' ' << person2.age << std::endl;
 }

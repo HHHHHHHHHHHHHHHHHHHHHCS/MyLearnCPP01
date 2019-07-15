@@ -28,4 +28,6 @@ public:
 	static void Test05_PrintElements_Error(int [6]);
 	static void Test06();
 	static void Test07();
+	static void Test08();
+	static void Test09();
 };
