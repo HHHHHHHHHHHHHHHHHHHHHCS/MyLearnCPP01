@@ -144,6 +144,9 @@
     <ClCompile Include="_05_12_ForEachLoops.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="_05_13_VoidPointer.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="_01_01_HelloWorld.h">
@@ -273,6 +276,9 @@
       <Filter>头文件</Filter>
     </ClInclude>
     <ClInclude Include="_05_12_ForEachLoops.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="_05_13_VoidPointer.h">
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>
