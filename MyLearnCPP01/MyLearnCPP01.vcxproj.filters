@@ -147,6 +147,9 @@
     <ClCompile Include="_05_13_VoidPointer.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="_05_14_PointersToPointers.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="_01_01_HelloWorld.h">
@@ -280,6 +283,9 @@
     </ClInclude>
     <ClInclude Include="_05_13_VoidPointer.h">
       <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="_05_14_PointersToPointers.h">
+      <Filter>源文件</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
