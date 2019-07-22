@@ -5,10 +5,11 @@
 #include "_05_12_ForEachLoops.h"
 #include "_05_13_VoidPointer.h"
 #include "_05_14_PointersToPointers.h"
+#include "_05_15_Array.h"
 
 int main()
 {
-	_05_14_PointersToPointers::Test();
+	_05_15_Array::Test();
 	return 0;
 }
 

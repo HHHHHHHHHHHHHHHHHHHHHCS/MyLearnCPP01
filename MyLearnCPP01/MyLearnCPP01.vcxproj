@@ -200,6 +200,7 @@
     <ClCompile Include="_05_12_ForEachLoops.cpp" />
     <ClCompile Include="_05_13_VoidPointer.cpp" />
     <ClCompile Include="_05_14_PointersToPointers.cpp" />
+    <ClCompile Include="_05_15_Array.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="_05_01_Random.h" />
@@ -247,6 +248,7 @@
     <ClInclude Include="_05_12_ForEachLoops.h" />
     <ClInclude Include="_05_13_VoidPointer.h" />
     <ClInclude Include="_05_14_PointersToPointers.h" />
+    <ClInclude Include="_05_15_Array.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
