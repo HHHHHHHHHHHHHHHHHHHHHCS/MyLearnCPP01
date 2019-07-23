@@ -6,10 +6,11 @@
 #include "_05_13_VoidPointer.h"
 #include "_05_14_PointersToPointers.h"
 #include "_05_15_Array.h"
+#include "_05_16_Vector.h"
 
 int main()
 {
-	_05_15_Array::Test();
+	_05_16_Vector::Test();
 	return 0;
 }
 

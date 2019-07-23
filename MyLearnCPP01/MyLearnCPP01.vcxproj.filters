@@ -153,6 +153,9 @@
     <ClCompile Include="_05_15_Array.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="_05_16_Vector.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="_01_01_HelloWorld.h">
@@ -291,6 +294,9 @@
       <Filter>头文件</Filter>
     </ClInclude>
     <ClInclude Include="_05_15_Array.h">
+      <Filter>源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="_05_16_Vector.h">
       <Filter>源文件</Filter>
     </ClInclude>
   </ItemGroup>
