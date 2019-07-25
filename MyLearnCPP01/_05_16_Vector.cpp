@@ -16,8 +16,8 @@ void _05_16_Vector::Test01()
 	std::vector<int> array2 = {9, 7, 5, 3, 1};
 	std::vector<int> array3{9, 7, 5, 3, 1}; // C++11
 
-	//array[6] = 2; //虽然能通过 但是越界
-	//array.at(7) = 3; //虽然能通过 但是越界
+	//array[6] = 2; //虽然能通过 但是越界  直接终止
+	//array.at(7) = 3; //虽然能通过 但是越界 会有异常提示
 
 	std::cout << &array << ' ' << array2[2] << '\n';
 

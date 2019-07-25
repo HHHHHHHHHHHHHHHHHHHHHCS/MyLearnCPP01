@@ -7,10 +7,11 @@
 #include "_05_14_PointersToPointers.h"
 #include "_05_15_Array.h"
 #include "_05_16_Vector.h"
+#include "_06_01_PassingArgumentsByReference.h"
 
 int main()
 {
-	_05_16_Vector::Test();
+	_06_01_PassingArgumentsByReference::Test();
 	return 0;
 }
 
