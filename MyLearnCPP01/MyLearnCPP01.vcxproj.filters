@@ -159,6 +159,9 @@
     <ClCompile Include="_06_01_PassingArgumentsByReference.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="_06_02_PassingArgumentsByAddress.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="_01_01_HelloWorld.h">
@@ -304,6 +307,9 @@
     </ClInclude>
     <ClInclude Include="_06_01_PassingArgumentsByReference.h">
       <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="_06_02_PassingArgumentsByAddress.h">
+      <Filter>源文件</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
