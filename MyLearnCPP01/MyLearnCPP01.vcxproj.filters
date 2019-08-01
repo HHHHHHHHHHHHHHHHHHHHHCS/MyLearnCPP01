@@ -162,6 +162,9 @@
     <ClCompile Include="_06_02_PassingArgumentsByAddress.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="_06_03_ReturnValuesByValuesReferenceAddress.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="_01_01_HelloWorld.h">
@@ -299,16 +302,19 @@
     <ClInclude Include="_05_14_PointersToPointers.h">
       <Filter>头文件</Filter>
     </ClInclude>
-    <ClInclude Include="_05_15_Array.h">
-      <Filter>源文件</Filter>
-    </ClInclude>
     <ClInclude Include="_05_16_Vector.h">
       <Filter>头文件</Filter>
     </ClInclude>
     <ClInclude Include="_06_01_PassingArgumentsByReference.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="_05_15_Array.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
     <ClInclude Include="_06_02_PassingArgumentsByAddress.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="_06_03_ReturnValuesByValuesReferenceAddress.h">
       <Filter>源文件</Filter>
     </ClInclude>
   </ItemGroup>

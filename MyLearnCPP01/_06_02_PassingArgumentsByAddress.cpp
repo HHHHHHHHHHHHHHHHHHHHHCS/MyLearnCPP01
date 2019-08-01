@@ -3,7 +3,7 @@
 
 void _06_02_PassingArgumentsByAddress::Test()
 {
-	
+	Test01();
 }
 
 void _06_02_PassingArgumentsByAddress::Test01()

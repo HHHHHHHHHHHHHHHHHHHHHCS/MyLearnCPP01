@@ -8,10 +8,12 @@
 #include "_05_15_Array.h"
 #include "_05_16_Vector.h"
 #include "_06_01_PassingArgumentsByReference.h"
+#include "_06_02_PassingArgumentsByAddress.h"
+#include "_06_03_ReturnValuesByValuesReferenceAddress.h"
 
 int main()
 {
-	_06_01_PassingArgumentsByReference::Test();
+	_06_03_ReturnValuesByValuesReferenceAddress::Test();
 	return 0;
 }
 
