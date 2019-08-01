@@ -4,6 +4,7 @@
 void _06_03_ReturnValuesByValuesReferenceAddress::Test()
 {
 	Test01();
+	Test02();
 }
 
 
@@ -59,7 +60,7 @@ int* _06_03_ReturnValuesByValuesReferenceAddress::Test01_Func4(int size)
 
 int* _06_03_ReturnValuesByValuesReferenceAddress::Test01_Func5(int value)
 {
-	static int val = value * 2;//加入了static 可以保留生命周期
+	static int val = value * 2; //加入了static 可以保留生命周期
 	return &val;
 }
 
@@ -69,3 +70,33 @@ const int& _06_03_ReturnValuesByValuesReferenceAddress::Test01_Func6(int x)
 	return 5*x;//还是会超出范围
 }
 */
+
+void _06_03_ReturnValuesByValuesReferenceAddress::Test02()
+{
+	auto s1 = Test02_Func1();
+	std::cout << s1.m_x << '\n';
+
+	std::tuple<int, double> s2 = Test02_Func2();
+	std::cout << std::get<0>(s2) << ' ' << std::get<1>(s2) << '\n';
+
+	int a;
+	double b;
+	std::tie(a, b) = Test02_Func2();
+	std::cout << a << ' ' << b << std::endl;
+
+	auto [c, d] = Test02_Func2(); //C++ 17 在设置->语言->C++ 修改到17
+	std::cout << c << ' ' << d << '\n';
+}
+
+Str _06_03_ReturnValuesByValuesReferenceAddress::Test02_Func1()
+{
+	Str s{1, 4.5};
+	//s.m_x = 1;
+	//s.m_y = 4.5;
+	return s;
+}
+
+std::tuple<int, double> _06_03_ReturnValuesByValuesReferenceAddress::Test02_Func2()
+{
+	return std::make_tuple(5, 6.7);
+}
