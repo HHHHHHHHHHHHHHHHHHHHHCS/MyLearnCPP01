@@ -165,6 +165,12 @@
     <ClCompile Include="_06_03_ReturnValuesByValuesReferenceAddress.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="_06_04_Inline.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="_06_05_FunctionOverloading.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="_01_01_HelloWorld.h">
@@ -315,6 +321,12 @@
       <Filter>头文件</Filter>
     </ClInclude>
     <ClInclude Include="_06_03_ReturnValuesByValuesReferenceAddress.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="_06_04_Inline.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="_06_05_FunctionOverloading.h">
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>

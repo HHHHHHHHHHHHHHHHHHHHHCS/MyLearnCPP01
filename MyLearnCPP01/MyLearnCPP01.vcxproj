@@ -209,6 +209,8 @@
     <ClCompile Include="_06_01_PassingArgumentsByReference.cpp" />
     <ClCompile Include="_06_02_PassingArgumentsByAddress.cpp" />
     <ClCompile Include="_06_03_ReturnValuesByValuesReferenceAddress.cpp" />
+    <ClCompile Include="_06_04_Inline.cpp" />
+    <ClCompile Include="_06_05_FunctionOverloading.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="_05_01_Random.h" />
@@ -261,6 +263,8 @@
     <ClInclude Include="_06_01_PassingArgumentsByReference.h" />
     <ClInclude Include="_06_02_PassingArgumentsByAddress.h" />
     <ClInclude Include="_06_03_ReturnValuesByValuesReferenceAddress.h" />
+    <ClInclude Include="_06_04_Inline.h" />
+    <ClInclude Include="_06_05_FunctionOverloading.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
