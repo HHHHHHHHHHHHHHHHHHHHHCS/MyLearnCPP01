@@ -10,10 +10,13 @@
 #include "_06_01_PassingArgumentsByReference.h"
 #include "_06_02_PassingArgumentsByAddress.h"
 #include "_06_03_ReturnValuesByValuesReferenceAddress.h"
+#include "_06_04_Inline.h"
+#include "_06_05_FunctionOverloading.h"
+#include "_06_06_DefaultArguments.h"
 
 int main()
 {
-	_06_03_ReturnValuesByValuesReferenceAddress::Test();
+	_06_06_DefaultArguments::Test();
 	return 0;
 }
 

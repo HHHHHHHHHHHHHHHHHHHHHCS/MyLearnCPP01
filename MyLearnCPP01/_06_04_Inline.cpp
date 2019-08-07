@@ -1,6 +1,12 @@
 ﻿#include "_06_04_Inline.h"
 #include <iostream>
 
+void _06_04_Inline::Test()
+{
+	Test01();
+}
+
+
 inline int _06_04_Inline::min(int x, int y)
 {
 	return x > y ? y : x;

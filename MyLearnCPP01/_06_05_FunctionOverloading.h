@@ -3,6 +3,7 @@
 class _06_05_FunctionOverloading
 {
 public:
+	static void Test();
 	static void Test01();
 	static int Add(int x, int y);
 	static double Add(double x, double y);

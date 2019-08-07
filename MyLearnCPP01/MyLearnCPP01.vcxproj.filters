@@ -171,6 +171,9 @@
     <ClCompile Include="_06_05_FunctionOverloading.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="_06_06_DefaultArguments.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="_01_01_HelloWorld.h">
@@ -327,6 +330,9 @@
       <Filter>头文件</Filter>
     </ClInclude>
     <ClInclude Include="_06_05_FunctionOverloading.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="_06_06_DefaultArguments.h">
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>
