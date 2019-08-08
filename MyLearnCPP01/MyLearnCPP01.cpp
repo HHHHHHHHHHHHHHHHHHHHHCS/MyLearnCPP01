@@ -13,10 +13,11 @@
 #include "_06_04_Inline.h"
 #include "_06_05_FunctionOverloading.h"
 #include "_06_06_DefaultArguments.h"
+#include "_06_07_FunctionPointers.h"
 
 int main()
 {
-	_06_06_DefaultArguments::Test();
+	_06_07_FunctionPointers::Test();
 	return 0;
 }
 

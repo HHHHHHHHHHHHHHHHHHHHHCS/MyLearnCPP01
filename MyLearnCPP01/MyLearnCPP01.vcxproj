@@ -212,6 +212,7 @@
     <ClCompile Include="_06_04_Inline.cpp" />
     <ClCompile Include="_06_05_FunctionOverloading.cpp" />
     <ClCompile Include="_06_06_DefaultArguments.cpp" />
+    <ClCompile Include="_06_07_FunctionPointers.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="_05_01_Random.h" />
@@ -267,6 +268,7 @@
     <ClInclude Include="_06_04_Inline.h" />
     <ClInclude Include="_06_05_FunctionOverloading.h" />
     <ClInclude Include="_06_06_DefaultArguments.h" />
+    <ClInclude Include="_06_07_FunctionPointers.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
