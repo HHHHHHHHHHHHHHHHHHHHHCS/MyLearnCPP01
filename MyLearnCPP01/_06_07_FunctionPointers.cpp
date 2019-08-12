@@ -4,7 +4,8 @@
 void _06_07_FunctionPointers::Test()
 {
 	//Test01();
-	Test02();
+	//Test02();
+	Test03();
 }
 
 void _06_07_FunctionPointers::Test01()
@@ -104,4 +105,13 @@ void _06_07_FunctionPointers::Test02_PrintArray(int* array, size_t size)
 		std::cout << array[i] << ' ';
 	}
 	std::cout << '\n';
+}
+
+
+void _06_07_FunctionPointers::Test03()
+{
+	std::function<bool(int, int)> func1 = Test02_Ascending;
+	std::cout << func1(1,4)<<'\n';
+	auto func2 = Test02_Myscending;
+	std::cout << func2(5,9)<<'\n';
 }
