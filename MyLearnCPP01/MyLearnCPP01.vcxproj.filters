@@ -177,6 +177,9 @@
     <ClCompile Include="_06_07_FunctionPointers.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="_06_08_VectorCapacityStackBehavior.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="_01_01_HelloWorld.h">
@@ -339,6 +342,9 @@
       <Filter>头文件</Filter>
     </ClInclude>
     <ClInclude Include="_06_07_FunctionPointers.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="_06_08_VectorCapacityStackBehavior.h">
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>

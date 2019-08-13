@@ -14,10 +14,11 @@
 #include "_06_05_FunctionOverloading.h"
 #include "_06_06_DefaultArguments.h"
 #include "_06_07_FunctionPointers.h"
+#include "_06_08_VectorCapacityStackBehavior.h"
 
 int main()
 {
-	_06_07_FunctionPointers::Test();
+	_06_08_VectorCapacityStackBehavior::Test();
 	return 0;
 }
 
