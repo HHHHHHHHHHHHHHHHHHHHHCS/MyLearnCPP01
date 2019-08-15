@@ -4,7 +4,8 @@
 
 void _06_08_VectorCapacityStackBehavior::Test()
 {
-	Test01();
+	//Test01();
+	Test02();
 }
 
 
@@ -38,6 +39,28 @@ void _06_08_VectorCapacityStackBehavior::Test01()
 	std::cout << vec.size() << ' ' << vec.capacity() << '\n';
 }
 
+void _06_08_VectorCapacityStackBehavior::Test02()
+{
+	std::vector<int> stack;
+
+	PrintStack(stack);
+
+	stack.push_back(5);
+	PrintStack(stack);
+
+	stack.push_back(2);
+	PrintStack(stack);
+
+	stack.push_back(1);
+	PrintStack(stack);
+
+	stack.pop_back();
+	PrintStack(stack);
+
+	stack.push_back(6);
+	PrintStack(stack);
+}
+
 
 void _06_08_VectorCapacityStackBehavior::PrintStack(const std::vector<int>& stack)
 {
@@ -47,5 +70,5 @@ void _06_08_VectorCapacityStackBehavior::PrintStack(const std::vector<int>& stac
 	{
 		std::cout << ele << ' ';
 	}
-	std::cout << '\b';
+	std::cout << '\n';
 }

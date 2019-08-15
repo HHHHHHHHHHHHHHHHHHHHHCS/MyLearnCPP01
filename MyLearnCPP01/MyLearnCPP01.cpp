@@ -15,10 +15,11 @@
 #include "_06_06_DefaultArguments.h"
 #include "_06_07_FunctionPointers.h"
 #include "_06_08_VectorCapacityStackBehavior.h"
+#include "_06_09_Recursion.h"
 
 int main()
 {
-	_06_08_VectorCapacityStackBehavior::Test();
+	_06_09_Recursion::Test();
 	return 0;
 }
 
