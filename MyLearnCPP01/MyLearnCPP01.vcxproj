@@ -215,6 +215,7 @@
     <ClCompile Include="_06_07_FunctionPointers.cpp" />
     <ClCompile Include="_06_08_VectorCapacityStackBehavior.cpp" />
     <ClCompile Include="_06_09_Recursion.cpp" />
+    <ClCompile Include="_06_10_ErrorsAssertCerrExit.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="_05_01_Random.h" />
@@ -273,6 +274,7 @@
     <ClInclude Include="_06_07_FunctionPointers.h" />
     <ClInclude Include="_06_08_VectorCapacityStackBehavior.h" />
     <ClInclude Include="_06_09_Recursion.h" />
+    <ClInclude Include="_06_10_ErrorsAssertCerrExit.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

@@ -183,6 +183,9 @@
     <ClCompile Include="_06_09_Recursion.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="_06_10_ErrorsAssertCerrExit.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="_01_01_HelloWorld.h">
@@ -351,6 +354,9 @@
       <Filter>头文件</Filter>
     </ClInclude>
     <ClInclude Include="_06_09_Recursion.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="_06_10_ErrorsAssertCerrExit.h">
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>
