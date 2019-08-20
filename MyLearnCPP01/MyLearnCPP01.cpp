@@ -16,10 +16,12 @@
 #include "_06_07_FunctionPointers.h"
 #include "_06_08_VectorCapacityStackBehavior.h"
 #include "_06_09_Recursion.h"
+#include "_06_10_ErrorsAssertCerrExit.h"
+#include "_06_11_Assert.h"
 
 int main()
 {
-	_06_09_Recursion::Test();
+	_06_11_Assert::Test();
 	return 0;
 }
 
