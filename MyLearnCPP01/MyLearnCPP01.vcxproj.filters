@@ -189,6 +189,9 @@
     <ClCompile Include="_06_11_Assert.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="_06_12_CommandLineArguments.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="_01_01_HelloWorld.h">
@@ -363,6 +366,9 @@
       <Filter>头文件</Filter>
     </ClInclude>
     <ClInclude Include="_06_11_Assert.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="_06_12_CommandLineArguments.h">
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>
