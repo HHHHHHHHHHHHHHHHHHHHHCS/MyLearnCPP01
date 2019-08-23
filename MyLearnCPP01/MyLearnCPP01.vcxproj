@@ -159,6 +159,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="_04_Old_01_Operators.cpp" />
     <ClCompile Include="_05_01_Random.cpp" />
     <ClCompile Include="_04_04_SignedIntegers.cpp" />
     <ClCompile Include="_02_02_ReturnValue.cpp" />
@@ -186,7 +187,6 @@
     <ClCompile Include="_04_11_Char.cpp" />
     <ClCompile Include="_04_12_Literals.cpp" />
     <ClCompile Include="_04_13_Const.cpp" />
-    <ClCompile Include="_04_Old_01_Operators.cpp" />
     <ClCompile Include="_04_S_01_ScopeAndType.cpp" />
     <ClCompile Include="_04_S_02_Enum.cpp" />
     <ClCompile Include="_04_S_04_Auto.cpp" />
@@ -218,8 +218,10 @@
     <ClCompile Include="_06_10_ErrorsAssertCerrExit.cpp" />
     <ClCompile Include="_06_11_Assert.cpp" />
     <ClCompile Include="_06_12_CommandLineArguments.cpp" />
+    <ClCompile Include="_06_13_Ellipsis.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="_04_Old_01_Operators.h" />
     <ClInclude Include="_05_01_Random.h" />
     <ClInclude Include="_04_04_SignedIntegers.h" />
     <ClInclude Include="_02_02_ReturnValue.h" />
@@ -247,7 +249,6 @@
     <ClInclude Include="_04_11_Char.h" />
     <ClInclude Include="_04_12_Literals.h" />
     <ClInclude Include="_04_13_Const.h" />
-    <ClInclude Include="_04_Old_01_Operators.h" />
     <ClInclude Include="_04_S_01_ScopeAndType.h" />
     <ClInclude Include="_04_S_02_Enum.h" />
     <ClInclude Include="_04_S_04_Auto.h" />
@@ -258,7 +259,7 @@
     <ClInclude Include="_05_05_IntroductionPointers.h" />
     <ClInclude Include="_05_06_NullPointers.h" />
     <ClInclude Include="_05_07_PointerArithmetic.h" />
-    <ClInclude Include="_05_08_CStyleStringPtr" />
+    <ClInclude Include="_05_08_CStyleStringPtr.h" />
     <ClInclude Include="_05_09_DynamicMemoryAllocation.h" />
     <ClInclude Include="_05_10_PointersAndConst.h" />
     <ClInclude Include="_05_11_ReferenceVariables.h" />
@@ -279,6 +280,7 @@
     <ClInclude Include="_06_10_ErrorsAssertCerrExit.h" />
     <ClInclude Include="_06_11_Assert.h" />
     <ClInclude Include="_06_12_CommandLineArguments.h" />
+    <ClInclude Include="_06_13_Ellipsis.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

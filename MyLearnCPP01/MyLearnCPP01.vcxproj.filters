@@ -13,363 +13,417 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="源文件\01">
+      <UniqueIdentifier>{ac7d9a52-5089-4c0d-ac26-e5e59cb11f4b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\02">
+      <UniqueIdentifier>{53ec8f4d-700f-455c-92da-202b26e9040d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\03">
+      <UniqueIdentifier>{6266a917-db01-4875-8fc5-0fb1a9409220}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\04">
+      <UniqueIdentifier>{74608792-975a-4969-8179-7f740d51c235}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\04_Old">
+      <UniqueIdentifier>{f90a0f63-1a99-4bc5-87b9-ea3a4ac3c6df}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\04_S">
+      <UniqueIdentifier>{d79fde2f-5ff0-435c-a92e-1b10a2d78add}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\05">
+      <UniqueIdentifier>{5b45cc60-367e-4f65-8e47-d7fafb6bd5b4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\06">
+      <UniqueIdentifier>{8a24a418-61df-434c-9e51-c2bb5be70358}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\01">
+      <UniqueIdentifier>{c6f2d1b0-c666-44d1-b16f-47a1438c1cd6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\02">
+      <UniqueIdentifier>{c3036cb3-c7bc-475d-8114-b5d2f39d58b0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\03">
+      <UniqueIdentifier>{d20b93ce-9fa7-4498-a719-bd5f140a0290}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\04">
+      <UniqueIdentifier>{9da8d2ab-a293-4c34-a889-6acaa90c3026}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\05">
+      <UniqueIdentifier>{f752937e-3d2c-4bb0-a07e-18fb68017c0b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\06">
+      <UniqueIdentifier>{b7cdb6de-a826-4d9b-8ae2-3dc7755059b8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\04_Old">
+      <UniqueIdentifier>{41e305a3-5e67-4d48-8b76-f83dccf1a406}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\04_S">
+      <UniqueIdentifier>{64b0218c-14f5-4192-91c2-b2c70fb43197}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="MyLearnCPP01.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
     <ClCompile Include="_01_01_HelloWorld.cpp">
-      <Filter>源文件</Filter>
+      <Filter>源文件\01</Filter>
     </ClCompile>
     <ClCompile Include="_01_04_VarInit.cpp">
-      <Filter>源文件</Filter>
+      <Filter>源文件\01</Filter>
     </ClCompile>
     <ClCompile Include="_01_05_Iostream.cpp">
-      <Filter>源文件</Filter>
+      <Filter>源文件\01</Filter>
     </ClCompile>
     <ClCompile Include="_01_06_UndefinedVar.cpp">
-      <Filter>源文件</Filter>
+      <Filter>源文件\01</Filter>
     </ClCompile>
     <ClCompile Include="_01_10_FirstProgram.cpp">
-      <Filter>源文件</Filter>
+      <Filter>源文件\01</Filter>
     </ClCompile>
     <ClCompile Include="_02_02_ReturnValue.cpp">
-      <Filter>源文件</Filter>
+      <Filter>源文件\02</Filter>
     </ClCompile>
     <ClCompile Include="_02_03_FunctionWithArgs.cpp">
-      <Filter>源文件</Filter>
+      <Filter>源文件\02</Filter>
     </ClCompile>
     <ClCompile Include="_02_06_WhitespaceFormatting.cpp">
-      <Filter>源文件</Filter>
+      <Filter>源文件\02</Filter>
     </ClCompile>
     <ClCompile Include="_02_07_ForwardDeclDefine.cpp">
-      <Filter>源文件</Filter>
+      <Filter>源文件\02</Filter>
     </ClCompile>
     <ClCompile Include="_02_08_MultipleCodeFiles.cpp">
-      <Filter>源文件</Filter>
+      <Filter>源文件\02</Filter>
     </ClCompile>
     <ClCompile Include="_02_09_UsingNamespace.cpp">
-      <Filter>源文件</Filter>
+      <Filter>源文件\02</Filter>
     </ClCompile>
     <ClCompile Include="_02_10_Preprocessor.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="_03_04_BasicDebugging.cpp">
-      <Filter>源文件</Filter>
+      <Filter>源文件\02</Filter>
     </ClCompile>
     <ClCompile Include="_03_06_UsingDebugger.cpp">
-      <Filter>源文件</Filter>
+      <Filter>源文件\03</Filter>
+    </ClCompile>
+    <ClCompile Include="_03_04_BasicDebugging.cpp">
+      <Filter>源文件\03</Filter>
     </ClCompile>
     <ClCompile Include="_04_02_Void.cpp">
-      <Filter>源文件</Filter>
+      <Filter>源文件\04</Filter>
     </ClCompile>
     <ClCompile Include="_04_03_SizeOf.cpp">
-      <Filter>源文件</Filter>
+      <Filter>源文件\04</Filter>
     </ClCompile>
     <ClCompile Include="_04_04_SignedIntegers.cpp">
-      <Filter>源文件</Filter>
+      <Filter>源文件\04</Filter>
     </ClCompile>
     <ClCompile Include="_04_05_UnsignedIntegers .cpp">
-      <Filter>源文件</Filter>
+      <Filter>源文件\04</Filter>
     </ClCompile>
     <ClCompile Include="_04_06_FixedWidthAndSize.cpp">
-      <Filter>源文件</Filter>
+      <Filter>源文件\04</Filter>
     </ClCompile>
     <ClCompile Include="_04_07_ScientificNotation.cpp">
-      <Filter>源文件</Filter>
+      <Filter>源文件\04</Filter>
     </ClCompile>
     <ClCompile Include="_04_08_FloatingPointNumbers.cpp">
-      <Filter>源文件</Filter>
+      <Filter>源文件\04</Filter>
     </ClCompile>
     <ClCompile Include="_04_09_Boolean.cpp">
-      <Filter>源文件</Filter>
+      <Filter>源文件\04</Filter>
     </ClCompile>
     <ClCompile Include="_04_11_Char.cpp">
-      <Filter>源文件</Filter>
+      <Filter>源文件\04</Filter>
     </ClCompile>
     <ClCompile Include="_04_12_Literals.cpp">
-      <Filter>源文件</Filter>
+      <Filter>源文件\04</Filter>
     </ClCompile>
     <ClCompile Include="_04_13_Const.cpp">
-      <Filter>源文件</Filter>
+      <Filter>源文件\04</Filter>
     </ClCompile>
     <ClCompile Include="_04_Old_01_Operators.cpp">
-      <Filter>源文件</Filter>
+      <Filter>源文件\04_Old</Filter>
     </ClCompile>
     <ClCompile Include="_04_S_01_ScopeAndType.cpp">
-      <Filter>源文件</Filter>
+      <Filter>源文件\04_S</Filter>
     </ClCompile>
     <ClCompile Include="_04_S_02_Enum.cpp">
-      <Filter>源文件</Filter>
+      <Filter>源文件\04_S</Filter>
     </ClCompile>
     <ClCompile Include="_04_S_03_Structs.cpp">
-      <Filter>源文件</Filter>
+      <Filter>源文件\04_S</Filter>
     </ClCompile>
     <ClCompile Include="_04_S_04_Auto.cpp">
-      <Filter>源文件</Filter>
+      <Filter>源文件\04_S</Filter>
     </ClCompile>
     <ClCompile Include="_05_01_Random.cpp">
-      <Filter>源文件</Filter>
+      <Filter>源文件\05</Filter>
     </ClCompile>
     <ClCompile Include="_05_02_CheckInput.cpp">
-      <Filter>源文件</Filter>
+      <Filter>源文件\05</Filter>
     </ClCompile>
     <ClCompile Include="_05_03_Sort.cpp">
-      <Filter>源文件</Filter>
+      <Filter>源文件\05</Filter>
     </ClCompile>
     <ClCompile Include="_05_04_CStyleStrings.cpp">
-      <Filter>源文件</Filter>
+      <Filter>源文件\05</Filter>
     </ClCompile>
     <ClCompile Include="_05_05_IntroductionPointers.cpp">
-      <Filter>源文件</Filter>
+      <Filter>源文件\05</Filter>
     </ClCompile>
     <ClCompile Include="_05_06_NullPointers.cpp">
-      <Filter>源文件</Filter>
+      <Filter>源文件\05</Filter>
     </ClCompile>
     <ClCompile Include="_05_07_PointerArithmetic.cpp">
-      <Filter>源文件</Filter>
+      <Filter>源文件\05</Filter>
     </ClCompile>
     <ClCompile Include="_05_08_CStyleStringPtr.cpp">
-      <Filter>源文件</Filter>
+      <Filter>源文件\05</Filter>
     </ClCompile>
     <ClCompile Include="_05_09_DynamicMemoryAllocation.cpp">
-      <Filter>源文件</Filter>
+      <Filter>源文件\05</Filter>
     </ClCompile>
     <ClCompile Include="_05_10_PointersAndConst.cpp">
-      <Filter>源文件</Filter>
+      <Filter>源文件\05</Filter>
     </ClCompile>
     <ClCompile Include="_05_11_ReferenceVariables.cpp">
-      <Filter>源文件</Filter>
+      <Filter>源文件\05</Filter>
     </ClCompile>
     <ClCompile Include="_05_12_ForEachLoops.cpp">
-      <Filter>源文件</Filter>
+      <Filter>源文件\05</Filter>
     </ClCompile>
     <ClCompile Include="_05_13_VoidPointer.cpp">
-      <Filter>源文件</Filter>
+      <Filter>源文件\05</Filter>
     </ClCompile>
     <ClCompile Include="_05_14_PointersToPointers.cpp">
-      <Filter>源文件</Filter>
+      <Filter>源文件\05</Filter>
     </ClCompile>
     <ClCompile Include="_05_15_Array.cpp">
-      <Filter>源文件</Filter>
+      <Filter>源文件\05</Filter>
     </ClCompile>
     <ClCompile Include="_05_16_Vector.cpp">
-      <Filter>源文件</Filter>
+      <Filter>源文件\05</Filter>
     </ClCompile>
     <ClCompile Include="_06_01_PassingArgumentsByReference.cpp">
-      <Filter>源文件</Filter>
+      <Filter>源文件\06</Filter>
     </ClCompile>
     <ClCompile Include="_06_02_PassingArgumentsByAddress.cpp">
-      <Filter>源文件</Filter>
+      <Filter>源文件\06</Filter>
     </ClCompile>
     <ClCompile Include="_06_03_ReturnValuesByValuesReferenceAddress.cpp">
-      <Filter>源文件</Filter>
+      <Filter>源文件\06</Filter>
     </ClCompile>
     <ClCompile Include="_06_04_Inline.cpp">
-      <Filter>源文件</Filter>
+      <Filter>源文件\06</Filter>
     </ClCompile>
     <ClCompile Include="_06_05_FunctionOverloading.cpp">
-      <Filter>源文件</Filter>
+      <Filter>源文件\06</Filter>
     </ClCompile>
     <ClCompile Include="_06_06_DefaultArguments.cpp">
-      <Filter>源文件</Filter>
+      <Filter>源文件\06</Filter>
     </ClCompile>
     <ClCompile Include="_06_07_FunctionPointers.cpp">
-      <Filter>源文件</Filter>
+      <Filter>源文件\06</Filter>
     </ClCompile>
     <ClCompile Include="_06_08_VectorCapacityStackBehavior.cpp">
-      <Filter>源文件</Filter>
+      <Filter>源文件\06</Filter>
     </ClCompile>
     <ClCompile Include="_06_09_Recursion.cpp">
-      <Filter>源文件</Filter>
+      <Filter>源文件\06</Filter>
     </ClCompile>
     <ClCompile Include="_06_10_ErrorsAssertCerrExit.cpp">
-      <Filter>源文件</Filter>
+      <Filter>源文件\06</Filter>
     </ClCompile>
     <ClCompile Include="_06_11_Assert.cpp">
-      <Filter>源文件</Filter>
+      <Filter>源文件\06</Filter>
     </ClCompile>
     <ClCompile Include="_06_12_CommandLineArguments.cpp">
-      <Filter>源文件</Filter>
+      <Filter>源文件\06</Filter>
+    </ClCompile>
+    <ClCompile Include="_06_13_Ellipsis.cpp">
+      <Filter>源文件\06</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="_01_01_HelloWorld.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="_01_04_VarInit.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="_01_05_Iostream.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
     <ClInclude Include="MyLearnCPP01.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="_01_01_HelloWorld.h">
+      <Filter>头文件\01</Filter>
+    </ClInclude>
+    <ClInclude Include="_01_04_VarInit.h">
+      <Filter>头文件\01</Filter>
+    </ClInclude>
+    <ClInclude Include="_01_05_Iostream.h">
+      <Filter>头文件\01</Filter>
+    </ClInclude>
     <ClInclude Include="_01_06_UndefinedVar.h">
-      <Filter>头文件</Filter>
+      <Filter>头文件\01</Filter>
     </ClInclude>
     <ClInclude Include="_01_10_FirstProgram.h">
-      <Filter>头文件</Filter>
+      <Filter>头文件\01</Filter>
     </ClInclude>
     <ClInclude Include="_02_02_ReturnValue.h">
-      <Filter>头文件</Filter>
+      <Filter>头文件\02</Filter>
     </ClInclude>
     <ClInclude Include="_02_03_FunctionWithArgs.h">
-      <Filter>头文件</Filter>
+      <Filter>头文件\02</Filter>
     </ClInclude>
     <ClInclude Include="_02_06_WhitespaceFormatting.h">
-      <Filter>头文件</Filter>
+      <Filter>头文件\02</Filter>
     </ClInclude>
     <ClInclude Include="_02_07_ForwardDeclDefine.h">
-      <Filter>头文件</Filter>
+      <Filter>头文件\02</Filter>
     </ClInclude>
     <ClInclude Include="_02_08_MultipleCodeFiles.h">
-      <Filter>头文件</Filter>
+      <Filter>头文件\02</Filter>
     </ClInclude>
     <ClInclude Include="_02_09_UsingNamespace.h">
-      <Filter>头文件</Filter>
+      <Filter>头文件\02</Filter>
     </ClInclude>
     <ClInclude Include="_02_10_Preprocessor.h">
-      <Filter>头文件</Filter>
+      <Filter>头文件\02</Filter>
     </ClInclude>
     <ClInclude Include="_03_04_BasicDebugging.h">
-      <Filter>头文件</Filter>
+      <Filter>头文件\03</Filter>
     </ClInclude>
     <ClInclude Include="_03_06_UsingDebugger.h">
-      <Filter>头文件</Filter>
+      <Filter>头文件\03</Filter>
     </ClInclude>
     <ClInclude Include="_04_02_Void.h">
-      <Filter>头文件</Filter>
+      <Filter>头文件\04</Filter>
     </ClInclude>
     <ClInclude Include="_04_03_SizeOf.h">
-      <Filter>头文件</Filter>
+      <Filter>头文件\04</Filter>
     </ClInclude>
     <ClInclude Include="_04_04_SignedIntegers.h">
-      <Filter>头文件</Filter>
+      <Filter>头文件\04</Filter>
     </ClInclude>
     <ClInclude Include="_04_05_Unsigned .h">
-      <Filter>头文件</Filter>
+      <Filter>头文件\04</Filter>
     </ClInclude>
     <ClInclude Include="_04_06_FixedWidthAndSize.h">
-      <Filter>头文件</Filter>
+      <Filter>头文件\04</Filter>
     </ClInclude>
     <ClInclude Include="_04_07_ScientificNotation.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="_04_09_Boolean.h">
-      <Filter>头文件</Filter>
+      <Filter>头文件\04</Filter>
     </ClInclude>
     <ClInclude Include="_04_08_FloatingPointNumbers.h">
-      <Filter>头文件</Filter>
+      <Filter>头文件\04</Filter>
     </ClInclude>
-    <ClInclude Include="_04_12_Literals.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="_04_13_Const.h">
-      <Filter>头文件</Filter>
+    <ClInclude Include="_04_09_Boolean.h">
+      <Filter>头文件\04</Filter>
     </ClInclude>
     <ClInclude Include="_04_11_Char.h">
-      <Filter>头文件</Filter>
+      <Filter>头文件\04</Filter>
+    </ClInclude>
+    <ClInclude Include="_04_12_Literals.h">
+      <Filter>头文件\04</Filter>
+    </ClInclude>
+    <ClInclude Include="_04_13_Const.h">
+      <Filter>头文件\04</Filter>
     </ClInclude>
     <ClInclude Include="_04_Old_01_Operators.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="_04_S_02_Enum.h">
-      <Filter>头文件</Filter>
+      <Filter>头文件\04_Old</Filter>
     </ClInclude>
     <ClInclude Include="_04_S_01_ScopeAndType.h">
-      <Filter>头文件</Filter>
+      <Filter>头文件\04_S</Filter>
     </ClInclude>
-    <ClInclude Include="_04_S_04_Auto.h">
-      <Filter>头文件</Filter>
+    <ClInclude Include="_04_S_02_Enum.h">
+      <Filter>头文件\04_S</Filter>
     </ClInclude>
     <ClInclude Include="_04_S_03_Structs.h">
-      <Filter>头文件</Filter>
+      <Filter>头文件\04_S</Filter>
     </ClInclude>
-    <ClInclude Include="_05_02_CheckInput.h">
-      <Filter>头文件</Filter>
+    <ClInclude Include="_04_S_04_Auto.h">
+      <Filter>头文件\04_S</Filter>
     </ClInclude>
     <ClInclude Include="_05_01_Random.h">
-      <Filter>头文件</Filter>
+      <Filter>头文件\05</Filter>
+    </ClInclude>
+    <ClInclude Include="_05_02_CheckInput.h">
+      <Filter>头文件\05</Filter>
     </ClInclude>
     <ClInclude Include="_05_03_Sort.h">
-      <Filter>头文件</Filter>
+      <Filter>头文件\05</Filter>
     </ClInclude>
     <ClInclude Include="_05_04_CStyleStrings.h">
-      <Filter>头文件</Filter>
+      <Filter>头文件\05</Filter>
     </ClInclude>
     <ClInclude Include="_05_05_IntroductionPointers.h">
-      <Filter>头文件</Filter>
+      <Filter>头文件\05</Filter>
     </ClInclude>
     <ClInclude Include="_05_06_NullPointers.h">
-      <Filter>头文件</Filter>
+      <Filter>头文件\05</Filter>
     </ClInclude>
     <ClInclude Include="_05_07_PointerArithmetic.h">
-      <Filter>头文件</Filter>
+      <Filter>头文件\05</Filter>
     </ClInclude>
-    <ClInclude Include="_05_08_CStyleStringPtr">
-      <Filter>头文件</Filter>
+    <ClInclude Include="_05_08_CStyleStringPtr.h">
+      <Filter>头文件\05</Filter>
     </ClInclude>
     <ClInclude Include="_05_09_DynamicMemoryAllocation.h">
-      <Filter>头文件</Filter>
+      <Filter>头文件\05</Filter>
     </ClInclude>
     <ClInclude Include="_05_10_PointersAndConst.h">
-      <Filter>头文件</Filter>
+      <Filter>头文件\05</Filter>
     </ClInclude>
     <ClInclude Include="_05_11_ReferenceVariables.h">
-      <Filter>头文件</Filter>
+      <Filter>头文件\05</Filter>
     </ClInclude>
     <ClInclude Include="_05_12_ForEachLoops.h">
-      <Filter>头文件</Filter>
+      <Filter>头文件\05</Filter>
     </ClInclude>
     <ClInclude Include="_05_13_VoidPointer.h">
-      <Filter>头文件</Filter>
+      <Filter>头文件\05</Filter>
     </ClInclude>
     <ClInclude Include="_05_14_PointersToPointers.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="_05_16_Vector.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="_06_01_PassingArgumentsByReference.h">
-      <Filter>头文件</Filter>
+      <Filter>头文件\05</Filter>
     </ClInclude>
     <ClInclude Include="_05_15_Array.h">
-      <Filter>头文件</Filter>
+      <Filter>头文件\05</Filter>
+    </ClInclude>
+    <ClInclude Include="_05_16_Vector.h">
+      <Filter>头文件\05</Filter>
+    </ClInclude>
+    <ClInclude Include="_06_01_PassingArgumentsByReference.h">
+      <Filter>头文件\06</Filter>
     </ClInclude>
     <ClInclude Include="_06_02_PassingArgumentsByAddress.h">
-      <Filter>头文件</Filter>
+      <Filter>头文件\06</Filter>
     </ClInclude>
     <ClInclude Include="_06_03_ReturnValuesByValuesReferenceAddress.h">
-      <Filter>头文件</Filter>
+      <Filter>头文件\06</Filter>
     </ClInclude>
     <ClInclude Include="_06_04_Inline.h">
-      <Filter>头文件</Filter>
+      <Filter>头文件\06</Filter>
     </ClInclude>
     <ClInclude Include="_06_05_FunctionOverloading.h">
-      <Filter>头文件</Filter>
+      <Filter>头文件\06</Filter>
     </ClInclude>
     <ClInclude Include="_06_06_DefaultArguments.h">
-      <Filter>头文件</Filter>
+      <Filter>头文件\06</Filter>
     </ClInclude>
     <ClInclude Include="_06_07_FunctionPointers.h">
-      <Filter>头文件</Filter>
+      <Filter>头文件\06</Filter>
     </ClInclude>
     <ClInclude Include="_06_08_VectorCapacityStackBehavior.h">
-      <Filter>头文件</Filter>
+      <Filter>头文件\06</Filter>
     </ClInclude>
     <ClInclude Include="_06_09_Recursion.h">
-      <Filter>头文件</Filter>
+      <Filter>头文件\06</Filter>
     </ClInclude>
     <ClInclude Include="_06_10_ErrorsAssertCerrExit.h">
-      <Filter>头文件</Filter>
+      <Filter>头文件\06</Filter>
     </ClInclude>
     <ClInclude Include="_06_11_Assert.h">
-      <Filter>头文件</Filter>
+      <Filter>头文件\06</Filter>
     </ClInclude>
     <ClInclude Include="_06_12_CommandLineArguments.h">
-      <Filter>头文件</Filter>
+      <Filter>头文件\06</Filter>
+    </ClInclude>
+    <ClInclude Include="_06_13_Ellipsis.h">
+      <Filter>头文件\06</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
