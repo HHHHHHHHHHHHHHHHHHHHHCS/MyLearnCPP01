@@ -1,9 +1,10 @@
 ﻿#include  "MyLearnCPP01.h"
 #include "_06_13_Ellipsis.h"
+#include "_07_01_ClassesAndClassMembers.h"
 
 int main()
 {
-	_06_13_Ellipsis::Test();
+	_07_01_ClassesAndClassMembers::Test();
 	return 0;
 }
 

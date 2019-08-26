@@ -219,6 +219,7 @@
     <ClCompile Include="_06_11_Assert.cpp" />
     <ClCompile Include="_06_12_CommandLineArguments.cpp" />
     <ClCompile Include="_06_13_Ellipsis.cpp" />
+    <ClCompile Include="_07_01_ClassesAndClassMembers.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="_04_Old_01_Operators.h" />
@@ -281,6 +282,7 @@
     <ClInclude Include="_06_11_Assert.h" />
     <ClInclude Include="_06_12_CommandLineArguments.h" />
     <ClInclude Include="_06_13_Ellipsis.h" />
+    <ClInclude Include="_07_01_ClassesAndClassMembers.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

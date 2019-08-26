@@ -61,6 +61,12 @@
     <Filter Include="头文件\04_S">
       <UniqueIdentifier>{64b0218c-14f5-4192-91c2-b2c70fb43197}</UniqueIdentifier>
     </Filter>
+    <Filter Include="头文件\07">
+      <UniqueIdentifier>{b683d759-e9cf-4148-a3ae-81b0791e5324}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\07">
+      <UniqueIdentifier>{15a1641c-bc7f-46a5-a6e9-619faf0102a3}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="MyLearnCPP01.cpp">
@@ -243,6 +249,9 @@
     <ClCompile Include="_06_13_Ellipsis.cpp">
       <Filter>源文件\06</Filter>
     </ClCompile>
+    <ClCompile Include="_07_01_ClassesAndClassMembers.cpp">
+      <Filter>源文件\07</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="MyLearnCPP01.h">
@@ -424,6 +433,9 @@
     </ClInclude>
     <ClInclude Include="_06_13_Ellipsis.h">
       <Filter>头文件\06</Filter>
+    </ClInclude>
+    <ClInclude Include="_07_01_ClassesAndClassMembers.h">
+      <Filter>头文件\07</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
