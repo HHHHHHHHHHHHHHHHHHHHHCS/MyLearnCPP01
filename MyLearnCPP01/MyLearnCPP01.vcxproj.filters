@@ -252,6 +252,9 @@
     <ClCompile Include="_07_01_ClassesAndClassMembers.cpp">
       <Filter>源文件\07</Filter>
     </ClCompile>
+    <ClCompile Include="_07_02_PublicPrivate.cpp">
+      <Filter>源文件\07</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="MyLearnCPP01.h">
@@ -435,6 +438,9 @@
       <Filter>头文件\06</Filter>
     </ClInclude>
     <ClInclude Include="_07_01_ClassesAndClassMembers.h">
+      <Filter>头文件\07</Filter>
+    </ClInclude>
+    <ClInclude Include="_07_02_PublicPrivate.h">
       <Filter>头文件\07</Filter>
     </ClInclude>
   </ItemGroup>

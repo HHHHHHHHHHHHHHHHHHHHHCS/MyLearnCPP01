@@ -1,10 +1,11 @@
 ﻿#include  "MyLearnCPP01.h"
 #include "_06_13_Ellipsis.h"
 #include "_07_01_ClassesAndClassMembers.h"
+#include "_07_02_PublicPrivate.h"
 
 int main()
 {
-	_07_01_ClassesAndClassMembers::Test();
+	_07_02_PublicPrivate::Test();
 	return 0;
 }
 
