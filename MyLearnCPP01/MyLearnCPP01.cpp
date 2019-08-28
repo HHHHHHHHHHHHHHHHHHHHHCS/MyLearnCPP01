@@ -2,10 +2,11 @@
 #include "_06_13_Ellipsis.h"
 #include "_07_01_ClassesAndClassMembers.h"
 #include "_07_02_PublicPrivate.h"
+#include "_07_03_Encapsulation.h"
 
 int main()
 {
-	_07_02_PublicPrivate::Test();
+	_07_03_Encapsulation::Test();
 	return 0;
 }
 

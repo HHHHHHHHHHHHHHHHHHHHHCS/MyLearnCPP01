@@ -221,6 +221,7 @@
     <ClCompile Include="_06_13_Ellipsis.cpp" />
     <ClCompile Include="_07_01_ClassesAndClassMembers.cpp" />
     <ClCompile Include="_07_02_PublicPrivate.cpp" />
+    <ClCompile Include="_07_03_Encapsulation.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="_04_Old_01_Operators.h" />
@@ -285,6 +286,7 @@
     <ClInclude Include="_06_13_Ellipsis.h" />
     <ClInclude Include="_07_01_ClassesAndClassMembers.h" />
     <ClInclude Include="_07_02_PublicPrivate.h" />
+    <ClInclude Include="_07_03_Encapsulation.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
