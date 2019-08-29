@@ -3,10 +3,11 @@
 #include "_07_01_ClassesAndClassMembers.h"
 #include "_07_02_PublicPrivate.h"
 #include "_07_03_Encapsulation.h"
+#include "_07_04_Constructors.h"
 
 int main()
 {
-	_07_03_Encapsulation::Test();
+	_07_04_Constructors::Test();
 	return 0;
 }
 
