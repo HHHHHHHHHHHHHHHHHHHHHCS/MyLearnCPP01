@@ -22,8 +22,29 @@ public:
 		double GetValue() const;
 	};
 
+	class ValueCls
+	{
+	private:
+		int value;
+	public:
+		ValueCls(int x, int y = 1);
+		double GetValue() const;
+	};
+
+
+	class AddCls
+	{
+	private:
+		int value;
+	public:
+		AddCls(int x =2, int y = 1);
+		int GetValue() const;
+	};
+
 	static void Test();
 
 	static void Test01();
 	static void Test02();
+	static void Test03();
+	static void Test04();
 };
