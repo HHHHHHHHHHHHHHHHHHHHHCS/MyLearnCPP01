@@ -4,10 +4,11 @@
 #include "_07_02_PublicPrivate.h"
 #include "_07_03_Encapsulation.h"
 #include "_07_04_Constructors.h"
+#include "_07_05_ConstructorMemberInitializerLists.h"
 
 int main()
 {
-	_07_04_Constructors::Test();
+	_07_05_ConstructorMemberInitializerLists::Test();
 	return 0;
 }
 

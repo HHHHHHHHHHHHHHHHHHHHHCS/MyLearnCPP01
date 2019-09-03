@@ -47,7 +47,7 @@ void _07_04_Constructors::Test02()
 
 _07_04_Constructors::ValueCls::ValueCls(int x, int y)
 {
-	value = static_cast<double>(x) / y;
+	value = static_cast<int>(static_cast<double>(x) / y);
 }
 
 double _07_04_Constructors::ValueCls::GetValue() const
