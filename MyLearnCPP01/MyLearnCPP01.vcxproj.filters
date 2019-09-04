@@ -264,6 +264,9 @@
     <ClCompile Include="_07_05_ConstructorMemberInitializerLists.cpp">
       <Filter>源文件\07</Filter>
     </ClCompile>
+    <ClCompile Include="_07_06_InheritanceAndAccessSpecifiers.cpp">
+      <Filter>源文件\07</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="MyLearnCPP01.h">
@@ -460,6 +463,9 @@
     </ClInclude>
     <ClInclude Include="_07_05_ConstructorMemberInitializerLists.h">
       <Filter>头文件\07</Filter>
+    </ClInclude>
+    <ClInclude Include="_07_06_InheritanceAndAccessSpecifiers.h">
+      <Filter>源文件\07</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

@@ -224,6 +224,7 @@
     <ClCompile Include="_07_03_Encapsulation.cpp" />
     <ClCompile Include="_07_04_Constructors.cpp" />
     <ClCompile Include="_07_05_ConstructorMemberInitializerLists.cpp" />
+    <ClCompile Include="_07_06_InheritanceAndAccessSpecifiers.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="_04_Old_01_Operators.h" />
@@ -291,6 +292,7 @@
     <ClInclude Include="_07_03_Encapsulation.h" />
     <ClInclude Include="_07_04_Constructors.h" />
     <ClInclude Include="_07_05_ConstructorMemberInitializerLists.h" />
+    <ClInclude Include="_07_06_InheritanceAndAccessSpecifiers.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
