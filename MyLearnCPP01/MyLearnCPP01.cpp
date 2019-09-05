@@ -5,10 +5,12 @@
 #include "_07_03_Encapsulation.h"
 #include "_07_04_Constructors.h"
 #include "_07_05_ConstructorMemberInitializerLists.h"
+#include "_07_06_InheritanceAndAccessSpecifiers.h"
+#include "_07_07_NonStaticMemberInitialization.h"
 
 int main()
 {
-	_07_05_ConstructorMemberInitializerLists::Test();
+	_07_07_NonStaticMemberInitialization::Test();
 	return 0;
 }
 

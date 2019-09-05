@@ -1,5 +1,16 @@
 ﻿#include "_07_06_InheritanceAndAccessSpecifiers.h"
 
+void _07_06_InheritanceAndAccessSpecifiers::Test()
+{
+	Test01();
+	Test02();
+	Test03();
+	Test04();
+	Test05();
+
+}
+
+
 void _07_06_InheritanceAndAccessSpecifiers::Test01()
 {
 	_07_06_InheritanceAndAccessSpecifiers_Cls::Base base;

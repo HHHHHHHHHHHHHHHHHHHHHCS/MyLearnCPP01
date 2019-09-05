@@ -51,7 +51,7 @@ void _04_Old_01_Operators::IncrementDecrement()
 void _04_Old_01_Operators::SizeofCommaConditional()
 {
 	double d = 5.0;
-	std::cout << sizeof(d) << std::endl; // will print the size of variable d in bytes
+	std::cout << sizeof(d) << std::endl; // will Print the size of variable d in bytes
 
 	int x = 0;
 	int y = 2;

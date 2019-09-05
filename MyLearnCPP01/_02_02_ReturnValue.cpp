@@ -13,7 +13,7 @@ void _02_02_ReturnValue::ReturnNoThing()
 {
 	std::cout << "Return No Thing\n";
 	return;
-	//std::cout << "After return \n";//can't print 
+	//std::cout << "After return \n";//can't Print 
 }
 
 int _02_02_ReturnValue::GetInputValue()

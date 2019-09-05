@@ -46,15 +46,15 @@ void _05_06_NullPointers::Test01()
 
 void _05_06_NullPointers::print(int x)
 {
-	std::cout << "print(int): " << x << '\n';
+	std::cout << "Print(int): " << x << '\n';
 }
 
 void _05_06_NullPointers::print(int* x)
 {
 	if (!x)
-		std::cout << "print(int*): null\n";
+		std::cout << "Print(int*): null\n";
 	else
-		std::cout << "print(int*): " << *x << '\n';
+		std::cout << "Print(int*): " << *x << '\n';
 }
 
 //std::nullptr_t 只能接受空值

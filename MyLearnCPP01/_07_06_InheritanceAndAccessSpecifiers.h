@@ -3,6 +3,7 @@
 class _07_06_InheritanceAndAccessSpecifiers
 {
 public:
+	static void Test();
 	static void Test01();
 	static void Test02();
 	static void Test03();
