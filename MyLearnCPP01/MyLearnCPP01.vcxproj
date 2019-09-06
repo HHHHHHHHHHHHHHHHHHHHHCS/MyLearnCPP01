@@ -226,6 +226,7 @@
     <ClCompile Include="_07_05_ConstructorMemberInitializerLists.cpp" />
     <ClCompile Include="_07_06_InheritanceAndAccessSpecifiers.cpp" />
     <ClCompile Include="_07_07_NonStaticMemberInitialization.cpp" />
+    <ClCompile Include="_07_08_OverlappingAndDelegatingConstructors.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="_04_Old_01_Operators.h" />
@@ -295,6 +296,7 @@
     <ClInclude Include="_07_05_ConstructorMemberInitializerLists.h" />
     <ClInclude Include="_07_06_InheritanceAndAccessSpecifiers.h" />
     <ClInclude Include="_07_07_NonStaticMemberInitialization.h" />
+    <ClInclude Include="_07_08_OverlappingAndDelegatingConstructors.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

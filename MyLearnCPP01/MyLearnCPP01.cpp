@@ -7,10 +7,11 @@
 #include "_07_05_ConstructorMemberInitializerLists.h"
 #include "_07_06_InheritanceAndAccessSpecifiers.h"
 #include "_07_07_NonStaticMemberInitialization.h"
+#include "_07_08_OverlappingAndDelegatingConstructors.h"
 
 int main()
 {
-	_07_07_NonStaticMemberInitialization::Test();
+	_07_08_OverlappingAndDelegatingConstructors::Test();
 	return 0;
 }
 
