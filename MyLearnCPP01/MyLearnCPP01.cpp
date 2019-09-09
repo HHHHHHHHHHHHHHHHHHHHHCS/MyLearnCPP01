@@ -8,10 +8,11 @@
 #include "_07_06_InheritanceAndAccessSpecifiers.h"
 #include "_07_07_NonStaticMemberInitialization.h"
 #include "_07_08_OverlappingAndDelegatingConstructors.h"
+#include "_07_09_Destructors.h"
 
 int main()
 {
-	_07_08_OverlappingAndDelegatingConstructors::Test();
+	_07_09_Destructors::Test();
 	return 0;
 }
 

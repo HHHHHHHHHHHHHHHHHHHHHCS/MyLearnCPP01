@@ -273,6 +273,9 @@
     <ClCompile Include="_07_08_OverlappingAndDelegatingConstructors.cpp">
       <Filter>源文件\07</Filter>
     </ClCompile>
+    <ClCompile Include="_07_09_Destructors.cpp">
+      <Filter>源文件\07</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="MyLearnCPP01.h">
@@ -477,6 +480,9 @@
       <Filter>头文件\07</Filter>
     </ClInclude>
     <ClInclude Include="_07_08_OverlappingAndDelegatingConstructors.h">
+      <Filter>头文件\07</Filter>
+    </ClInclude>
+    <ClInclude Include="_07_09_Destructors.h">
       <Filter>头文件\07</Filter>
     </ClInclude>
   </ItemGroup>
