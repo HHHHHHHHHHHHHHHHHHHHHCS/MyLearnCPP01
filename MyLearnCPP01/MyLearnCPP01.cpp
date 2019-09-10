@@ -9,10 +9,11 @@
 #include "_07_07_NonStaticMemberInitialization.h"
 #include "_07_08_OverlappingAndDelegatingConstructors.h"
 #include "_07_09_Destructors.h"
+#include "_07_10_HiddenThisPointer.h"
 
 int main()
 {
-	_07_09_Destructors::Test();
+	_07_10_HiddenThisPointer::Test();
 	return 0;
 }
 
