@@ -229,6 +229,7 @@
     <ClCompile Include="_07_08_OverlappingAndDelegatingConstructors.cpp" />
     <ClCompile Include="_07_09_Destructors.cpp" />
     <ClCompile Include="_07_10_HiddenThisPointer.cpp" />
+    <ClCompile Include="_07_11_ConstClassFunctions.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="_04_Old_01_Operators.h" />
@@ -301,6 +302,7 @@
     <ClInclude Include="_07_08_OverlappingAndDelegatingConstructors.h" />
     <ClInclude Include="_07_09_Destructors.h" />
     <ClInclude Include="_07_10_HiddenThisPointer.h" />
+    <ClInclude Include="_07_11_ConstClassFunctions.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

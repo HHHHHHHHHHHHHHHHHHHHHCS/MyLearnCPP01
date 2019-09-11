@@ -10,10 +10,11 @@
 #include "_07_08_OverlappingAndDelegatingConstructors.h"
 #include "_07_09_Destructors.h"
 #include "_07_10_HiddenThisPointer.h"
+#include "_07_11_ConstClassFunctions.h"
 
 int main()
 {
-	_07_10_HiddenThisPointer::Test();
+	_07_11_ConstClassFunctions::Test();
 	return 0;
 }
 
