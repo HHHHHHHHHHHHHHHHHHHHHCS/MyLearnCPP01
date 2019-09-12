@@ -11,10 +11,11 @@
 #include "_07_09_Destructors.h"
 #include "_07_10_HiddenThisPointer.h"
 #include "_07_11_ConstClassFunctions.h"
+#include "_07_12_StaticMemberVariables.h"
 
 int main()
 {
-	_07_11_ConstClassFunctions::Test();
+	_07_12_StaticMemberVariables::Test();
 	return 0;
 }
 

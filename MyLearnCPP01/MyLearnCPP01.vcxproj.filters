@@ -282,6 +282,9 @@
     <ClCompile Include="_07_11_ConstClassFunctions.cpp">
       <Filter>源文件\07</Filter>
     </ClCompile>
+    <ClCompile Include="_07_12_StaticMemberVariables.cpp">
+      <Filter>源文件\07</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="MyLearnCPP01.h">
@@ -496,6 +499,9 @@
     </ClInclude>
     <ClInclude Include="_07_11_ConstClassFunctions.h">
       <Filter>头文件\07</Filter>
+    </ClInclude>
+    <ClInclude Include="_07_12_StaticMemberVariables.h">
+      <Filter>源文件\07</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
