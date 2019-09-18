@@ -159,6 +159,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="_07_14_FriendFunctionsClasses.cpp" />
     <ClCompile Include="_04_Old_01_Operators.cpp" />
     <ClCompile Include="_05_01_Random.cpp" />
     <ClCompile Include="_04_04_SignedIntegers.cpp" />
@@ -231,8 +232,10 @@
     <ClCompile Include="_07_10_HiddenThisPointer.cpp" />
     <ClCompile Include="_07_11_ConstClassFunctions.cpp" />
     <ClCompile Include="_07_12_StaticMemberVariables.cpp" />
+    <ClCompile Include="_07_13_StaticFunctions.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="_07_14_FriendFunctionsClasses.h" />
     <ClInclude Include="_04_Old_01_Operators.h" />
     <ClInclude Include="_05_01_Random.h" />
     <ClInclude Include="_04_04_SignedIntegers.h" />
@@ -305,6 +308,7 @@
     <ClInclude Include="_07_10_HiddenThisPointer.h" />
     <ClInclude Include="_07_11_ConstClassFunctions.h" />
     <ClInclude Include="_07_12_StaticMemberVariables.h" />
+    <ClInclude Include="_07_13_StaticFunctions.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
