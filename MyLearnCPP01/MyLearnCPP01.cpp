@@ -14,10 +14,11 @@
 #include "_07_12_StaticMemberVariables.h"
 #include "_07_13_StaticFunctions.h"
 #include "_07_14_FriendFunctionsClasses.h"
+#include "_07_15_AnonymousObjects.h"
 
 int main()
 {
-	_07_14_FriendFunctionsClasses::Test();
+	_07_15_AnonymousObjects::Test();
 	return 0;
 }
 

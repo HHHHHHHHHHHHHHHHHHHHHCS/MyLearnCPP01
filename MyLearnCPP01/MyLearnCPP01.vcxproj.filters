@@ -291,6 +291,9 @@
     <ClCompile Include="_07_14_FriendFunctionsClasses.cpp">
       <Filter>源文件\07</Filter>
     </ClCompile>
+    <ClCompile Include="_07_15_AnonymousObjects.cpp">
+      <Filter>源文件\07</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="MyLearnCPP01.h">
@@ -513,6 +516,9 @@
       <Filter>头文件\07</Filter>
     </ClInclude>
     <ClInclude Include="_07_14_FriendFunctionsClasses.h">
+      <Filter>头文件\07</Filter>
+    </ClInclude>
+    <ClInclude Include="_07_15_AnonymousObjects.h">
       <Filter>头文件\07</Filter>
     </ClInclude>
   </ItemGroup>
