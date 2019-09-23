@@ -15,10 +15,12 @@
 #include "_07_13_StaticFunctions.h"
 #include "_07_14_FriendFunctionsClasses.h"
 #include "_07_15_AnonymousObjects.h"
+#include "_07_16_NestedTypesInClasses.h"
+#include "_07_17_TimingCode.h"
 
 int main()
 {
-	_07_15_AnonymousObjects::Test();
+	_07_17_TimingCode::Test();
 	return 0;
 }
 

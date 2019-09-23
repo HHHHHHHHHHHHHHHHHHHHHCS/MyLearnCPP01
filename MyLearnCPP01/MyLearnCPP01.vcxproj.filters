@@ -294,6 +294,12 @@
     <ClCompile Include="_07_15_AnonymousObjects.cpp">
       <Filter>源文件\07</Filter>
     </ClCompile>
+    <ClCompile Include="_07_16_NestedTypesInClasses.cpp">
+      <Filter>源文件\07</Filter>
+    </ClCompile>
+    <ClCompile Include="_07_17_TimingCode.cpp">
+      <Filter>源文件\07</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="MyLearnCPP01.h">
@@ -519,6 +525,12 @@
       <Filter>头文件\07</Filter>
     </ClInclude>
     <ClInclude Include="_07_15_AnonymousObjects.h">
+      <Filter>头文件\07</Filter>
+    </ClInclude>
+    <ClInclude Include="_07_17_TimingCode.h">
+      <Filter>头文件\07</Filter>
+    </ClInclude>
+    <ClInclude Include="_07_16_NestedTypesInClasses.h">
       <Filter>头文件\07</Filter>
     </ClInclude>
   </ItemGroup>
