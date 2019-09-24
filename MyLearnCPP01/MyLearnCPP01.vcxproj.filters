@@ -67,6 +67,12 @@
     <Filter Include="源文件\07">
       <UniqueIdentifier>{15a1641c-bc7f-46a5-a6e9-619faf0102a3}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\08">
+      <UniqueIdentifier>{c670ca94-406d-4ebe-85d2-e0089b878908}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\08">
+      <UniqueIdentifier>{10584e00-a03e-46e0-a934-d27a88e74274}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="MyLearnCPP01.cpp">
@@ -300,6 +306,9 @@
     <ClCompile Include="_07_17_TimingCode.cpp">
       <Filter>源文件\07</Filter>
     </ClCompile>
+    <ClCompile Include="_08_01_ArithmeticOperators.cpp">
+      <Filter>源文件\08</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="MyLearnCPP01.h">
@@ -532,6 +541,9 @@
     </ClInclude>
     <ClInclude Include="_07_16_NestedTypesInClasses.h">
       <Filter>头文件\07</Filter>
+    </ClInclude>
+    <ClInclude Include="_08_01_ArithmeticOperators.h">
+      <Filter>头文件\08</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

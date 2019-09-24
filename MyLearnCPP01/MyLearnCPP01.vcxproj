@@ -236,6 +236,7 @@
     <ClCompile Include="_07_15_AnonymousObjects.cpp" />
     <ClCompile Include="_07_16_NestedTypesInClasses.cpp" />
     <ClCompile Include="_07_17_TimingCode.cpp" />
+    <ClCompile Include="_08_01_ArithmeticOperators.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="_07_14_FriendFunctionsClasses.h" />
@@ -315,6 +316,7 @@
     <ClInclude Include="_07_15_AnonymousObjects.h" />
     <ClInclude Include="_07_16_NestedTypesInClasses.h" />
     <ClInclude Include="_07_17_TimingCode.h" />
+    <ClInclude Include="_08_01_ArithmeticOperators.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
