@@ -5,7 +5,8 @@ using Cents = _08_01_ArithmeticOperators::Cents;
 
 void _08_01_ArithmeticOperators::Test()
 {
-	Test01();
+	//Test01();
+	Test02();
 }
 
 
@@ -33,9 +34,17 @@ void _08_01_ArithmeticOperators::Test01()
 	Cents centsMul = cents1 * cents2;
 	std::cout << centsMul.GetCents() << std::endl;
 
-	//TODO:Overloading operators for operands of different types
+	centsMul = cents1 * 8;
+	std::cout << centsMul.GetCents() << std::endl;
 }
 
 void _08_01_ArithmeticOperators::Test02()
 {
+	MinMax m1(10, 15);
+	MinMax m2(8, 11);
+	MinMax m3(3, 12);
+
+	MinMax final = m1 + m2 + 5 + 8 + m3 + 16;
+
+	std::cout << m1.GetMin() << ' ' << m2.GetMax() << '\n';
 }

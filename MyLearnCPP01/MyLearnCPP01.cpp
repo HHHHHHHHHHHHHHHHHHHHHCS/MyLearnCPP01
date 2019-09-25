@@ -17,10 +17,11 @@
 #include "_07_15_AnonymousObjects.h"
 #include "_07_16_NestedTypesInClasses.h"
 #include "_07_17_TimingCode.h"
+#include "_08_01_ArithmeticOperators.h"
 
 int main()
 {
-	_07_17_TimingCode::Test();
+	_08_01_ArithmeticOperators::Test();
 	return 0;
 }
 
