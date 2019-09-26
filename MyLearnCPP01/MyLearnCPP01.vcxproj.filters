@@ -309,6 +309,9 @@
     <ClCompile Include="_08_01_ArithmeticOperators.cpp">
       <Filter>源文件\08</Filter>
     </ClCompile>
+    <ClCompile Include="_08_02_OverloadingIOOperators.cpp">
+      <Filter>源文件\08</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="MyLearnCPP01.h">
@@ -543,6 +546,9 @@
       <Filter>头文件\07</Filter>
     </ClInclude>
     <ClInclude Include="_08_01_ArithmeticOperators.h">
+      <Filter>头文件\08</Filter>
+    </ClInclude>
+    <ClInclude Include="_08_02_OverloadingIOOperators.h">
       <Filter>头文件\08</Filter>
     </ClInclude>
   </ItemGroup>

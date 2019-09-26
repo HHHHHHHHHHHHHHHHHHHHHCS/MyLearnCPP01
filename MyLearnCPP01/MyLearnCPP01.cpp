@@ -18,10 +18,11 @@
 #include "_07_16_NestedTypesInClasses.h"
 #include "_07_17_TimingCode.h"
 #include "_08_01_ArithmeticOperators.h"
+#include "_08_02_OverloadingIOOperators.h"
 
 int main()
 {
-	_08_01_ArithmeticOperators::Test();
+	_08_02_OverloadingIOOperators::Test();
 	return 0;
 }
 
