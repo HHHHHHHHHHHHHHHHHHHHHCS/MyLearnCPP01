@@ -19,10 +19,11 @@
 #include "_07_17_TimingCode.h"
 #include "_08_01_ArithmeticOperators.h"
 #include "_08_02_OverloadingIOOperators.h"
+#include "_08_03_OverloadingOperatorsUsingMemberFunctions.h"
 
 int main()
 {
-	_08_02_OverloadingIOOperators::Test();
+	_08_03_OverloadingOperatorsUsingMemberFunctions::Test();
 	return 0;
 }
 
