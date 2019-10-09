@@ -20,10 +20,11 @@
 #include "_08_01_ArithmeticOperators.h"
 #include "_08_02_OverloadingIOOperators.h"
 #include "_08_03_OverloadingOperatorsUsingMemberFunctions.h"
+#include "_08_04_OverloadingUnaryOperators.h"
 
 int main()
 {
-	_08_03_OverloadingOperatorsUsingMemberFunctions::Test();
+	_08_04_OverloadingUnaryOperators::Test();
 	return 0;
 }
 

@@ -239,6 +239,7 @@
     <ClCompile Include="_08_01_ArithmeticOperators.cpp" />
     <ClCompile Include="_08_02_OverloadingIOOperators.cpp" />
     <ClCompile Include="_08_03_OverloadingOperatorsUsingMemberFunctions.cpp" />
+    <ClCompile Include="_08_04_OverloadingUnaryOperators.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="_07_14_FriendFunctionsClasses.h" />
@@ -321,6 +322,7 @@
     <ClInclude Include="_08_01_ArithmeticOperators.h" />
     <ClInclude Include="_08_02_OverloadingIOOperators.h" />
     <ClInclude Include="_08_03_OverloadingOperatorsUsingMemberFunctions.h" />
+    <ClInclude Include="_08_04_OverloadingUnaryOperators.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
