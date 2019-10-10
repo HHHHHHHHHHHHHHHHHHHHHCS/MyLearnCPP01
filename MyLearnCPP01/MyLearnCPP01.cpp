@@ -21,10 +21,11 @@
 #include "_08_02_OverloadingIOOperators.h"
 #include "_08_03_OverloadingOperatorsUsingMemberFunctions.h"
 #include "_08_04_OverloadingUnaryOperators.h"
+#include "_08_05_OverloadingComparisonOperators.h"
 
 int main()
 {
-	_08_04_OverloadingUnaryOperators::Test();
+	_08_05_OverloadingComparisonOperators::Test();
 	return 0;
 }
 
