@@ -22,10 +22,11 @@
 #include "_08_03_OverloadingOperatorsUsingMemberFunctions.h"
 #include "_08_04_OverloadingUnaryOperators.h"
 #include "_08_05_OverloadingComparisonOperators.h"
+#include "_08_06_OverloadingIncrementDecrementOperators.h"
 
 int main()
 {
-	_08_05_OverloadingComparisonOperators::Test();
+	_08_06_OverloadingIncrementDecrementOperators::Test();
 	return 0;
 }
 
