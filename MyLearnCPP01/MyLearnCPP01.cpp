@@ -23,10 +23,11 @@
 #include "_08_04_OverloadingUnaryOperators.h"
 #include "_08_05_OverloadingComparisonOperators.h"
 #include "_08_06_OverloadingIncrementDecrementOperators.h"
+#include "_08_07_OverloadingSubscriptOperator.h"
 
 int main()
 {
-	_08_06_OverloadingIncrementDecrementOperators::Test();
+	_08_07_OverloadingSubscriptOperator::Test();
 	return 0;
 }
 
