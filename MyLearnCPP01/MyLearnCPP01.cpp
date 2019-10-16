@@ -24,10 +24,11 @@
 #include "_08_05_OverloadingComparisonOperators.h"
 #include "_08_06_OverloadingIncrementDecrementOperators.h"
 #include "_08_07_OverloadingSubscriptOperator.h"
+#include "_08_08_OverloadingParenthesisOperator.h"
 
 int main()
 {
-	_08_07_OverloadingSubscriptOperator::Test();
+	_08_08_OverloadingParenthesisOperator::Test();
 	return 0;
 }
 

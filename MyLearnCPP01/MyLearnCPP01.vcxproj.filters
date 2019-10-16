@@ -327,6 +327,9 @@
     <ClCompile Include="_08_07_OverloadingSubscriptOperator.cpp">
       <Filter>源文件\08</Filter>
     </ClCompile>
+    <ClCompile Include="_08_08_OverloadingParenthesisOperator.cpp">
+      <Filter>源文件\08</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="MyLearnCPP01.h">
@@ -579,6 +582,9 @@
       <Filter>头文件\08</Filter>
     </ClInclude>
     <ClInclude Include="_08_07_OverloadingSubscriptOperator.h">
+      <Filter>头文件\08</Filter>
+    </ClInclude>
+    <ClInclude Include="_08_08_OverloadingParenthesisOperator.h">
       <Filter>头文件\08</Filter>
     </ClInclude>
   </ItemGroup>
