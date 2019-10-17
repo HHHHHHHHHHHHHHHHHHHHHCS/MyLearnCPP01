@@ -25,10 +25,11 @@
 #include "_08_06_OverloadingIncrementDecrementOperators.h"
 #include "_08_07_OverloadingSubscriptOperator.h"
 #include "_08_08_OverloadingParenthesisOperator.h"
+#include "_08_09_OverloadingTypecasts.h"
 
 int main()
 {
-	_08_08_OverloadingParenthesisOperator::Test();
+	_08_09_OverloadingTypecasts::Test();
 	return 0;
 }
 
