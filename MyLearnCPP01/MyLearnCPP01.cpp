@@ -26,10 +26,11 @@
 #include "_08_07_OverloadingSubscriptOperator.h"
 #include "_08_08_OverloadingParenthesisOperator.h"
 #include "_08_09_OverloadingTypecasts.h"
+#include "_08_10_CopyConstructor.h"
 
 int main()
 {
-	_08_09_OverloadingTypecasts::Test();
+	_08_10_CopyConstructor::Test();
 	return 0;
 }
 

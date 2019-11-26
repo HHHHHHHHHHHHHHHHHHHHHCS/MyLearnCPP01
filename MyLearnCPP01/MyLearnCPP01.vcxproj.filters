@@ -333,6 +333,9 @@
     <ClCompile Include="_08_09_OverloadingTypecasts.cpp">
       <Filter>源文件\08</Filter>
     </ClCompile>
+    <ClCompile Include="_08_10_CopyConstructor.cpp">
+      <Filter>源文件\08</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="MyLearnCPP01.h">
@@ -591,6 +594,9 @@
       <Filter>头文件\08</Filter>
     </ClInclude>
     <ClInclude Include="_08_09_OverloadingTypecasts.h">
+      <Filter>头文件\08</Filter>
+    </ClInclude>
+    <ClInclude Include="_08_10_CopyConstructor.h">
       <Filter>头文件\08</Filter>
     </ClInclude>
   </ItemGroup>
