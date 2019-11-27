@@ -27,10 +27,11 @@
 #include "_08_08_OverloadingParenthesisOperator.h"
 #include "_08_09_OverloadingTypecasts.h"
 #include "_08_10_CopyConstructor.h"
+#include "_08_11_CopyInitialization.h"
 
 int main()
 {
-	_08_10_CopyConstructor::Test();
+	_08_11_CopyInitialization::Test();
 	return 0;
 }
 

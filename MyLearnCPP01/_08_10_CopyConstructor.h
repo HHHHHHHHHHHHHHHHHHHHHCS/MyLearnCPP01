@@ -11,26 +11,30 @@ public:
 	private:
 		int m_numerator;
 		int m_denominator;
-/*
-		//写成私有的可以防止继承
-		Fraction(const Fraction& frac)
-			: m_numerator(frac.m_numerator), m_denominator(frac.m_denominator)
-		{
-			std::cout << "Copy constructor called\n ";
-		}
-*/
+		/*
+				//写成私有的可以防止继承
+				Fraction(const Fraction& frac)
+					: m_numerator(frac.m_numerator), m_denominator(frac.m_denominator)
+				{
+					std::cout << "Copy constructor called\n ";
+				}
+		*/
 	public:
-		//会自动继承 复制构造函数
-		Fraction(int num = 0, int deno = 1)
-			: m_numerator(num), m_denominator(deno)
-		{
-			assert(deno != 0);
-		}
 
-		Fraction(const Fraction& frac)
-			: m_numerator(frac.m_numerator), m_denominator(frac.m_denominator)
+		//默认会有一个克隆的构造函数 除非自己手写把他继承
+		/*
+				Fraction(const Fraction& frac)
+					: m_numerator(frac.m_numerator), m_denominator(frac.m_denominator)
+				{
+					std::cout << "Copy constructor called\n ";
+				}
+		*/
+
+		Fraction(int num = 0, int deno = 1)
+			: m_numerator(num * 2), m_denominator(deno * 3)
 		{
-			std::cout << "Copy constructor called\n ";
+			std::cout << "num:" << num << " deno:" << deno << '\n';
+			assert(deno != 0);
 		}
 
 		friend std::ostream& operator<<(std::ostream& out, const Fraction& f1)
