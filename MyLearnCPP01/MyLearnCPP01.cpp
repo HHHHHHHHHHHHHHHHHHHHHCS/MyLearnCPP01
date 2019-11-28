@@ -28,10 +28,11 @@
 #include "_08_09_OverloadingTypecasts.h"
 #include "_08_10_CopyConstructor.h"
 #include "_08_11_CopyInitialization.h"
+#include "_08_12_ConvertingConstructorsExplicitDelete.h"
 
 int main()
 {
-	_08_11_CopyInitialization::Test();
+	_08_12_ConvertingConstructorsExplicitDelete::Test();
 	return 0;
 }
 

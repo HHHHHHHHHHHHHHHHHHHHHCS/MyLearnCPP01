@@ -247,6 +247,7 @@
     <ClCompile Include="_08_09_OverloadingTypecasts.cpp" />
     <ClCompile Include="_08_10_CopyConstructor.cpp" />
     <ClCompile Include="_08_11_CopyInitialization.cpp" />
+    <ClCompile Include="_08_12_ConvertingConstructorsExplicitDelete.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="_07_14_FriendFunctionsClasses.h" />
@@ -337,6 +338,7 @@
     <ClInclude Include="_08_09_OverloadingTypecasts.h" />
     <ClInclude Include="_08_10_CopyConstructor.h" />
     <ClInclude Include="_08_11_CopyInitialization.h" />
+    <ClInclude Include="_08_12_ConvertingConstructorsExplicitDelete.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
