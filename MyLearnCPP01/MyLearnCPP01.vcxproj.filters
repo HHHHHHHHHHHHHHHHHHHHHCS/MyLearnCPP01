@@ -345,6 +345,9 @@
     <ClCompile Include="_08_13_OverloadingAssignmentOperator.cpp">
       <Filter>源文件\08</Filter>
     </ClCompile>
+    <ClCompile Include="_08_14_ShallowSeepCopying.cpp">
+      <Filter>源文件\08</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="MyLearnCPP01.h">
@@ -615,6 +618,9 @@
       <Filter>头文件\08</Filter>
     </ClInclude>
     <ClInclude Include="_08_13_OverloadingAssignmentOperator.h">
+      <Filter>头文件\08</Filter>
+    </ClInclude>
+    <ClInclude Include="_08_14_ShallowSeepCopying.h">
       <Filter>头文件\08</Filter>
     </ClInclude>
   </ItemGroup>

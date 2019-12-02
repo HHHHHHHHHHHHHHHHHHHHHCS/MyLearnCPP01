@@ -249,6 +249,7 @@
     <ClCompile Include="_08_11_CopyInitialization.cpp" />
     <ClCompile Include="_08_12_ConvertingConstructorsExplicitDelete.cpp" />
     <ClCompile Include="_08_13_OverloadingAssignmentOperator.cpp" />
+    <ClCompile Include="_08_14_ShallowSeepCopying.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="_07_14_FriendFunctionsClasses.h" />
@@ -341,6 +342,7 @@
     <ClInclude Include="_08_11_CopyInitialization.h" />
     <ClInclude Include="_08_12_ConvertingConstructorsExplicitDelete.h" />
     <ClInclude Include="_08_13_OverloadingAssignmentOperator.h" />
+    <ClInclude Include="_08_14_ShallowSeepCopying.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
