@@ -73,6 +73,12 @@
     <Filter Include="头文件\08">
       <UniqueIdentifier>{10584e00-a03e-46e0-a934-d27a88e74274}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\09">
+      <UniqueIdentifier>{f4167478-1b1c-4512-8b69-d3efa203e7c7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\09">
+      <UniqueIdentifier>{120eb215-3170-4689-8ace-853343b4f32a}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="MyLearnCPP01.cpp">
@@ -348,6 +354,9 @@
     <ClCompile Include="_08_14_ShallowSeepCopying.cpp">
       <Filter>源文件\08</Filter>
     </ClCompile>
+    <ClCompile Include="_09_01_Composition.cpp">
+      <Filter>源文件\09</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="MyLearnCPP01.h">
@@ -622,6 +631,9 @@
     </ClInclude>
     <ClInclude Include="_08_14_ShallowSeepCopying.h">
       <Filter>头文件\08</Filter>
+    </ClInclude>
+    <ClInclude Include="_09_01_Composition.h">
+      <Filter>头文件\09</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
