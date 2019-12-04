@@ -1,10 +1,11 @@
 ﻿#include  "MyLearnCPP01.h"
 #include "_08_14_ShallowSeepCopying.h"
 #include "_09_01_Composition.h"
+#include "_09_02_Aggregation.h"
 
 int main()
 {
-	_09_01_Composition::Test();
+	_09_02_Aggregation::Test();
 	return 0;
 }
 

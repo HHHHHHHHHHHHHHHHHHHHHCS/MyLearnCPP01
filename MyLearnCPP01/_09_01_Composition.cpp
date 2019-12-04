@@ -1,6 +1,5 @@
 ﻿#include "_09_01_Composition.h"
 #include <iostream>
-#include <string>
 
 void _09_01_Composition::Test()
 {
