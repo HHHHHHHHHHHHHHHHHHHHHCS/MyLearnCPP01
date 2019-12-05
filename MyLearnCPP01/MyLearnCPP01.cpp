@@ -2,10 +2,11 @@
 #include "_08_14_ShallowSeepCopying.h"
 #include "_09_01_Composition.h"
 #include "_09_02_Aggregation.h"
+#include "_09_03_Association.h"
 
 int main()
 {
-	_09_02_Aggregation::Test();
+	_09_03_Association::Test();
 	return 0;
 }
 

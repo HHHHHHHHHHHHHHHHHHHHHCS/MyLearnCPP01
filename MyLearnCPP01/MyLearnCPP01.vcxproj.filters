@@ -360,6 +360,9 @@
     <ClCompile Include="_09_02_Aggregation.cpp">
       <Filter>源文件\09</Filter>
     </ClCompile>
+    <ClCompile Include="_09_03_Association.cpp">
+      <Filter>源文件\09</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="MyLearnCPP01.h">
@@ -639,6 +642,9 @@
       <Filter>头文件\09</Filter>
     </ClInclude>
     <ClInclude Include="_09_02_Aggregation.h">
+      <Filter>头文件\09</Filter>
+    </ClInclude>
+    <ClInclude Include="_09_03_Association.h">
       <Filter>头文件\09</Filter>
     </ClInclude>
   </ItemGroup>
