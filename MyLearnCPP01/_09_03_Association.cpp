@@ -3,7 +3,9 @@
 
 void _09_03_Association::Test()
 {
-	Test01();
+	//Test01();
+	//Test02();
+	Test03();
 }
 
 void _09_03_Association::Test01()
@@ -33,6 +35,23 @@ void _09_03_Association::Test01()
 
 	delete d1;
 	delete d2;
+}
 
 
+void _09_03_Association::Test02()
+{
+	Course c1{"c1"};
+	Course c2{"c2", &c1};
+}
+
+_09_03_Association::Car _09_03_Association::CarLot::s_carLot[4] = {{"car0", 0}, {"car1", 1}, {"car2", 2}, {"car3", 3}};
+
+void _09_03_Association::Test03()
+{
+	Driver driver0{"d0", 0};
+	Driver driver1{"d1", 1};
+	Driver driver2{"d2", 2};
+	Driver driver3{"d3", 3};
+
+	std::cout << CarLot::GetCar(driver2.GetCarID())->GetName();
 }

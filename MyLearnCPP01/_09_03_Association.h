@@ -95,6 +95,76 @@ public:
 		friend void Doctor::AddPatient(Patient* pat);
 	};
 
+	//---------------------
+	class Course
+	{
+	private:
+		std::string m_name;
+		Course* m_prerequisite;
+	public:
+		Course(std::string name, Course* prerequisite = nullptr)
+			: m_name(name), m_prerequisite(prerequisite)
+		{
+		}
+	};
+
+	//--------------------
+	class Car
+	{
+	private:
+		std::string m_name;
+		int m_id;
+
+	public:
+		Car(std::string name, int id)
+			: m_name(name), m_id(id)
+		{
+		}
+
+		std::string GetName() const { return m_name; }
+
+		int GetID() const
+		{
+			return m_id;
+		}
+	};
+
+	class CarLot
+	{
+	private:
+	public:
+		static Car s_carLot[4];
+
+
+		CarLot() = delete;
+
+		static Car* GetCar(int id)
+		{
+			for (int count = 0; count < 4; count++)
+			{
+				if (s_carLot[count].GetID() == id)
+					return &(s_carLot[count]);
+			}
+			return nullptr;
+		}
+	};
+
+	class Driver
+	{
+	private:
+		std::string m_name;
+		int m_carID;
+
+	public :
+		Driver(std::string name, int carID)
+			: m_name(name), m_carID(carID)
+		{
+		}
+
+		std::string GetName() { return m_name; }
+		int GetCarID() { return m_carID; }
+	};
+
 	static void Test();
 	static void Test01();
 	static void Test02();
