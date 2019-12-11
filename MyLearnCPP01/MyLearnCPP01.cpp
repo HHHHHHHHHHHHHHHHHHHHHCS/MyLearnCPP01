@@ -3,10 +3,11 @@
 #include "_09_01_Composition.h"
 #include "_09_02_Aggregation.h"
 #include "_09_03_Association.h"
+#include "_09_04_Dpendencies.h"
 
 int main()
 {
-	_09_03_Association::Test();
+	_09_04_Dpendencies::Test();
 	return 0;
 }
 
