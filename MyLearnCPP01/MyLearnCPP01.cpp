@@ -4,10 +4,11 @@
 #include "_09_02_Aggregation.h"
 #include "_09_03_Association.h"
 #include "_09_04_Dpendencies.h"
+#include "_09_05_Container.h"
 
 int main()
 {
-	_09_04_Dpendencies::Test();
+	_09_05_Container::Test();
 	return 0;
 }
 

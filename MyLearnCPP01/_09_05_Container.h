@@ -84,8 +84,55 @@ public:
 			delete[] m_data;
 
 			m_data = data;
-			m_length = newLength
+			m_length = newLength;
 		}
+
+		void InsertBefore(int value, int index)
+		{
+			assert(index >= 0 && index <= m_length);
+
+			int* data{new int[m_length + 1]};
+
+			//copy old data
+			for (int before{0}; before < index; ++before)
+				data[before] = m_data[before];
+
+			data[index] = value;
+
+			for (int after{index}; after < m_length; ++after)
+				data[after + 1] = m_data[after];
+
+			delete[] m_data;
+			m_data = data;
+			++m_length;
+		}
+
+		void Remove(int index)
+		{
+			assert(index >= 0 && index < m_length);
+
+			if (m_length == 1)
+			{
+				Erase();
+				return;
+			}
+
+			int* data{new int[m_length - 1]};
+
+			//copy old data
+			for (int before{0}; before < index; ++before)
+				data[before] = m_data[before];
+
+			for (int after{index + 1}; after < m_length; ++after)
+				data[after - 1] = m_data[after];
+
+			delete[] m_data;
+			m_data = data;
+			--m_length;
+		}
+
+		void InsertAtBeginning(int value) { InsertBefore(value, 0); }
+		void InsertAtEnd(int value) { InsertBefore(value, m_length); }
 	};
 
 
