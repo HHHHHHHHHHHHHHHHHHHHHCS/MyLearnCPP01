@@ -369,6 +369,9 @@
     <ClCompile Include="_09_05_Container.cpp">
       <Filter>源文件\09</Filter>
     </ClCompile>
+    <ClCompile Include="_09_06_InitializerList.cpp">
+      <Filter>源文件\09</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="MyLearnCPP01.h">
@@ -657,6 +660,9 @@
       <Filter>头文件\09</Filter>
     </ClInclude>
     <ClInclude Include="_09_05_Container.h">
+      <Filter>头文件\09</Filter>
+    </ClInclude>
+    <ClInclude Include="_09_06_InitializerList.h">
       <Filter>头文件\09</Filter>
     </ClInclude>
   </ItemGroup>

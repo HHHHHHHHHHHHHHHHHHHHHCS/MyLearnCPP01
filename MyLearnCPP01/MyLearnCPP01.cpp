@@ -5,10 +5,11 @@
 #include "_09_03_Association.h"
 #include "_09_04_Dpendencies.h"
 #include "_09_05_Container.h"
+#include "_09_06_InitializerList.h"
 
 int main()
 {
-	_09_05_Container::Test();
+	_09_06_InitializerList::Test();
 	return 0;
 }
 
