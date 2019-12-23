@@ -6,10 +6,11 @@
 #include "_09_04_Dpendencies.h"
 #include "_09_05_Container.h"
 #include "_09_06_InitializerList.h"
+#include "_10_01_BasicInheritance.h"
 
 int main()
 {
-	_09_06_InitializerList::Test();
+	_10_01_BasicInheritance::Test();
 	return 0;
 }
 

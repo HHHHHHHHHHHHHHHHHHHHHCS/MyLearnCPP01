@@ -256,6 +256,7 @@
     <ClCompile Include="_09_04_Dpendencies.cpp" />
     <ClCompile Include="_09_05_Container.cpp" />
     <ClCompile Include="_09_06_InitializerList.cpp" />
+    <ClCompile Include="_10_01_BasicInheritance.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="_07_14_FriendFunctionsClasses.h" />
@@ -355,6 +356,7 @@
     <ClInclude Include="_09_04_Dpendencies.h" />
     <ClInclude Include="_09_05_Container.h" />
     <ClInclude Include="_09_06_InitializerList.h" />
+    <ClInclude Include="_10_01_BasicInheritance.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
