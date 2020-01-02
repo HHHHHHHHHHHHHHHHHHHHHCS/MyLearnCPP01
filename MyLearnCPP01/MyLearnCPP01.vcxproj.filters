@@ -381,6 +381,12 @@
     <ClCompile Include="_10_01_BasicInheritance.cpp">
       <Filter>源文件\10</Filter>
     </ClCompile>
+    <ClCompile Include="_10_02_OrderConstructionClasses.cpp">
+      <Filter>源文件\10</Filter>
+    </ClCompile>
+    <ClCompile Include="_10_03_ConstructorsInitializationClasses.cpp">
+      <Filter>源文件\10</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="MyLearnCPP01.h">
@@ -676,6 +682,12 @@
     </ClInclude>
     <ClInclude Include="_10_01_BasicInheritance.h">
       <Filter>头文件\10</Filter>
+    </ClInclude>
+    <ClInclude Include="_10_02_OrderConstructionClasses.h">
+      <Filter>头文件\10</Filter>
+    </ClInclude>
+    <ClInclude Include="_10_03_ConstructorsInitializationClasses.h">
+      <Filter>源文件\10</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

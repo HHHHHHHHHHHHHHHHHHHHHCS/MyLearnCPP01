@@ -7,10 +7,12 @@
 #include "_09_05_Container.h"
 #include "_09_06_InitializerList.h"
 #include "_10_01_BasicInheritance.h"
+#include "_10_02_OrderConstructionClasses.h"
+#include "_10_03_ConstructorsInitializationClasses.h"
 
 int main()
 {
-	_10_01_BasicInheritance::Test();
+	_10_03_ConstructorsInitializationClasses::Test();
 	return 0;
 }
 
