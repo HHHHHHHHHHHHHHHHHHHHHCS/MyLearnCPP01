@@ -390,6 +390,9 @@
     <ClCompile Include="_10_04_InheritanceAccessSpecifiers.cpp">
       <Filter>源文件\10</Filter>
     </ClCompile>
+    <ClCompile Include="_10_05_AddingNewFunctionality.cpp">
+      <Filter>源文件\10</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="MyLearnCPP01.h">
@@ -693,6 +696,9 @@
       <Filter>源文件\10</Filter>
     </ClInclude>
     <ClInclude Include="_10_04_InheritanceAccessSpecifiers.h">
+      <Filter>源文件\10</Filter>
+    </ClInclude>
+    <ClInclude Include="_10_05_AddingNewFunctionality.h">
       <Filter>源文件\10</Filter>
     </ClInclude>
   </ItemGroup>

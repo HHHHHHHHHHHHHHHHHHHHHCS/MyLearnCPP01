@@ -260,6 +260,7 @@
     <ClCompile Include="_10_02_OrderConstructionClasses.cpp" />
     <ClCompile Include="_10_03_ConstructorsInitializationClasses.cpp" />
     <ClCompile Include="_10_04_InheritanceAccessSpecifiers.cpp" />
+    <ClCompile Include="_10_05_AddingNewFunctionality.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="_07_14_FriendFunctionsClasses.h" />
@@ -363,6 +364,7 @@
     <ClInclude Include="_10_02_OrderConstructionClasses.h" />
     <ClInclude Include="_10_03_ConstructorsInitializationClasses.h" />
     <ClInclude Include="_10_04_InheritanceAccessSpecifiers.h" />
+    <ClInclude Include="_10_05_AddingNewFunctionality.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

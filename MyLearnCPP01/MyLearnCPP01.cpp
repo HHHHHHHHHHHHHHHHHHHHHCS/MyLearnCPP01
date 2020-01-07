@@ -9,10 +9,12 @@
 #include "_10_01_BasicInheritance.h"
 #include "_10_02_OrderConstructionClasses.h"
 #include "_10_03_ConstructorsInitializationClasses.h"
+#include "_10_04_InheritanceAccessSpecifiers.h"
+#include "_10_05_AddingNewFunctionality.h"
 
 int main()
 {
-	_10_03_ConstructorsInitializationClasses::Test();
+	_10_04_InheritanceAccessSpecifiers::Test();
 	return 0;
 }
 
