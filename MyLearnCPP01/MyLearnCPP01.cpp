@@ -11,10 +11,11 @@
 #include "_10_03_ConstructorsInitializationClasses.h"
 #include "_10_04_InheritanceAccessSpecifiers.h"
 #include "_10_05_AddingNewFunctionality.h"
+#include "_10_6_InheritedOverridingFunctions.h"
 
 int main()
 {
-	_10_04_InheritanceAccessSpecifiers::Test();
+	_10_6_InheritedOverridingFunctions::Test();
 	return 0;
 }
 
