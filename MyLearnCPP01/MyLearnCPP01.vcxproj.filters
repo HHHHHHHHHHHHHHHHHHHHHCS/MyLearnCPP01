@@ -396,6 +396,9 @@
     <ClCompile Include="_10_6_InheritedOverridingFunctions.cpp">
       <Filter>源文件\10</Filter>
     </ClCompile>
+    <ClCompile Include="_10_7_MultipleInheritance.cpp">
+      <Filter>源文件\10</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="MyLearnCPP01.h">
@@ -706,6 +709,9 @@
     </ClInclude>
     <ClInclude Include="_10_03_ConstructorsInitializationClasses.h">
       <Filter>头文件\10</Filter>
+    </ClInclude>
+    <ClInclude Include="_10_7_MultipleInheritance.h">
+      <Filter>源文件\10</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

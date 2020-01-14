@@ -12,10 +12,11 @@
 #include "_10_04_InheritanceAccessSpecifiers.h"
 #include "_10_05_AddingNewFunctionality.h"
 #include "_10_6_InheritedOverridingFunctions.h"
+#include "_10_7_MultipleInheritance.h"
 
 int main()
 {
-	_10_6_InheritedOverridingFunctions::Test();
+	_10_7_MultipleInheritance::Test();
 	return 0;
 }
 

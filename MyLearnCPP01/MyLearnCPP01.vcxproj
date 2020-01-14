@@ -262,6 +262,7 @@
     <ClCompile Include="_10_04_InheritanceAccessSpecifiers.cpp" />
     <ClCompile Include="_10_05_AddingNewFunctionality.cpp" />
     <ClCompile Include="_10_6_InheritedOverridingFunctions.cpp" />
+    <ClCompile Include="_10_7_MultipleInheritance.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="_07_14_FriendFunctionsClasses.h" />
@@ -367,6 +368,7 @@
     <ClInclude Include="_10_04_InheritanceAccessSpecifiers.h" />
     <ClInclude Include="_10_05_AddingNewFunctionality.h" />
     <ClInclude Include="_10_6_InheritedOverridingFunctions.h" />
+    <ClInclude Include="_10_7_MultipleInheritance.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
