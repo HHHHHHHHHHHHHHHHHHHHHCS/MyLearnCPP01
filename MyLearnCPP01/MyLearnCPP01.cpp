@@ -13,10 +13,11 @@
 #include "_10_05_AddingNewFunctionality.h"
 #include "_10_6_InheritedOverridingFunctions.h"
 #include "_10_7_MultipleInheritance.h"
+#include "_11_01_PointersReferencesBaseClass.h"
 
 int main()
 {
-	_10_7_MultipleInheritance::Test();
+	_11_01_PointersReferencesBaseClass::Test();
 	return 0;
 }
 
