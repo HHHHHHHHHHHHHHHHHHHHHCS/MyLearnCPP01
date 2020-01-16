@@ -88,6 +88,9 @@
     <Filter Include="源文件\11">
       <UniqueIdentifier>{4c2ae0b2-289f-4018-bdde-c89879db28b0}</UniqueIdentifier>
     </Filter>
+    <Filter Include="头文件\11">
+      <UniqueIdentifier>{8de9f7d2-188d-402b-99f6-bf481d6b642a}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="MyLearnCPP01.cpp">
@@ -717,10 +720,10 @@
       <Filter>头文件\10</Filter>
     </ClInclude>
     <ClInclude Include="_10_7_MultipleInheritance.h">
-      <Filter>源文件\10</Filter>
+      <Filter>头文件\10</Filter>
     </ClInclude>
     <ClInclude Include="_11_01_PointersReferencesBaseClass.h">
-      <Filter>源文件\11</Filter>
+      <Filter>头文件\11</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
