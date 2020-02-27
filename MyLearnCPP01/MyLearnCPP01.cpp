@@ -14,10 +14,11 @@
 #include "_10_6_InheritedOverridingFunctions.h"
 #include "_10_7_MultipleInheritance.h"
 #include "_11_01_PointersReferencesBaseClass.h"
+#include "_11_02_VirtualFunctionsAndPolymorphism.h"
 
 int main()
 {
-	_11_01_PointersReferencesBaseClass::Test();
+	_11_02_VirtualFunctionsAndPolymorphism::Test();
 	return 0;
 }
 
