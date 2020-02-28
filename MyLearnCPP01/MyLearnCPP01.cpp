@@ -15,10 +15,11 @@
 #include "_10_7_MultipleInheritance.h"
 #include "_11_01_PointersReferencesBaseClass.h"
 #include "_11_02_VirtualFunctionsAndPolymorphism.h"
+#include "_11_03_OverrideFinalAndCovariantReturnTypes.h"
 
 int main()
 {
-	_11_02_VirtualFunctionsAndPolymorphism::Test();
+	_11_03_OverrideFinalAndCovariantReturnTypes::Test();
 	return 0;
 }
 
