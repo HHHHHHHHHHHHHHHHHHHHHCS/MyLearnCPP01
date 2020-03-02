@@ -266,6 +266,7 @@
     <ClCompile Include="_11_01_PointersReferencesBaseClass.cpp" />
     <ClCompile Include="_11_02_VirtualFunctionsAndPolymorphism.cpp" />
     <ClCompile Include="_11_03_OverrideFinalAndCovariantReturnTypes.cpp" />
+    <ClCompile Include="_11_04_VirtualDestructorsVirtualAssignmentOverridingVirtualization.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="_07_14_FriendFunctionsClasses.h" />
@@ -375,6 +376,7 @@
     <ClInclude Include="_11_01_PointersReferencesBaseClass.h" />
     <ClInclude Include="_11_02_VirtualFunctionsAndPolymorphism.h" />
     <ClInclude Include="_11_03_OverrideFinalAndCovariantReturnTypes.h" />
+    <ClInclude Include="_11_04_VirtualDestructorsVirtualAssignmentOverridingVirtualization.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

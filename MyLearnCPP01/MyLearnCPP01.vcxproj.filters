@@ -414,6 +414,9 @@
     <ClCompile Include="_11_03_OverrideFinalAndCovariantReturnTypes.cpp">
       <Filter>源文件\11</Filter>
     </ClCompile>
+    <ClCompile Include="_11_04_VirtualDestructorsVirtualAssignmentOverridingVirtualization.cpp">
+      <Filter>源文件\11</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="MyLearnCPP01.h">
@@ -735,6 +738,9 @@
       <Filter>头文件\11</Filter>
     </ClInclude>
     <ClInclude Include="_11_03_OverrideFinalAndCovariantReturnTypes.h">
+      <Filter>源文件\11</Filter>
+    </ClInclude>
+    <ClInclude Include="_11_04_VirtualDestructorsVirtualAssignmentOverridingVirtualization.h">
       <Filter>源文件\11</Filter>
     </ClInclude>
   </ItemGroup>

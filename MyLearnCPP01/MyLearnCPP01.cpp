@@ -16,10 +16,11 @@
 #include "_11_01_PointersReferencesBaseClass.h"
 #include "_11_02_VirtualFunctionsAndPolymorphism.h"
 #include "_11_03_OverrideFinalAndCovariantReturnTypes.h"
+#include "_11_04_VirtualDestructorsVirtualAssignmentOverridingVirtualization.h"
 
 int main()
 {
-	_11_03_OverrideFinalAndCovariantReturnTypes::Test();
+	_11_04_VirtualDestructorsVirtualAssignmentOverridingVirtualization::Test();
 	return 0;
 }
 
