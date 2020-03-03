@@ -17,10 +17,11 @@
 #include "_11_02_VirtualFunctionsAndPolymorphism.h"
 #include "_11_03_OverrideFinalAndCovariantReturnTypes.h"
 #include "_11_04_VirtualDestructorsVirtualAssignmentOverridingVirtualization.h"
+#include "_11_05_EarlyBindingLateBinding.h"
 
 int main()
 {
-	_11_04_VirtualDestructorsVirtualAssignmentOverridingVirtualization::Test();
+	_11_05_EarlyBindingLateBinding::Test();
 	return 0;
 }
 
