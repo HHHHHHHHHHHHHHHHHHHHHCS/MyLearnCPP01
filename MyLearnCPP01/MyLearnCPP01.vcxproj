@@ -268,6 +268,7 @@
     <ClCompile Include="_11_05_EarlyBindingLateBinding.cpp" />
     <ClCompile Include="_11_03_OverrideFinalAndCovariantReturnTypes.cpp" />
     <ClCompile Include="_11_04_VirtualDestructorsVirtualAssignmentOverridingVirtualization.cpp" />
+    <ClCompile Include="_11_06_VirtualTable.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="_07_14_FriendFunctionsClasses.h" />
@@ -379,6 +380,7 @@
     <ClInclude Include="_11_05_EarlyBindingLateBinding.h" />
     <ClInclude Include="_11_03_OverrideFinalAndCovariantReturnTypes.h" />
     <ClInclude Include="_11_04_VirtualDestructorsVirtualAssignmentOverridingVirtualization.h" />
+    <ClInclude Include="_11_06_VirtualTable.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

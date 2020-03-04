@@ -420,6 +420,9 @@
     <ClCompile Include="_11_05_EarlyBindingLateBinding.cpp">
       <Filter>源文件\11</Filter>
     </ClCompile>
+    <ClCompile Include="_11_06_VirtualTable.cpp">
+      <Filter>源文件\11</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="MyLearnCPP01.h">
@@ -748,6 +751,9 @@
     </ClInclude>
     <ClInclude Include="_11_05_EarlyBindingLateBinding.h">
       <Filter>头文件\11</Filter>
+    </ClInclude>
+    <ClInclude Include="_11_06_VirtualTable.h">
+      <Filter>源文件\11</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
