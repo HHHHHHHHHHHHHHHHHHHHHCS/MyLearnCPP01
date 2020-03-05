@@ -18,10 +18,13 @@
 #include "_11_03_OverrideFinalAndCovariantReturnTypes.h"
 #include "_11_04_VirtualDestructorsVirtualAssignmentOverridingVirtualization.h"
 #include "_11_05_EarlyBindingLateBinding.h"
+#include "_11_06_VirtualTable.h"
+#include "_11_07_PureVirtualAndAbstractAndInterface.h"
+
 
 int main()
 {
-	_11_05_EarlyBindingLateBinding::Test();
+	_11_07_PureVirtualAndAbstractAndInterface::Test();
 	return 0;
 }
 
