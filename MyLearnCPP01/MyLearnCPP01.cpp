@@ -20,11 +20,12 @@
 #include "_11_05_EarlyBindingLateBinding.h"
 #include "_11_06_VirtualTable.h"
 #include "_11_07_PureVirtualAndAbstractAndInterface.h"
+#include "_11_08_VirtualBaseClasses.h"
 
 
 int main()
 {
-	_11_07_PureVirtualAndAbstractAndInterface::Test();
+	_11_08_VirtualBaseClasses::Test();
 	return 0;
 }
 

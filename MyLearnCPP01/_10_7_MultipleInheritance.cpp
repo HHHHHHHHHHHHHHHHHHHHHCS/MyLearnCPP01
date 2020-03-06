@@ -2,7 +2,7 @@
 
 void _10_7_MultipleInheritance::Test()
 {
-	Test01();
+	//Test01();
 	Test02();
 }
 
