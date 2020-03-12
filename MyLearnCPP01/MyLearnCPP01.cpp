@@ -21,11 +21,12 @@
 #include "_11_06_VirtualTable.h"
 #include "_11_07_PureVirtualAndAbstractAndInterface.h"
 #include "_11_08_VirtualBaseClasses.h"
+#include "_11_09_ObjectSlicing.h"
 
 
 int main()
 {
-	_11_08_VirtualBaseClasses::Test();
+	_11_09_ObjectSlicing::Test();
 	return 0;
 }
 

@@ -271,6 +271,7 @@
     <ClCompile Include="_11_06_VirtualTable.cpp" />
     <ClCompile Include="_11_07_PureVirtualAndAbstractAndInterface.cpp" />
     <ClCompile Include="_11_08_VirtualBaseClasses.cpp" />
+    <ClCompile Include="_11_09_ObjectSlicing.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="_07_14_FriendFunctionsClasses.h" />
@@ -385,6 +386,7 @@
     <ClInclude Include="_11_06_VirtualTable.h" />
     <ClInclude Include="_11_07_PureVirtualAndAbstractAndInterface.h" />
     <ClInclude Include="_11_08_VirtualBaseClasses.h" />
+    <ClInclude Include="_11_09_ObjectSlicing.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
