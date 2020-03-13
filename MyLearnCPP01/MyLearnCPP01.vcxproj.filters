@@ -432,6 +432,9 @@
     <ClCompile Include="_11_09_ObjectSlicing.cpp">
       <Filter>源文件\11</Filter>
     </ClCompile>
+    <ClCompile Include="_11_10_DynamicStaticCasting.cpp">
+      <Filter>源文件\11</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="MyLearnCPP01.h">
@@ -771,6 +774,9 @@
       <Filter>源文件\11</Filter>
     </ClInclude>
     <ClInclude Include="_11_09_ObjectSlicing.h">
+      <Filter>源文件\11</Filter>
+    </ClInclude>
+    <ClInclude Include="_11_10_DynamicStaticCasting.h">
       <Filter>源文件\11</Filter>
     </ClInclude>
   </ItemGroup>

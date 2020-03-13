@@ -22,11 +22,12 @@
 #include "_11_07_PureVirtualAndAbstractAndInterface.h"
 #include "_11_08_VirtualBaseClasses.h"
 #include "_11_09_ObjectSlicing.h"
+#include "_11_10_DynamicStaticCasting.h"
 
 
 int main()
 {
-	_11_09_ObjectSlicing::Test();
+	_11_10_DynamicStaticCasting::Test();
 	return 0;
 }
 
