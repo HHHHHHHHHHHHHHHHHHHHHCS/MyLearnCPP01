@@ -23,11 +23,12 @@
 #include "_11_08_VirtualBaseClasses.h"
 #include "_11_09_ObjectSlicing.h"
 #include "_11_10_DynamicStaticCasting.h"
+#include "_11_11_PrintingUsingOperator.h"
 
 
 int main()
 {
-	_11_10_DynamicStaticCasting::Test();
+	_11_11_PrintingUsingOperator::Test();
 	return 0;
 }
 

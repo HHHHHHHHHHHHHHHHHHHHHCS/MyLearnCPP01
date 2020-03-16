@@ -273,6 +273,7 @@
     <ClCompile Include="_11_08_VirtualBaseClasses.cpp" />
     <ClCompile Include="_11_09_ObjectSlicing.cpp" />
     <ClCompile Include="_11_10_DynamicStaticCasting.cpp" />
+    <ClCompile Include="_11_11_PrintingUsingOperator.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="_07_14_FriendFunctionsClasses.h" />
@@ -389,6 +390,7 @@
     <ClInclude Include="_11_08_VirtualBaseClasses.h" />
     <ClInclude Include="_11_09_ObjectSlicing.h" />
     <ClInclude Include="_11_10_DynamicStaticCasting.h" />
+    <ClInclude Include="_11_11_PrintingUsingOperator.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
