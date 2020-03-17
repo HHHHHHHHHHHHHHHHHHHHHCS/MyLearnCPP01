@@ -91,6 +91,9 @@
     <Filter Include="头文件\11">
       <UniqueIdentifier>{8de9f7d2-188d-402b-99f6-bf481d6b642a}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\12">
+      <UniqueIdentifier>{e49bd488-3360-4548-bda9-6fbf717d66eb}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="MyLearnCPP01.cpp">
@@ -438,6 +441,9 @@
     <ClCompile Include="_11_11_PrintingUsingOperator.cpp">
       <Filter>源文件\11</Filter>
     </ClCompile>
+    <ClCompile Include="_12_FunctionTemplates.cpp">
+      <Filter>源文件\12</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="MyLearnCPP01.h">
@@ -774,16 +780,19 @@
       <Filter>头文件\11</Filter>
     </ClInclude>
     <ClInclude Include="_11_08_VirtualBaseClasses.h">
-      <Filter>源文件\11</Filter>
+      <Filter>头文件\11</Filter>
     </ClInclude>
     <ClInclude Include="_11_09_ObjectSlicing.h">
-      <Filter>源文件\11</Filter>
+      <Filter>头文件\11</Filter>
     </ClInclude>
     <ClInclude Include="_11_10_DynamicStaticCasting.h">
-      <Filter>源文件\11</Filter>
+      <Filter>头文件\11</Filter>
     </ClInclude>
     <ClInclude Include="_11_11_PrintingUsingOperator.h">
-      <Filter>源文件\11</Filter>
+      <Filter>头文件\11</Filter>
+    </ClInclude>
+    <ClInclude Include="_12_FunctionTemplates.h">
+      <Filter>源文件\12</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
