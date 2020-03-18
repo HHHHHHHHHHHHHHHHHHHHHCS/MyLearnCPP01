@@ -1,6 +1,6 @@
 ﻿#pragma once
 
-class _12_FunctionTemplates
+class _12_01_FunctionTemplates
 {
 public:
 	template <typename  T0>

@@ -1,12 +1,12 @@
-﻿#include "_12_FunctionTemplates.h"
+﻿#include "_12_01_FunctionTemplates.h"
 #include <iostream>
 
-void _12_FunctionTemplates::Test()
+void _12_01_FunctionTemplates::Test()
 {
 	Test01();
 }
 
-void _12_FunctionTemplates::Test01()
+void _12_01_FunctionTemplates::Test01()
 {
 	int i = Max(3, 7);
 	std::cout << i << '\n';

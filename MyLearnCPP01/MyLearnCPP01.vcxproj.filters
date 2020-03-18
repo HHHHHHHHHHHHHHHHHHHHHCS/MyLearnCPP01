@@ -441,7 +441,10 @@
     <ClCompile Include="_11_11_PrintingUsingOperator.cpp">
       <Filter>源文件\11</Filter>
     </ClCompile>
-    <ClCompile Include="_12_FunctionTemplates.cpp">
+    <ClCompile Include="_12_02_FunctionTemplateInstances.cpp">
+      <Filter>源文件\12</Filter>
+    </ClCompile>
+    <ClCompile Include="_12_01_FunctionTemplates.cpp">
       <Filter>源文件\12</Filter>
     </ClCompile>
   </ItemGroup>
@@ -791,7 +794,10 @@
     <ClInclude Include="_11_11_PrintingUsingOperator.h">
       <Filter>头文件\11</Filter>
     </ClInclude>
-    <ClInclude Include="_12_FunctionTemplates.h">
+    <ClInclude Include="_12_02_FunctionTemplateInstances.h">
+      <Filter>源文件\12</Filter>
+    </ClInclude>
+    <ClInclude Include="_12_01_FunctionTemplates.h">
       <Filter>源文件\12</Filter>
     </ClInclude>
   </ItemGroup>

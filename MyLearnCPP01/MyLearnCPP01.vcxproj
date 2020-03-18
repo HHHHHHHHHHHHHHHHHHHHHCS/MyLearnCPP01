@@ -274,7 +274,8 @@
     <ClCompile Include="_11_09_ObjectSlicing.cpp" />
     <ClCompile Include="_11_10_DynamicStaticCasting.cpp" />
     <ClCompile Include="_11_11_PrintingUsingOperator.cpp" />
-    <ClCompile Include="_12_FunctionTemplates.cpp" />
+    <ClCompile Include="_12_02_FunctionTemplateInstances.cpp" />
+    <ClCompile Include="_12_01_FunctionTemplates.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="_07_14_FriendFunctionsClasses.h" />
@@ -392,7 +393,8 @@
     <ClInclude Include="_11_09_ObjectSlicing.h" />
     <ClInclude Include="_11_10_DynamicStaticCasting.h" />
     <ClInclude Include="_11_11_PrintingUsingOperator.h" />
-    <ClInclude Include="_12_FunctionTemplates.h" />
+    <ClInclude Include="_12_02_FunctionTemplateInstances.h" />
+    <ClInclude Include="_12_01_FunctionTemplates.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

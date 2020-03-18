@@ -24,12 +24,13 @@
 #include "_11_09_ObjectSlicing.h"
 #include "_11_10_DynamicStaticCasting.h"
 #include "_11_11_PrintingUsingOperator.h"
-#include "_12_FunctionTemplates.h"
+#include "_12_01_FunctionTemplates.h"
+#include "_12_02_FunctionTemplateInstances.h"
 
 
 int main()
 {
-	_12_FunctionTemplates::Test();
+	_12_02_FunctionTemplateInstances::Test();
 	return 0;
 }
 
