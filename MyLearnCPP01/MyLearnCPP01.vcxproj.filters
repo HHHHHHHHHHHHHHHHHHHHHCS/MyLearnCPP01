@@ -447,6 +447,9 @@
     <ClCompile Include="_12_01_FunctionTemplates.cpp">
       <Filter>源文件\12</Filter>
     </ClCompile>
+    <ClCompile Include="_12_03_TemplateClasses.cpp">
+      <Filter>源文件\12</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="MyLearnCPP01.h">
@@ -798,6 +801,9 @@
       <Filter>源文件\12</Filter>
     </ClInclude>
     <ClInclude Include="_12_01_FunctionTemplates.h">
+      <Filter>源文件\12</Filter>
+    </ClInclude>
+    <ClInclude Include="_12_03_TemplateClasses.h">
       <Filter>源文件\12</Filter>
     </ClInclude>
   </ItemGroup>

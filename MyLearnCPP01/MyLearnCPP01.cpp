@@ -26,11 +26,12 @@
 #include "_11_11_PrintingUsingOperator.h"
 #include "_12_01_FunctionTemplates.h"
 #include "_12_02_FunctionTemplateInstances.h"
+#include "_12_03_TemplateClasses.h"
 
 
 int main()
 {
-	_12_02_FunctionTemplateInstances::Test();
+	_12_03_TemplateClasses::Test();
 	return 0;
 }
 
