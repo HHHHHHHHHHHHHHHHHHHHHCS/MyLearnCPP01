@@ -277,6 +277,7 @@
     <ClCompile Include="_12_02_FunctionTemplateInstances.cpp" />
     <ClCompile Include="_12_01_FunctionTemplates.cpp" />
     <ClCompile Include="_12_03_TemplateClasses.cpp" />
+    <ClCompile Include="_12_04_TemplateNonTypeParameters.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="_07_14_FriendFunctionsClasses.h" />
@@ -397,6 +398,7 @@
     <ClInclude Include="_12_02_FunctionTemplateInstances.h" />
     <ClInclude Include="_12_01_FunctionTemplates.h" />
     <ClInclude Include="_12_03_TemplateClasses.h" />
+    <ClInclude Include="_12_04_TemplateNonTypeParameters.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
