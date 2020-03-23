@@ -28,11 +28,12 @@
 #include "_12_02_FunctionTemplateInstances.h"
 #include "_12_03_TemplateClasses.h"
 #include "_12_04_TemplateNonTypeParameters.h"
+#include "_12_05_FunctionTemplateSpecialization.h"
 
 
 int main()
 {
-	_12_04_TemplateNonTypeParameters::Test();
+	_12_05_FunctionTemplateSpecialization::Test();
 	return 0;
 }
 
