@@ -30,11 +30,12 @@
 #include "_12_04_TemplateNonTypeParameters.h"
 #include "_12_05_FunctionTemplateSpecialization.h"
 #include "_12_06_ClassTemplateSpecialization.h"
+#include "_12_07_PartialTemplateSpecialization.h"
 
 
 int main()
 {
-	_12_06_ClassTemplateSpecialization::Test();
+	_12_07_PartialTemplateSpecialization::Test();
 	return 0;
 }
 
