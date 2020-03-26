@@ -462,6 +462,9 @@
     <ClCompile Include="_12_07_PartialTemplateSpecialization.cpp">
       <Filter>源文件\12</Filter>
     </ClCompile>
+    <ClCompile Include="_12_08_PartialTemplateSpecializationPointers.cpp">
+      <Filter>源文件\12</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="MyLearnCPP01.h">
@@ -828,6 +831,9 @@
       <Filter>源文件\12</Filter>
     </ClInclude>
     <ClInclude Include="_12_07_PartialTemplateSpecialization.h">
+      <Filter>源文件\12</Filter>
+    </ClInclude>
+    <ClInclude Include="_12_08_PartialTemplateSpecializationPointers.h">
       <Filter>源文件\12</Filter>
     </ClInclude>
   </ItemGroup>

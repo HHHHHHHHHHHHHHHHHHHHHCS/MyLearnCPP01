@@ -31,11 +31,12 @@
 #include "_12_05_FunctionTemplateSpecialization.h"
 #include "_12_06_ClassTemplateSpecialization.h"
 #include "_12_07_PartialTemplateSpecialization.h"
+#include "_12_08_PartialTemplateSpecializationPointers.h"
 
 
 int main()
 {
-	_12_07_PartialTemplateSpecialization::Test();
+	_12_08_PartialTemplateSpecializationPointers::Test();
 	return 0;
 }
 
