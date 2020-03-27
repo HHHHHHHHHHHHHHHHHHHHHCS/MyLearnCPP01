@@ -94,6 +94,12 @@
     <Filter Include="源文件\12">
       <UniqueIdentifier>{e49bd488-3360-4548-bda9-6fbf717d66eb}</UniqueIdentifier>
     </Filter>
+    <Filter Include="头文件\12">
+      <UniqueIdentifier>{a40ab3e6-54b1-4b9a-a4cc-755689e7deef}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\13">
+      <UniqueIdentifier>{dbc9d5f8-1318-40e3-b2a6-cdfede406566}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="MyLearnCPP01.cpp">
@@ -465,6 +471,9 @@
     <ClCompile Include="_12_08_PartialTemplateSpecializationPointers.cpp">
       <Filter>源文件\12</Filter>
     </ClCompile>
+    <ClCompile Include="_13_01_TheNeedForExceptions.cpp">
+      <Filter>源文件\13</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="MyLearnCPP01.h">
@@ -812,29 +821,32 @@
     <ClInclude Include="_11_11_PrintingUsingOperator.h">
       <Filter>头文件\11</Filter>
     </ClInclude>
-    <ClInclude Include="_12_02_FunctionTemplateInstances.h">
-      <Filter>源文件\12</Filter>
-    </ClInclude>
     <ClInclude Include="_12_01_FunctionTemplates.h">
-      <Filter>源文件\12</Filter>
+      <Filter>头文件\12</Filter>
+    </ClInclude>
+    <ClInclude Include="_12_02_FunctionTemplateInstances.h">
+      <Filter>头文件\12</Filter>
     </ClInclude>
     <ClInclude Include="_12_03_TemplateClasses.h">
-      <Filter>源文件\12</Filter>
+      <Filter>头文件\12</Filter>
     </ClInclude>
     <ClInclude Include="_12_04_TemplateNonTypeParameters.h">
-      <Filter>源文件\12</Filter>
+      <Filter>头文件\12</Filter>
     </ClInclude>
     <ClInclude Include="_12_05_FunctionTemplateSpecialization.h">
-      <Filter>源文件\12</Filter>
+      <Filter>头文件\12</Filter>
     </ClInclude>
     <ClInclude Include="_12_06_ClassTemplateSpecialization.h">
-      <Filter>源文件\12</Filter>
+      <Filter>头文件\12</Filter>
     </ClInclude>
     <ClInclude Include="_12_07_PartialTemplateSpecialization.h">
-      <Filter>源文件\12</Filter>
+      <Filter>头文件\12</Filter>
     </ClInclude>
     <ClInclude Include="_12_08_PartialTemplateSpecializationPointers.h">
-      <Filter>源文件\12</Filter>
+      <Filter>头文件\12</Filter>
+    </ClInclude>
+    <ClInclude Include="_13_01_TheNeedForExceptions.h">
+      <Filter>源文件\13</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
