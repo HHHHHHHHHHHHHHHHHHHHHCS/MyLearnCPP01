@@ -474,6 +474,9 @@
     <ClCompile Include="_13_01_TheNeedForExceptions.cpp">
       <Filter>源文件\13</Filter>
     </ClCompile>
+    <ClCompile Include="_13_02_BasicExceptionHandling.cpp">
+      <Filter>源文件\13</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="MyLearnCPP01.h">
@@ -846,6 +849,9 @@
       <Filter>头文件\12</Filter>
     </ClInclude>
     <ClInclude Include="_13_01_TheNeedForExceptions.h">
+      <Filter>源文件\13</Filter>
+    </ClInclude>
+    <ClInclude Include="_13_02_BasicExceptionHandling.h">
       <Filter>源文件\13</Filter>
     </ClInclude>
   </ItemGroup>

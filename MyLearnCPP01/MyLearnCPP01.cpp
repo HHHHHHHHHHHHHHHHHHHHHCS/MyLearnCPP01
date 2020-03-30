@@ -33,11 +33,12 @@
 #include "_12_07_PartialTemplateSpecialization.h"
 #include "_12_08_PartialTemplateSpecializationPointers.h"
 #include "_13_01_TheNeedForExceptions.h"
+#include "_13_02_BasicExceptionHandling.h"
 
 
 int main()
 {
-	_13_01_TheNeedForExceptions::Test();
+	_13_02_BasicExceptionHandling::Test();
 	return 0;
 }
 
