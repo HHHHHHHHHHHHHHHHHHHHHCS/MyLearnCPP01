@@ -284,6 +284,7 @@
     <ClCompile Include="_12_08_PartialTemplateSpecializationPointers.cpp" />
     <ClCompile Include="_13_01_TheNeedForExceptions.cpp" />
     <ClCompile Include="_13_02_BasicExceptionHandling.cpp" />
+    <ClCompile Include="_13_03_ExceptionsFunctionsAndStackUnwinding.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="_07_14_FriendFunctionsClasses.h" />
@@ -411,6 +412,7 @@
     <ClInclude Include="_12_08_PartialTemplateSpecializationPointers.h" />
     <ClInclude Include="_13_01_TheNeedForExceptions.h" />
     <ClInclude Include="_13_02_BasicExceptionHandling.h" />
+    <ClInclude Include="_13_03_ExceptionsFunctionsAndStackUnwinding.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
