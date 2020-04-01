@@ -285,6 +285,7 @@
     <ClCompile Include="_13_01_TheNeedForExceptions.cpp" />
     <ClCompile Include="_13_02_BasicExceptionHandling.cpp" />
     <ClCompile Include="_13_03_ExceptionsFunctionsAndStackUnwinding.cpp" />
+    <ClCompile Include="_13_04_UncaughtExceptionsCatchAllHandlersExceptionSpecifiers.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="_07_14_FriendFunctionsClasses.h" />
@@ -413,6 +414,7 @@
     <ClInclude Include="_13_01_TheNeedForExceptions.h" />
     <ClInclude Include="_13_02_BasicExceptionHandling.h" />
     <ClInclude Include="_13_03_ExceptionsFunctionsAndStackUnwinding.h" />
+    <ClInclude Include="_13_04_UncaughtExceptionsCatchAllHandlersExceptionSpecifiers.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

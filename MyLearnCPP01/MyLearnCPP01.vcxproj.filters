@@ -480,6 +480,9 @@
     <ClCompile Include="_13_03_ExceptionsFunctionsAndStackUnwinding.cpp">
       <Filter>源文件\13</Filter>
     </ClCompile>
+    <ClCompile Include="_13_04_UncaughtExceptionsCatchAllHandlersExceptionSpecifiers.cpp">
+      <Filter>源文件\13</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="MyLearnCPP01.h">
@@ -858,6 +861,9 @@
       <Filter>源文件\13</Filter>
     </ClInclude>
     <ClInclude Include="_13_03_ExceptionsFunctionsAndStackUnwinding.h">
+      <Filter>源文件\13</Filter>
+    </ClInclude>
+    <ClInclude Include="_13_04_UncaughtExceptionsCatchAllHandlersExceptionSpecifiers.h">
       <Filter>源文件\13</Filter>
     </ClInclude>
   </ItemGroup>
