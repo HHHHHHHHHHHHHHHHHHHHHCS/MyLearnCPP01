@@ -36,11 +36,12 @@
 #include "_13_02_BasicExceptionHandling.h"
 #include "_13_03_ExceptionsFunctionsAndStackUnwinding.h"
 #include "_13_04_UncaughtExceptionsCatchAllHandlersExceptionSpecifiers.h"
+#include "_13_05_ExceptionsClassesAndInheritance.h"
 
 
 int main()
 {
-	_13_04_UncaughtExceptionsCatchAllHandlersExceptionSpecifiers::Test();
+	_13_05_ExceptionsClassesAndInheritance::Test();
 	return 0;
 }
 
