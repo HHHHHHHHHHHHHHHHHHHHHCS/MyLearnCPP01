@@ -37,11 +37,12 @@
 #include "_13_03_ExceptionsFunctionsAndStackUnwinding.h"
 #include "_13_04_UncaughtExceptionsCatchAllHandlersExceptionSpecifiers.h"
 #include "_13_05_ExceptionsClassesAndInheritance.h"
+#include "_13_06_RethrowingExceptions.h"
 
 
 int main()
 {
-	_13_05_ExceptionsClassesAndInheritance::Test();
+	_13_06_RethrowingExceptions::Test();
 	return 0;
 }
 

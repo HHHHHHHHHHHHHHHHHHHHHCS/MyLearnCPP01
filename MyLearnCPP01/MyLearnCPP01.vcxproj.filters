@@ -486,6 +486,9 @@
     <ClCompile Include="_13_05_ExceptionsClassesAndInheritance.cpp">
       <Filter>源文件\13</Filter>
     </ClCompile>
+    <ClCompile Include="_13_06_RethrowingExceptions.cpp">
+      <Filter>源文件\13</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="MyLearnCPP01.h">
@@ -870,6 +873,9 @@
       <Filter>源文件\13</Filter>
     </ClInclude>
     <ClInclude Include="_13_05_ExceptionsClassesAndInheritance.h">
+      <Filter>源文件\13</Filter>
+    </ClInclude>
+    <ClInclude Include="_13_06_RethrowingExceptions.h">
       <Filter>源文件\13</Filter>
     </ClInclude>
   </ItemGroup>
