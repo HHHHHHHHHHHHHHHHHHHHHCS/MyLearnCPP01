@@ -288,6 +288,7 @@
     <ClCompile Include="_13_04_UncaughtExceptionsCatchAllHandlersExceptionSpecifiers.cpp" />
     <ClCompile Include="_13_05_ExceptionsClassesAndInheritance.cpp" />
     <ClCompile Include="_13_06_RethrowingExceptions.cpp" />
+    <ClCompile Include="_13_07_FunctionTryBlocks.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="_07_14_FriendFunctionsClasses.h" />
@@ -419,6 +420,7 @@
     <ClInclude Include="_13_04_UncaughtExceptionsCatchAllHandlersExceptionSpecifiers.h" />
     <ClInclude Include="_13_05_ExceptionsClassesAndInheritance.h" />
     <ClInclude Include="_13_06_RethrowingExceptions.h" />
+    <ClInclude Include="_13_07_FunctionTryBlocks.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

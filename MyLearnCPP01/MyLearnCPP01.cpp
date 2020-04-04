@@ -38,11 +38,12 @@
 #include "_13_04_UncaughtExceptionsCatchAllHandlersExceptionSpecifiers.h"
 #include "_13_05_ExceptionsClassesAndInheritance.h"
 #include "_13_06_RethrowingExceptions.h"
+#include "_13_07_FunctionTryBlocks.h"
 
 
 int main()
 {
-	_13_06_RethrowingExceptions::Test();
+	_13_07_FunctionTryBlocks::Test();
 	return 0;
 }
 
