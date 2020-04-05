@@ -39,11 +39,12 @@
 #include "_13_05_ExceptionsClassesAndInheritance.h"
 #include "_13_06_RethrowingExceptions.h"
 #include "_13_07_FunctionTryBlocks.h"
+#include "_13_08_ExceptionDangersAndDownsides.h"
 
 
 int main()
 {
-	_13_07_FunctionTryBlocks::Test();
+	_13_08_ExceptionDangersAndDownsides::Test();
 	return 0;
 }
 
