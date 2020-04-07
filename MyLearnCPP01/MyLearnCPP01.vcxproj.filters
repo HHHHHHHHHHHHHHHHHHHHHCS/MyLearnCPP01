@@ -100,6 +100,12 @@
     <Filter Include="源文件\13">
       <UniqueIdentifier>{dbc9d5f8-1318-40e3-b2a6-cdfede406566}</UniqueIdentifier>
     </Filter>
+    <Filter Include="头文件\13">
+      <UniqueIdentifier>{e38874c5-1084-4239-8390-37130ebf348a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\14">
+      <UniqueIdentifier>{496fdd32-323b-453f-b39c-ebdc28c7616b}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="MyLearnCPP01.cpp">
@@ -495,6 +501,9 @@
     <ClCompile Include="_13_08_ExceptionDangersAndDownsides.cpp">
       <Filter>源文件\13</Filter>
     </ClCompile>
+    <ClCompile Include="_14_01_IntroToSmartPointersAndMoveSemantics.cpp">
+      <Filter>源文件\14</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="MyLearnCPP01.h">
@@ -867,28 +876,31 @@
       <Filter>头文件\12</Filter>
     </ClInclude>
     <ClInclude Include="_13_01_TheNeedForExceptions.h">
-      <Filter>源文件\13</Filter>
+      <Filter>头文件\13</Filter>
     </ClInclude>
     <ClInclude Include="_13_02_BasicExceptionHandling.h">
-      <Filter>源文件\13</Filter>
+      <Filter>头文件\13</Filter>
     </ClInclude>
     <ClInclude Include="_13_03_ExceptionsFunctionsAndStackUnwinding.h">
-      <Filter>源文件\13</Filter>
+      <Filter>头文件\13</Filter>
     </ClInclude>
     <ClInclude Include="_13_04_UncaughtExceptionsCatchAllHandlersExceptionSpecifiers.h">
-      <Filter>源文件\13</Filter>
+      <Filter>头文件\13</Filter>
     </ClInclude>
     <ClInclude Include="_13_05_ExceptionsClassesAndInheritance.h">
-      <Filter>源文件\13</Filter>
+      <Filter>头文件\13</Filter>
     </ClInclude>
     <ClInclude Include="_13_06_RethrowingExceptions.h">
-      <Filter>源文件\13</Filter>
+      <Filter>头文件\13</Filter>
     </ClInclude>
     <ClInclude Include="_13_07_FunctionTryBlocks.h">
-      <Filter>源文件\13</Filter>
+      <Filter>头文件\13</Filter>
     </ClInclude>
     <ClInclude Include="_13_08_ExceptionDangersAndDownsides.h">
-      <Filter>源文件\13</Filter>
+      <Filter>头文件\13</Filter>
+    </ClInclude>
+    <ClInclude Include="_14_01_IntroToSmartPointersAndMoveSemantics.h">
+      <Filter>源文件\14</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

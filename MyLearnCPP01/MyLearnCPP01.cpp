@@ -40,11 +40,12 @@
 #include "_13_06_RethrowingExceptions.h"
 #include "_13_07_FunctionTryBlocks.h"
 #include "_13_08_ExceptionDangersAndDownsides.h"
+#include "_14_01_IntroToSmartPointersAndMoveSemantics.h"
 
 
 int main()
 {
-	_13_08_ExceptionDangersAndDownsides::Test();
+	_14_01_IntroToSmartPointersAndMoveSemantics::Test();
 	return 0;
 }
 
