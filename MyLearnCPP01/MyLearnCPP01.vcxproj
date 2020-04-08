@@ -291,6 +291,7 @@
     <ClCompile Include="_13_07_FunctionTryBlocks.cpp" />
     <ClCompile Include="_13_08_ExceptionDangersAndDownsides.cpp" />
     <ClCompile Include="_14_01_IntroToSmartPointersAndMoveSemantics.cpp" />
+    <ClCompile Include="_14_02_RValueReferences.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="_07_14_FriendFunctionsClasses.h" />
@@ -425,6 +426,7 @@
     <ClInclude Include="_13_07_FunctionTryBlocks.h" />
     <ClInclude Include="_13_08_ExceptionDangersAndDownsides.h" />
     <ClInclude Include="_14_01_IntroToSmartPointersAndMoveSemantics.h" />
+    <ClInclude Include="_14_02_RValueReferences.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

@@ -41,11 +41,12 @@
 #include "_13_07_FunctionTryBlocks.h"
 #include "_13_08_ExceptionDangersAndDownsides.h"
 #include "_14_01_IntroToSmartPointersAndMoveSemantics.h"
+#include "_14_02_RValueReferences.h"
 
 
 int main()
 {
-	_14_01_IntroToSmartPointersAndMoveSemantics::Test();
+	_14_02_RValueReferences::Test();
 	return 0;
 }
 

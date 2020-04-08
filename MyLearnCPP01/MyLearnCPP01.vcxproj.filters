@@ -504,6 +504,9 @@
     <ClCompile Include="_14_01_IntroToSmartPointersAndMoveSemantics.cpp">
       <Filter>源文件\14</Filter>
     </ClCompile>
+    <ClCompile Include="_14_02_RValueReferences.cpp">
+      <Filter>源文件\14</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="MyLearnCPP01.h">
@@ -900,6 +903,9 @@
       <Filter>头文件\13</Filter>
     </ClInclude>
     <ClInclude Include="_14_01_IntroToSmartPointersAndMoveSemantics.h">
+      <Filter>源文件\14</Filter>
+    </ClInclude>
+    <ClInclude Include="_14_02_RValueReferences.h">
       <Filter>源文件\14</Filter>
     </ClInclude>
   </ItemGroup>
