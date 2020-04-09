@@ -42,11 +42,12 @@
 #include "_13_08_ExceptionDangersAndDownsides.h"
 #include "_14_01_IntroToSmartPointersAndMoveSemantics.h"
 #include "_14_02_RValueReferences.h"
+#include "_14_03_MoveConstructorsAndMoveAssignment.h"
 
 
 int main()
 {
-	_14_02_RValueReferences::Test();
+	_14_03_MoveConstructorsAndMoveAssignment::Test();
 	return 0;
 }
 

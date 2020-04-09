@@ -507,6 +507,9 @@
     <ClCompile Include="_14_02_RValueReferences.cpp">
       <Filter>源文件\14</Filter>
     </ClCompile>
+    <ClCompile Include="_14_03_MoveConstructorsAndMoveAssignment.cpp">
+      <Filter>源文件\14</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="MyLearnCPP01.h">
@@ -906,6 +909,9 @@
       <Filter>源文件\14</Filter>
     </ClInclude>
     <ClInclude Include="_14_02_RValueReferences.h">
+      <Filter>源文件\14</Filter>
+    </ClInclude>
+    <ClInclude Include="_14_03_MoveConstructorsAndMoveAssignment.h">
       <Filter>源文件\14</Filter>
     </ClInclude>
   </ItemGroup>
