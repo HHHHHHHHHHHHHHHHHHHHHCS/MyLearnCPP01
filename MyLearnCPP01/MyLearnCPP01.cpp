@@ -43,11 +43,12 @@
 #include "_14_01_IntroToSmartPointersAndMoveSemantics.h"
 #include "_14_02_RValueReferences.h"
 #include "_14_03_MoveConstructorsAndMoveAssignment.h"
+#include "_14_04_StdMove.h"
 
 
 int main()
 {
-	_14_03_MoveConstructorsAndMoveAssignment::Test();
+	_14_04_StdMove::Test();
 	return 0;
 }
 
