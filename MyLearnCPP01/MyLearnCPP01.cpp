@@ -44,11 +44,12 @@
 #include "_14_02_RValueReferences.h"
 #include "_14_03_MoveConstructorsAndMoveAssignment.h"
 #include "_14_04_StdMove.h"
+#include "_14_05_StdUniquePtr.h"
 
 
 int main()
 {
-	_14_04_StdMove::Test();
+	_14_05_StdUniquePtr::Test();
 	return 0;
 }
 
