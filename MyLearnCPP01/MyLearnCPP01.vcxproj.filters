@@ -516,6 +516,9 @@
     <ClCompile Include="_14_05_StdUniquePtr.cpp">
       <Filter>源文件\14</Filter>
     </ClCompile>
+    <ClCompile Include="_14_06_StdSharedPtr.cpp">
+      <Filter>源文件\14</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="MyLearnCPP01.h">
@@ -924,6 +927,9 @@
       <Filter>源文件\14</Filter>
     </ClInclude>
     <ClInclude Include="_14_05_StdUniquePtr.h">
+      <Filter>源文件\14</Filter>
+    </ClInclude>
+    <ClInclude Include="_14_06_StdSharedPtr.h">
       <Filter>源文件\14</Filter>
     </ClInclude>
   </ItemGroup>

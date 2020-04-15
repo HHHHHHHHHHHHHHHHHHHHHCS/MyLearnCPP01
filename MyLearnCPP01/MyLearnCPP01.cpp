@@ -45,11 +45,12 @@
 #include "_14_03_MoveConstructorsAndMoveAssignment.h"
 #include "_14_04_StdMove.h"
 #include "_14_05_StdUniquePtr.h"
+#include "_14_06_StdSharedPtr.h"
 
 
 int main()
 {
-	_14_05_StdUniquePtr::Test();
+	_14_06_StdSharedPtr::Test();
 	return 0;
 }
 
