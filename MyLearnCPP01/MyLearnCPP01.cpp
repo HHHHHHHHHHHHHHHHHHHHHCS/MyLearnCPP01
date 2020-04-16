@@ -46,11 +46,12 @@
 #include "_14_04_StdMove.h"
 #include "_14_05_StdUniquePtr.h"
 #include "_14_06_StdSharedPtr.h"
+#include "_14_07_CircularDependencyStdSharedPtrAndStdWeakPtr.h"
 
 
 int main()
 {
-	_14_06_StdSharedPtr::Test();
+	_14_07_CircularDependencyStdSharedPtrAndStdWeakPtr::Test();
 	return 0;
 }
 

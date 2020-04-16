@@ -296,6 +296,7 @@
     <ClCompile Include="_14_04_StdMove.cpp" />
     <ClCompile Include="_14_05_StdUniquePtr.cpp" />
     <ClCompile Include="_14_06_StdSharedPtr.cpp" />
+    <ClCompile Include="_14_07_CircularDependencyStdSharedPtrAndStdWeakPtr.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="_07_14_FriendFunctionsClasses.h" />
@@ -435,6 +436,7 @@
     <ClInclude Include="_14_04_StdMove.h" />
     <ClInclude Include="_14_05_StdUniquePtr.h" />
     <ClInclude Include="_14_06_StdSharedPtr.h" />
+    <ClInclude Include="_14_07_CircularDependencyStdSharedPtrAndStdWeakPtr.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
