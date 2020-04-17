@@ -106,6 +106,12 @@
     <Filter Include="源文件\14">
       <UniqueIdentifier>{496fdd32-323b-453f-b39c-ebdc28c7616b}</UniqueIdentifier>
     </Filter>
+    <Filter Include="头文件\14">
+      <UniqueIdentifier>{0b001bbd-03d3-4e9f-89f7-31096585d703}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\15">
+      <UniqueIdentifier>{35d26570-bf45-4b84-889d-692603ec1c2a}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="MyLearnCPP01.cpp">
@@ -522,6 +528,9 @@
     <ClCompile Include="_14_07_CircularDependencyStdSharedPtrAndStdWeakPtr.cpp">
       <Filter>源文件\14</Filter>
     </ClCompile>
+    <ClCompile Include="_15_01_STLContainersOverview.cpp">
+      <Filter>源文件\15</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="MyLearnCPP01.h">
@@ -918,25 +927,28 @@
       <Filter>头文件\13</Filter>
     </ClInclude>
     <ClInclude Include="_14_01_IntroToSmartPointersAndMoveSemantics.h">
-      <Filter>源文件\14</Filter>
+      <Filter>头文件\14</Filter>
     </ClInclude>
     <ClInclude Include="_14_02_RValueReferences.h">
-      <Filter>源文件\14</Filter>
+      <Filter>头文件\14</Filter>
     </ClInclude>
     <ClInclude Include="_14_03_MoveConstructorsAndMoveAssignment.h">
-      <Filter>源文件\14</Filter>
+      <Filter>头文件\14</Filter>
     </ClInclude>
     <ClInclude Include="_14_04_StdMove.h">
-      <Filter>源文件\14</Filter>
+      <Filter>头文件\14</Filter>
     </ClInclude>
     <ClInclude Include="_14_05_StdUniquePtr.h">
-      <Filter>源文件\14</Filter>
+      <Filter>头文件\14</Filter>
     </ClInclude>
     <ClInclude Include="_14_06_StdSharedPtr.h">
-      <Filter>源文件\14</Filter>
+      <Filter>头文件\14</Filter>
     </ClInclude>
     <ClInclude Include="_14_07_CircularDependencyStdSharedPtrAndStdWeakPtr.h">
-      <Filter>源文件\14</Filter>
+      <Filter>头文件\14</Filter>
+    </ClInclude>
+    <ClInclude Include="_15_01_STLContainersOverview.h">
+      <Filter>源文件\15</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
