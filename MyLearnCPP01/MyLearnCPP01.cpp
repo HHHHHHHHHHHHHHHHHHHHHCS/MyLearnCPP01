@@ -48,11 +48,12 @@
 #include "_14_06_StdSharedPtr.h"
 #include "_14_07_CircularDependencyStdSharedPtrAndStdWeakPtr.h"
 #include "_15_01_STLContainersOverview.h"
+#include "_15_02_StdStringLengthAndCapacity.h"
 
 
 int main()
 {
-	_15_01_STLContainersOverview::Test();
+	_15_02_StdStringLengthAndCapacity::Test();
 	return 0;
 }
 

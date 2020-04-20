@@ -531,6 +531,9 @@
     <ClCompile Include="_15_01_STLContainersOverview.cpp">
       <Filter>源文件\15</Filter>
     </ClCompile>
+    <ClCompile Include="_15_02_StdStringLengthAndCapacity.cpp">
+      <Filter>源文件\15</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="MyLearnCPP01.h">
@@ -948,6 +951,9 @@
       <Filter>头文件\14</Filter>
     </ClInclude>
     <ClInclude Include="_15_01_STLContainersOverview.h">
+      <Filter>源文件\15</Filter>
+    </ClInclude>
+    <ClInclude Include="_15_02_StdStringLengthAndCapacity.h">
       <Filter>源文件\15</Filter>
     </ClInclude>
   </ItemGroup>
