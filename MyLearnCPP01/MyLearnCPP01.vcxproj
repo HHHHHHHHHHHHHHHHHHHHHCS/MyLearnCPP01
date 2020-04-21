@@ -298,7 +298,8 @@
     <ClCompile Include="_14_06_StdSharedPtr.cpp" />
     <ClCompile Include="_14_07_CircularDependencyStdSharedPtrAndStdWeakPtr.cpp" />
     <ClCompile Include="_15_01_STLContainersOverview.cpp" />
-    <ClCompile Include="_15_02_StdStringLengthAndCapacity.cpp" />
+    <ClCompile Include="_15_02_STLIteratorsOverview.cpp" />
+    <ClCompile Include="_16_03_StdStringLengthAndCapacity.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="_07_14_FriendFunctionsClasses.h" />
@@ -440,7 +441,8 @@
     <ClInclude Include="_14_06_StdSharedPtr.h" />
     <ClInclude Include="_14_07_CircularDependencyStdSharedPtrAndStdWeakPtr.h" />
     <ClInclude Include="_15_01_STLContainersOverview.h" />
-    <ClInclude Include="_15_02_StdStringLengthAndCapacity.h" />
+    <ClInclude Include="_15_02_STLIteratorsOverview.h" />
+    <ClInclude Include="_16_03_StdStringLengthAndCapacity.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
