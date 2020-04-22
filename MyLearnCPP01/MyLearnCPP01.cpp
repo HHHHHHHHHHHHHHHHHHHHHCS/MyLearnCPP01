@@ -2,6 +2,7 @@
 
 #include "_15_01_STLContainersOverview.h"
 #include "_15_02_STLIteratorsOverview.h"
+#include "_15_03_STLAlgorithmsOverview.h"
 
 
 
@@ -10,7 +11,7 @@
 
 int main()
 {
-	_15_02_STLIteratorsOverview::Test();
+	_15_03_STLAlgorithmsOverview::Test();
 	return 0;
 }
 

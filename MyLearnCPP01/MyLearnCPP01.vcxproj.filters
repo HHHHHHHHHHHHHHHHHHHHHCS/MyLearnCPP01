@@ -540,6 +540,9 @@
     <ClCompile Include="_15_02_STLIteratorsOverview.cpp">
       <Filter>源文件\15</Filter>
     </ClCompile>
+    <ClCompile Include="_15_03_STLAlgorithmsOverview.cpp">
+      <Filter>源文件\15</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="MyLearnCPP01.h">
@@ -963,6 +966,9 @@
       <Filter>源文件\16</Filter>
     </ClInclude>
     <ClInclude Include="_15_02_STLIteratorsOverview.h">
+      <Filter>源文件\15</Filter>
+    </ClInclude>
+    <ClInclude Include="_15_03_STLAlgorithmsOverview.h">
       <Filter>源文件\15</Filter>
     </ClInclude>
   </ItemGroup>

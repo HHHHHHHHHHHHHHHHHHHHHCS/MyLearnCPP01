@@ -299,6 +299,7 @@
     <ClCompile Include="_14_07_CircularDependencyStdSharedPtrAndStdWeakPtr.cpp" />
     <ClCompile Include="_15_01_STLContainersOverview.cpp" />
     <ClCompile Include="_15_02_STLIteratorsOverview.cpp" />
+    <ClCompile Include="_15_03_STLAlgorithmsOverview.cpp" />
     <ClCompile Include="_16_03_StdStringLengthAndCapacity.cpp" />
   </ItemGroup>
   <ItemGroup>
@@ -442,6 +443,7 @@
     <ClInclude Include="_14_07_CircularDependencyStdSharedPtrAndStdWeakPtr.h" />
     <ClInclude Include="_15_01_STLContainersOverview.h" />
     <ClInclude Include="_15_02_STLIteratorsOverview.h" />
+    <ClInclude Include="_15_03_STLAlgorithmsOverview.h" />
     <ClInclude Include="_16_03_StdStringLengthAndCapacity.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
