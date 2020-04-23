@@ -7,11 +7,12 @@
 
 
 #include "_16_03_StdStringLengthAndCapacity.h"
+#include "_16_01_StdStringAndStdWstring.h"
 
 
 int main()
 {
-	_15_03_STLAlgorithmsOverview::Test();
+	_16_01_StdStringAndStdWstring::Test();
 	return 0;
 }
 

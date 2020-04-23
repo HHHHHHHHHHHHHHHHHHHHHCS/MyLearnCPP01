@@ -543,6 +543,9 @@
     <ClCompile Include="_15_03_STLAlgorithmsOverview.cpp">
       <Filter>源文件\15</Filter>
     </ClCompile>
+    <ClCompile Include="_16_01_StdStringAndStdWstring.cpp">
+      <Filter>源文件\16</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="MyLearnCPP01.h">
@@ -970,6 +973,9 @@
     </ClInclude>
     <ClInclude Include="_15_03_STLAlgorithmsOverview.h">
       <Filter>源文件\15</Filter>
+    </ClInclude>
+    <ClInclude Include="_16_01_StdStringAndStdWstring.h">
+      <Filter>源文件\16</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
