@@ -546,6 +546,9 @@
     <ClCompile Include="_16_01_StdStringAndStdWstring.cpp">
       <Filter>源文件\16</Filter>
     </ClCompile>
+    <ClCompile Include="_16_02_StdStringConstructionAndDestruction.cpp">
+      <Filter>源文件\16</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="MyLearnCPP01.h">
@@ -975,6 +978,9 @@
       <Filter>源文件\15</Filter>
     </ClInclude>
     <ClInclude Include="_16_01_StdStringAndStdWstring.h">
+      <Filter>源文件\16</Filter>
+    </ClInclude>
+    <ClInclude Include="_16_02_StdStringConstructionAndDestruction.h">
       <Filter>源文件\16</Filter>
     </ClInclude>
   </ItemGroup>

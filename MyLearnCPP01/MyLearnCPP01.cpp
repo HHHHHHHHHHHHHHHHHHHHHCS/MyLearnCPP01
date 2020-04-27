@@ -6,13 +6,14 @@
 
 
 
-#include "_16_03_StdStringLengthAndCapacity.h"
 #include "_16_01_StdStringAndStdWstring.h"
+#include "_16_02_StdStringConstructionAndDestruction.h"
+#include "_16_03_StdStringLengthAndCapacity.h"
 
 
 int main()
 {
-	_16_01_StdStringAndStdWstring::Test();
+	_16_02_StdStringConstructionAndDestruction::Test();
 	return 0;
 }
 

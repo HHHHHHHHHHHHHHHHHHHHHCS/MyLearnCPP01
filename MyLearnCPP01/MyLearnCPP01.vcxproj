@@ -301,6 +301,7 @@
     <ClCompile Include="_15_02_STLIteratorsOverview.cpp" />
     <ClCompile Include="_15_03_STLAlgorithmsOverview.cpp" />
     <ClCompile Include="_16_01_StdStringAndStdWstring.cpp" />
+    <ClCompile Include="_16_02_StdStringConstructionAndDestruction.cpp" />
     <ClCompile Include="_16_03_StdStringLengthAndCapacity.cpp" />
   </ItemGroup>
   <ItemGroup>
@@ -446,6 +447,7 @@
     <ClInclude Include="_15_02_STLIteratorsOverview.h" />
     <ClInclude Include="_15_03_STLAlgorithmsOverview.h" />
     <ClInclude Include="_16_01_StdStringAndStdWstring.h" />
+    <ClInclude Include="_16_02_StdStringConstructionAndDestruction.h" />
     <ClInclude Include="_16_03_StdStringLengthAndCapacity.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
