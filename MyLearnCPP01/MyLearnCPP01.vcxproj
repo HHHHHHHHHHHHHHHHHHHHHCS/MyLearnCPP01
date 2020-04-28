@@ -303,6 +303,7 @@
     <ClCompile Include="_16_01_StdStringAndStdWstring.cpp" />
     <ClCompile Include="_16_02_StdStringConstructionAndDestruction.cpp" />
     <ClCompile Include="_16_03_StdStringLengthAndCapacity.cpp" />
+    <ClCompile Include="_16_04_StdStringCharacterAccessAndConversion.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="_07_14_FriendFunctionsClasses.h" />
@@ -449,6 +450,7 @@
     <ClInclude Include="_16_01_StdStringAndStdWstring.h" />
     <ClInclude Include="_16_02_StdStringConstructionAndDestruction.h" />
     <ClInclude Include="_16_03_StdStringLengthAndCapacity.h" />
+    <ClInclude Include="_16_04_StdStringCharacterAccessAndConversion.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

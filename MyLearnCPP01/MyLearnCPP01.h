@@ -134,3 +134,6 @@
 #include "_14_05_StdUniquePtr.h"
 #include "_14_06_StdSharedPtr.h"
 #include "_14_07_CircularDependencyStdSharedPtrAndStdWeakPtr.h"
+#include "_15_01_STLContainersOverview.h"
+#include "_15_02_STLIteratorsOverview.h"
+#include "_15_03_STLAlgorithmsOverview.h"

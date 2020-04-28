@@ -115,6 +115,9 @@
     <Filter Include="源文件\16">
       <UniqueIdentifier>{8efb139a-d2fc-4640-b9f0-ef7ca9ae9c4d}</UniqueIdentifier>
     </Filter>
+    <Filter Include="头文件\15">
+      <UniqueIdentifier>{c269a2b0-fc95-443c-9eed-47ccb740c24b}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="MyLearnCPP01.cpp">
@@ -549,6 +552,9 @@
     <ClCompile Include="_16_02_StdStringConstructionAndDestruction.cpp">
       <Filter>源文件\16</Filter>
     </ClCompile>
+    <ClCompile Include="_16_04_StdStringCharacterAccessAndConversion.cpp">
+      <Filter>源文件\16</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="MyLearnCPP01.h">
@@ -965,22 +971,25 @@
     <ClInclude Include="_14_07_CircularDependencyStdSharedPtrAndStdWeakPtr.h">
       <Filter>头文件\14</Filter>
     </ClInclude>
-    <ClInclude Include="_15_01_STLContainersOverview.h">
-      <Filter>源文件\15</Filter>
-    </ClInclude>
     <ClInclude Include="_16_03_StdStringLengthAndCapacity.h">
       <Filter>源文件\16</Filter>
-    </ClInclude>
-    <ClInclude Include="_15_02_STLIteratorsOverview.h">
-      <Filter>源文件\15</Filter>
-    </ClInclude>
-    <ClInclude Include="_15_03_STLAlgorithmsOverview.h">
-      <Filter>源文件\15</Filter>
     </ClInclude>
     <ClInclude Include="_16_01_StdStringAndStdWstring.h">
       <Filter>源文件\16</Filter>
     </ClInclude>
     <ClInclude Include="_16_02_StdStringConstructionAndDestruction.h">
+      <Filter>源文件\16</Filter>
+    </ClInclude>
+    <ClInclude Include="_15_02_STLIteratorsOverview.h">
+      <Filter>头文件\15</Filter>
+    </ClInclude>
+    <ClInclude Include="_15_03_STLAlgorithmsOverview.h">
+      <Filter>头文件\15</Filter>
+    </ClInclude>
+    <ClInclude Include="_15_01_STLContainersOverview.h">
+      <Filter>头文件\15</Filter>
+    </ClInclude>
+    <ClInclude Include="_16_04_StdStringCharacterAccessAndConversion.h">
       <Filter>源文件\16</Filter>
     </ClInclude>
   </ItemGroup>
