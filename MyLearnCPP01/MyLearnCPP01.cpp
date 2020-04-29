@@ -6,11 +6,12 @@
 #include "_16_02_StdStringConstructionAndDestruction.h"
 #include "_16_03_StdStringLengthAndCapacity.h"
 #include "_16_04_StdStringCharacterAccessAndConversion.h"
+#include "_16_05_StdStringAssignmentAndSwapping.h"
 
 
 int main()
 {
-	_16_04_StdStringCharacterAccessAndConversion::Test();
+	_16_05_StdStringAssignmentAndSwapping::Test();
 	return 0;
 }
 
