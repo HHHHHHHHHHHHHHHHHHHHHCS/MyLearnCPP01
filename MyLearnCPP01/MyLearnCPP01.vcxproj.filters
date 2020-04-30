@@ -558,6 +558,9 @@
     <ClCompile Include="_16_05_StdStringAssignmentAndSwapping.cpp">
       <Filter>源文件\16</Filter>
     </ClCompile>
+    <ClCompile Include="_16_06_StdStringAppending.cpp">
+      <Filter>源文件\16</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="MyLearnCPP01.h">
@@ -996,6 +999,9 @@
       <Filter>源文件\16</Filter>
     </ClInclude>
     <ClInclude Include="_16_05_StdStringAssignmentAndSwapping.h">
+      <Filter>源文件\16</Filter>
+    </ClInclude>
+    <ClInclude Include="_16_06_StdStringAppending.h">
       <Filter>源文件\16</Filter>
     </ClInclude>
   </ItemGroup>

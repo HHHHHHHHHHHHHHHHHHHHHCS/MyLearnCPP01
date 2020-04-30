@@ -7,11 +7,12 @@
 #include "_16_03_StdStringLengthAndCapacity.h"
 #include "_16_04_StdStringCharacterAccessAndConversion.h"
 #include "_16_05_StdStringAssignmentAndSwapping.h"
+#include "_16_06_StdStringAppending.h"
 
 
 int main()
 {
-	_16_05_StdStringAssignmentAndSwapping::Test();
+	_16_06_StdStringAppending::Test();
 	return 0;
 }
 
