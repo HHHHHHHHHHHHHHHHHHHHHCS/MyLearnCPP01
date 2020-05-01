@@ -306,6 +306,7 @@
     <ClCompile Include="_16_04_StdStringCharacterAccessAndConversion.cpp" />
     <ClCompile Include="_16_05_StdStringAssignmentAndSwapping.cpp" />
     <ClCompile Include="_16_06_StdStringAppending.cpp" />
+    <ClCompile Include="_16_07_StdStringInserting.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="_07_14_FriendFunctionsClasses.h" />
@@ -455,6 +456,7 @@
     <ClInclude Include="_16_04_StdStringCharacterAccessAndConversion.h" />
     <ClInclude Include="_16_05_StdStringAssignmentAndSwapping.h" />
     <ClInclude Include="_16_06_StdStringAppending.h" />
+    <ClInclude Include="_16_07_StdStringInserting.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
