@@ -118,6 +118,12 @@
     <Filter Include="头文件\15">
       <UniqueIdentifier>{c269a2b0-fc95-443c-9eed-47ccb740c24b}</UniqueIdentifier>
     </Filter>
+    <Filter Include="头文件\16">
+      <UniqueIdentifier>{48c2e522-ec1b-4299-b4f5-10777795ce68}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\17">
+      <UniqueIdentifier>{31c0e4b3-dddf-4f21-8fcf-c093cb8d7c27}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="MyLearnCPP01.cpp">
@@ -564,6 +570,9 @@
     <ClCompile Include="_16_07_StdStringInserting.cpp">
       <Filter>源文件\16</Filter>
     </ClCompile>
+    <ClCompile Include="_17_01_InputWithIStream.cpp">
+      <Filter>源文件\17</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="MyLearnCPP01.h">
@@ -980,15 +989,6 @@
     <ClInclude Include="_14_07_CircularDependencyStdSharedPtrAndStdWeakPtr.h">
       <Filter>头文件\14</Filter>
     </ClInclude>
-    <ClInclude Include="_16_03_StdStringLengthAndCapacity.h">
-      <Filter>源文件\16</Filter>
-    </ClInclude>
-    <ClInclude Include="_16_01_StdStringAndStdWstring.h">
-      <Filter>源文件\16</Filter>
-    </ClInclude>
-    <ClInclude Include="_16_02_StdStringConstructionAndDestruction.h">
-      <Filter>源文件\16</Filter>
-    </ClInclude>
     <ClInclude Include="_15_02_STLIteratorsOverview.h">
       <Filter>头文件\15</Filter>
     </ClInclude>
@@ -998,17 +998,29 @@
     <ClInclude Include="_15_01_STLContainersOverview.h">
       <Filter>头文件\15</Filter>
     </ClInclude>
+    <ClInclude Include="_16_01_StdStringAndStdWstring.h">
+      <Filter>头文件\16</Filter>
+    </ClInclude>
+    <ClInclude Include="_16_02_StdStringConstructionAndDestruction.h">
+      <Filter>头文件\16</Filter>
+    </ClInclude>
+    <ClInclude Include="_16_03_StdStringLengthAndCapacity.h">
+      <Filter>头文件\16</Filter>
+    </ClInclude>
     <ClInclude Include="_16_04_StdStringCharacterAccessAndConversion.h">
-      <Filter>源文件\16</Filter>
+      <Filter>头文件\16</Filter>
     </ClInclude>
     <ClInclude Include="_16_05_StdStringAssignmentAndSwapping.h">
-      <Filter>源文件\16</Filter>
+      <Filter>头文件\16</Filter>
     </ClInclude>
     <ClInclude Include="_16_06_StdStringAppending.h">
-      <Filter>源文件\16</Filter>
+      <Filter>头文件\16</Filter>
     </ClInclude>
     <ClInclude Include="_16_07_StdStringInserting.h">
-      <Filter>源文件\16</Filter>
+      <Filter>头文件\16</Filter>
+    </ClInclude>
+    <ClInclude Include="_17_01_InputWithIStream.h">
+      <Filter>源文件\17</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

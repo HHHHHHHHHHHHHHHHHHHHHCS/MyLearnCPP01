@@ -9,11 +9,12 @@
 #include "_16_05_StdStringAssignmentAndSwapping.h"
 #include "_16_06_StdStringAppending.h"
 #include "_16_07_StdStringInserting.h"
+#include "_17_01_InputWithIStream.h"
 
 
 int main()
 {
-	_16_07_StdStringInserting::Test();
+	_17_01_InputWithIStream::Test();
 	return 0;
 }
 
