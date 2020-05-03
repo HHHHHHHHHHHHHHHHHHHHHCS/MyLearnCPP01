@@ -10,11 +10,12 @@
 #include "_16_06_StdStringAppending.h"
 #include "_16_07_StdStringInserting.h"
 #include "_17_01_InputWithIStream.h"
+#include "_17_02_OutputWithOstreamAndIos.h"
 
 
 int main()
 {
-	_17_01_InputWithIStream::Test();
+	_17_02_OutputWithOstreamAndIos::Test();
 	return 0;
 }
 
