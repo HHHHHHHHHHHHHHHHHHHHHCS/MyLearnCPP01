@@ -576,6 +576,9 @@
     <ClCompile Include="_17_02_OutputWithOstreamAndIos.cpp">
       <Filter>源文件\17</Filter>
     </ClCompile>
+    <ClCompile Include="_17_03_StreamClassesForStrings.cpp">
+      <Filter>源文件\17</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="MyLearnCPP01.h">
@@ -1026,6 +1029,9 @@
       <Filter>源文件\17</Filter>
     </ClInclude>
     <ClInclude Include="_17_02_OutputWithOstreamAndIos.h">
+      <Filter>源文件\17</Filter>
+    </ClInclude>
+    <ClInclude Include="_17_03_StreamClassesForStrings.h">
       <Filter>源文件\17</Filter>
     </ClInclude>
   </ItemGroup>
