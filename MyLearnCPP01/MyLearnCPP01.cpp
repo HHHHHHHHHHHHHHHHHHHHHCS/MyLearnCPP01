@@ -12,11 +12,12 @@
 #include "_17_01_InputWithIStream.h"
 #include "_17_02_OutputWithOstreamAndIos.h"
 #include "_17_03_StreamClassesForStrings.h"
+#include "_17_04_StreamStatesAndInputValidation.h"
 
 
 int main()
 {
-	_17_03_StreamClassesForStrings::Test();
+	_17_04_StreamStatesAndInputValidation::Test();
 	return 0;
 }
 

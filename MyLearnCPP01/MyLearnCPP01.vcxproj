@@ -310,6 +310,7 @@
     <ClCompile Include="_17_01_InputWithIStream.cpp" />
     <ClCompile Include="_17_02_OutputWithOstreamAndIos.cpp" />
     <ClCompile Include="_17_03_StreamClassesForStrings.cpp" />
+    <ClCompile Include="_17_04_StreamStatesAndInputValidation.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="_07_14_FriendFunctionsClasses.h" />
@@ -463,6 +464,7 @@
     <ClInclude Include="_17_01_InputWithIStream.h" />
     <ClInclude Include="_17_02_OutputWithOstreamAndIos.h" />
     <ClInclude Include="_17_03_StreamClassesForStrings.h" />
+    <ClInclude Include="_17_04_StreamStatesAndInputValidation.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
