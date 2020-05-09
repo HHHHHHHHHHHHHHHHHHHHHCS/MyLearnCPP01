@@ -13,11 +13,12 @@
 #include "_17_02_OutputWithOstreamAndIos.h"
 #include "_17_03_StreamClassesForStrings.h"
 #include "_17_04_StreamStatesAndInputValidation.h"
+#include "_17_05_BasicFileIO.h"
 
 
 int main()
 {
-	_17_04_StreamStatesAndInputValidation::Test();
+	_17_05_BasicFileIO::Test();
 	return 0;
 }
 

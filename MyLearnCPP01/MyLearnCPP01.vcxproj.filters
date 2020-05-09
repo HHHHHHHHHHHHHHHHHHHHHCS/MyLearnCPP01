@@ -582,6 +582,9 @@
     <ClCompile Include="_17_04_StreamStatesAndInputValidation.cpp">
       <Filter>源文件\17</Filter>
     </ClCompile>
+    <ClCompile Include="_17_05_BasicFileIO.cpp">
+      <Filter>源文件\17</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="MyLearnCPP01.h">
@@ -1038,6 +1041,9 @@
       <Filter>源文件\17</Filter>
     </ClInclude>
     <ClInclude Include="_17_04_StreamStatesAndInputValidation.h">
+      <Filter>源文件\17</Filter>
+    </ClInclude>
+    <ClInclude Include="_17_05_BasicFileIO.h">
       <Filter>源文件\17</Filter>
     </ClInclude>
   </ItemGroup>
