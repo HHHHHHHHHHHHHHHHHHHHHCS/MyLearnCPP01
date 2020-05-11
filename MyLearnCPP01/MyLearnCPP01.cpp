@@ -14,11 +14,12 @@
 #include "_17_03_StreamClassesForStrings.h"
 #include "_17_04_StreamStatesAndInputValidation.h"
 #include "_17_05_BasicFileIO.h"
+#include "_17_06_RandomFileIO.h"
 
 
 int main()
 {
-	_17_05_BasicFileIO::Test();
+	_17_06_RandomFileIO::Test();
 	return 0;
 }
 
